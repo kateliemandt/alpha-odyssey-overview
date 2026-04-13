@@ -1,0 +1,992 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover" />
+<title>Alpha Odyssey · Summer 2026</title>
+<meta name="description" content="Alpha Odyssey — a nine-week Homeric summer program in East Hampton for campers K through 8." />
+
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Young+Serif&family=Cardo:ital,wght@0,400;0,700;1,400&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet" />
+
+<style>
+  /*  ──────────────────────────────────────────────────────────────
+      ALPHA ODYSSEY — editorial-classical with wine accent
+      Palette: midnight navy, parchment cream, hammered gold, wine
+      Type:    Young Serif (display) / Cardo (body) / JetBrains Mono (ui)
+      ────────────────────────────────────────────────────────────── */
+
+  :root {
+    --navy: #0b1d2c;
+    --navy-2: #132a3d;
+    --navy-3: #1d3a51;
+    --ink: #f3e9cf;
+    --ink-dim: #d9cdb0;
+    --ink-faint: #8e8872;
+    --cream: #f3e9cf;
+    --parchment: #ece0bf;
+    --gold: #c9a34a;
+    --gold-deep: #a07d32;
+    --wine: #7a1e23;
+    --wine-deep: #561216;
+    --rule: #2a4257;
+    --rule-light: rgba(201, 163, 74, 0.25);
+
+    --font-display: "Young Serif", "Cardo", "Hoefler Text", Georgia, serif;
+    --font-body:    "Cardo", "Hoefler Text", Georgia, serif;
+    --font-mono:    "JetBrains Mono", "SFMono-Regular", Menlo, monospace;
+  }
+
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  html, body { background: var(--navy); color: var(--ink); font-family: var(--font-body); font-size: 18px; line-height: 1.58; -webkit-font-smoothing: antialiased; }
+
+  /* Parchment grain overlay */
+  body::before {
+    content: "";
+    position: fixed; inset: 0; z-index: 1; pointer-events: none;
+    opacity: 0.06;
+    background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='240' height='240'><filter id='n'><feTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='2' stitchTiles='stitch'/><feColorMatrix values='0 0 0 0 1  0 0 0 0 1  0 0 0 0 1  0 0 0 0.5 0'/></filter><rect width='100%25' height='100%25' filter='url(%23n)'/></svg>");
+    mix-blend-mode: overlay;
+  }
+
+  /* Star-field, barely visible */
+  body::after {
+    content: "";
+    position: fixed; inset: 0; z-index: 0; pointer-events: none;
+    background-image: radial-gradient(circle at 20% 12%, rgba(201,163,74,0.18), transparent 50%),
+                      radial-gradient(circle at 82% 78%, rgba(122,30,35,0.18), transparent 55%),
+                      radial-gradient(1px 1px at 24% 28%, rgba(243,233,207,0.55) 50%, transparent 55%),
+                      radial-gradient(1px 1px at 62% 18%, rgba(243,233,207,0.45) 50%, transparent 55%),
+                      radial-gradient(1px 1px at 78% 42%, rgba(243,233,207,0.35) 50%, transparent 55%),
+                      radial-gradient(1px 1px at 12% 72%, rgba(243,233,207,0.4) 50%, transparent 55%),
+                      radial-gradient(1px 1px at 48% 88%, rgba(243,233,207,0.5) 50%, transparent 55%),
+                      radial-gradient(1px 1px at 92% 12%, rgba(243,233,207,0.3) 50%, transparent 55%);
+  }
+
+  a { color: var(--gold); text-decoration: none; border-bottom: 1px solid var(--rule-light); transition: color .2s, border-color .2s; }
+  a:hover { color: var(--cream); border-bottom-color: var(--gold); }
+
+  .container { max-width: 1240px; margin: 0 auto; padding: 0 28px; position: relative; z-index: 2; }
+  @media (max-width: 680px) { .container { padding: 0 18px; } }
+
+  /* ───────── Meander (Greek key) rule ───────── */
+  .meander {
+    height: 14px;
+    background-image:
+      repeating-linear-gradient(90deg,
+        var(--gold) 0 2px, transparent 2px 8px,
+        var(--gold) 8px 10px, transparent 10px 16px);
+    opacity: 0.55;
+    margin: 18px 0;
+    border-top: 1px solid var(--rule);
+    border-bottom: 1px solid var(--rule);
+  }
+
+  /* ───────── Hero ───────── */
+  header.hero {
+    position: relative;
+    padding: 56px 0 40px;
+    text-align: center;
+    border-bottom: 1px solid var(--rule);
+  }
+  .eyebrow {
+    font-family: var(--font-mono);
+    font-size: 11px; letter-spacing: 0.28em; text-transform: uppercase;
+    color: var(--gold); margin-bottom: 14px;
+  }
+  .hero h1 {
+    font-family: var(--font-display);
+    font-size: clamp(48px, 9vw, 124px);
+    font-weight: 400; line-height: 0.95; letter-spacing: -0.01em;
+    color: var(--cream);
+  }
+  .hero h1 .amp { color: var(--gold); font-style: italic; }
+  .hero .sub {
+    margin-top: 18px;
+    font-family: var(--font-body);
+    font-style: italic;
+    font-size: clamp(16px, 2vw, 22px);
+    color: var(--ink-dim);
+    max-width: 720px; margin-left: auto; margin-right: auto;
+  }
+  .hero .tag-row {
+    margin-top: 28px;
+    display: inline-flex; gap: 10px; flex-wrap: wrap; justify-content: center;
+  }
+  .tag {
+    font-family: var(--font-mono);
+    font-size: 11px; letter-spacing: 0.18em; text-transform: uppercase;
+    padding: 6px 12px;
+    border: 1px solid var(--rule-light);
+    color: var(--ink-dim);
+    border-radius: 2px;
+    background: rgba(201,163,74,0.04);
+  }
+  .tag.strong { color: var(--gold); border-color: var(--gold); background: rgba(201,163,74,0.08); }
+  .tag.wine   { color: #e5a7ab; border-color: rgba(122,30,35,0.6); background: rgba(122,30,35,0.15); }
+
+  /* ───────── Intro prose ───────── */
+  section.intro { padding: 56px 0 40px; border-bottom: 1px solid var(--rule); }
+  .intro-grid { display: grid; grid-template-columns: 1fr 2fr; gap: 48px; align-items: start; }
+  @media (max-width: 880px) { .intro-grid { grid-template-columns: 1fr; gap: 22px; } }
+  .intro h2 {
+    font-family: var(--font-display);
+    font-size: clamp(28px, 4vw, 44px);
+    font-weight: 400; line-height: 1.05; color: var(--cream);
+  }
+  .intro .kicker { font-family: var(--font-mono); font-size: 11px; letter-spacing: 0.28em; text-transform: uppercase; color: var(--gold); margin-bottom: 10px; }
+  .intro p + p { margin-top: 1em; }
+  .intro p { color: var(--ink-dim); max-width: 64ch; }
+  .intro .drop::first-letter {
+    font-family: var(--font-display);
+    font-size: 4.5em; float: left; line-height: 0.9;
+    padding: 6px 14px 0 0; color: var(--gold);
+  }
+
+  /* ───────── Legend ───────── */
+  .legend { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 14px 24px; margin-top: 22px; }
+  .legend .item { display: flex; gap: 10px; align-items: baseline; }
+  .legend .dot { width: 10px; height: 10px; border-radius: 50%; display: inline-block; margin-top: 6px; flex-shrink: 0; }
+  .legend .dot.wk   { background: var(--gold); }
+  .legend .dot.phy  { background: var(--wine); }
+  .legend .dot.sp   { background: var(--cream); }
+  .legend .item .l  { font-family: var(--font-mono); font-size: 11px; letter-spacing: 0.18em; text-transform: uppercase; color: var(--ink-dim); display: block; }
+  .legend .item .d  { font-size: 15px; color: var(--ink-dim); }
+
+  /* ───────── Week nav ───────── */
+  nav.weeks {
+    position: sticky; top: 0; z-index: 40;
+    background: rgba(11, 29, 44, 0.92);
+    backdrop-filter: blur(14px);
+    -webkit-backdrop-filter: blur(14px);
+    border-bottom: 1px solid var(--rule);
+  }
+  nav.weeks .inner {
+    display: flex; gap: 2px;
+    overflow-x: auto; scrollbar-width: none;
+    padding: 12px 0;
+  }
+  nav.weeks .inner::-webkit-scrollbar { display: none; }
+  nav.weeks a {
+    flex: 1 0 auto;
+    border: 0; border-bottom: 2px solid transparent;
+    padding: 10px 14px 8px; text-align: center;
+    font-family: var(--font-mono);
+    color: var(--ink-dim);
+    font-size: 11px; letter-spacing: 0.2em; text-transform: uppercase;
+    min-width: 82px;
+    transition: color .2s, border-color .2s;
+    white-space: nowrap;
+  }
+  nav.weeks a:hover { color: var(--cream); }
+  nav.weeks a.active { color: var(--gold); border-bottom-color: var(--gold); }
+  nav.weeks a .num { display: block; font-family: var(--font-display); font-size: 22px; color: inherit; letter-spacing: 0; margin-bottom: 2px; }
+
+  /* ───────── Week section ───────── */
+  section.week {
+    padding: 72px 0 56px;
+    border-bottom: 1px solid var(--rule);
+    position: relative;
+  }
+  .week-head { display: grid; grid-template-columns: auto 1fr; gap: 36px; align-items: baseline; margin-bottom: 32px; }
+  @media (max-width: 680px) { .week-head { grid-template-columns: 1fr; gap: 10px; } }
+  .week-number {
+    font-family: var(--font-display);
+    font-size: clamp(72px, 14vw, 180px);
+    line-height: 0.82; color: var(--gold);
+    letter-spacing: -0.02em;
+  }
+  .week-number small { display:block; font-family: var(--font-mono); font-size: 11px; letter-spacing: 0.3em; color: var(--ink-faint); text-transform: uppercase; margin-bottom: 8px; }
+  .week-title {
+    font-family: var(--font-display);
+    font-size: clamp(28px, 4.2vw, 48px);
+    line-height: 1.05; color: var(--cream); font-weight: 400;
+  }
+  .week-sub {
+    font-style: italic; color: var(--ink-dim);
+    margin-top: 10px; font-size: clamp(15px, 1.6vw, 18px);
+    max-width: 60ch;
+  }
+  .week-notes {
+    margin-top: 12px; font-family: var(--font-mono);
+    font-size: 11px; letter-spacing: 0.12em; text-transform: uppercase;
+    color: var(--gold); opacity: 0.85;
+  }
+
+  /* Track rows: Weekly / Physical */
+  .track {
+    margin-top: 34px;
+  }
+  .track-label {
+    display: flex; align-items: baseline; gap: 14px;
+    margin-bottom: 14px;
+  }
+  .track-label .roman {
+    font-family: var(--font-display);
+    font-size: 36px; color: var(--gold);
+  }
+  .track-label .name {
+    font-family: var(--font-mono);
+    font-size: 12px; letter-spacing: 0.28em; text-transform: uppercase;
+    color: var(--ink-dim);
+  }
+  .track-label .rule { flex: 1; height: 1px; background: var(--rule); margin-left: 10px; }
+
+  .card-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 14px; }
+  @media (max-width: 1100px) { .card-grid { grid-template-columns: repeat(2, 1fr); } }
+  @media (max-width: 640px)  { .card-grid { grid-template-columns: 1fr; } }
+
+  /* ───────── Card ───────── */
+  details.card {
+    background: linear-gradient(180deg, rgba(243,233,207,0.04) 0%, rgba(243,233,207,0.015) 100%);
+    border: 1px solid var(--rule);
+    border-left: 2px solid var(--gold-deep);
+    padding: 0;
+    transition: border-color .2s, transform .2s;
+    position: relative;
+    overflow: hidden;
+  }
+  details.card.physical { border-left-color: var(--wine); }
+  details.card[open] { border-color: var(--gold); }
+  details.card:hover { border-color: var(--gold); }
+  details.card summary {
+    list-style: none;
+    padding: 22px 22px 20px;
+    cursor: pointer;
+    position: relative;
+    display: block;
+  }
+  details.card summary::-webkit-details-marker { display: none; }
+
+  .card-meta {
+    display: flex; gap: 6px; flex-wrap: wrap;
+    font-family: var(--font-mono);
+    font-size: 10px; letter-spacing: 0.2em; text-transform: uppercase;
+    color: var(--ink-faint); margin-bottom: 10px;
+  }
+  .card-meta .pill { padding: 3px 8px; border: 1px solid var(--rule); border-radius: 2px; }
+  .card-meta .pill.level { color: var(--gold); border-color: var(--gold); }
+  .card-meta .pill.choice { color: var(--cream); background: var(--wine); border-color: var(--wine); }
+  .card-meta .pill.joint  { color: var(--navy); background: var(--gold); border-color: var(--gold); }
+  .card-meta .pill.where  { color: var(--ink-dim); }
+  .card-meta .pill.spec   { color: var(--wine-deep); background: #e5a7ab; border-color: #e5a7ab; }
+
+  .card-title {
+    font-family: var(--font-display);
+    font-size: 24px; line-height: 1.1; color: var(--cream);
+    letter-spacing: -0.005em;
+  }
+  .card-activity { font-style: italic; color: var(--ink-dim); font-size: 14px; margin-top: 6px; }
+  .card-tagline {
+    margin-top: 12px; color: var(--ink-dim); font-size: 15px;
+    border-top: 1px dotted var(--rule); padding-top: 12px;
+  }
+  .card-more {
+    margin-top: 14px; font-family: var(--font-mono);
+    font-size: 10px; letter-spacing: 0.22em; text-transform: uppercase;
+    color: var(--gold);
+    display: inline-flex; align-items: center; gap: 6px;
+  }
+  details[open] .card-more .when-closed { display: none; }
+  details .card-more .when-open { display: none; }
+  details[open] .card-more .when-open { display: inline; }
+
+  /* Expanded body */
+  .card-body {
+    padding: 0 22px 28px;
+    border-top: 1px solid var(--rule);
+    background: linear-gradient(180deg, rgba(11,29,44,0.5) 0%, rgba(11,29,44,0) 100%);
+  }
+  .section-h {
+    font-family: var(--font-mono);
+    font-size: 10px; letter-spacing: 0.28em; text-transform: uppercase;
+    color: var(--gold); margin: 22px 0 10px;
+    display: flex; align-items: center; gap: 8px;
+  }
+  .section-h::before { content: "·"; color: var(--gold); }
+  .narrative {
+    color: var(--ink-dim);
+    font-size: 16px; line-height: 1.68;
+    border-left: 2px solid var(--gold-deep); padding: 2px 0 2px 14px;
+    margin-top: 16px;
+  }
+  .narrative.physical-n { border-left-color: var(--wine); }
+
+  .twocol { display: grid; grid-template-columns: 1fr 1fr; gap: 22px; }
+  @media (max-width: 680px) { .twocol { grid-template-columns: 1fr; } }
+  ul.clean { list-style: none; }
+  ul.clean li { padding-left: 18px; position: relative; margin-bottom: 6px; font-size: 15px; color: var(--ink-dim); line-height: 1.5; }
+  ul.clean li::before { content: "◆"; position: absolute; left: 0; top: 1px; color: var(--gold); font-size: 9px; }
+
+  ol.days { list-style: none; counter-reset: d; margin-top: 4px; }
+  ol.days li {
+    counter-increment: d;
+    display: grid; grid-template-columns: 68px 1fr; gap: 16px;
+    padding: 12px 0; border-top: 1px dotted var(--rule);
+  }
+  ol.days li:first-child { border-top: 0; }
+  ol.days li::before {
+    content: "Day " counter(d);
+    font-family: var(--font-mono);
+    font-size: 10px; letter-spacing: 0.2em; text-transform: uppercase;
+    color: var(--gold); padding-top: 2px;
+  }
+  ol.days .d-title { font-family: var(--font-display); color: var(--cream); font-size: 18px; line-height: 1.2; }
+  ol.days .d-detail { font-size: 14px; color: var(--ink-dim); margin-top: 3px; line-height: 1.5; }
+
+  .pass-box {
+    background: rgba(122,30,35,0.18);
+    border: 1px solid var(--wine);
+    border-left: 3px solid #e5a7ab;
+    padding: 16px 18px;
+    margin-top: 18px;
+  }
+  .pass-box .pass-l {
+    font-family: var(--font-mono);
+    font-size: 10px; letter-spacing: 0.3em; text-transform: uppercase;
+    color: #e5a7ab; margin-bottom: 6px;
+  }
+  .pass-box p { font-style: italic; color: var(--ink); font-size: 15px; line-height: 1.55; }
+
+  .hooks { display: grid; grid-template-columns: 1fr 1fr; gap: 14px; margin-top: 16px; }
+  @media (max-width: 680px) { .hooks { grid-template-columns: 1fr; } }
+  .hook {
+    border: 1px dashed var(--rule);
+    padding: 12px 14px;
+    font-size: 14px; color: var(--ink-dim);
+  }
+  .hook .k { font-family: var(--font-mono); font-size: 9px; letter-spacing: 0.3em; text-transform: uppercase; color: var(--gold); display: block; margin-bottom: 4px; }
+
+  .kv { display: grid; grid-template-columns: 1fr; gap: 10px; margin-top: 6px; }
+  .kv .row { display: grid; grid-template-columns: 150px 1fr; gap: 14px; padding: 10px 0; border-top: 1px dotted var(--rule); font-size: 14px; }
+  .kv .row:first-child { border-top: 0; }
+  .kv .k { font-family: var(--font-mono); font-size: 10px; letter-spacing: 0.2em; text-transform: uppercase; color: var(--gold); padding-top: 3px; }
+  .kv .v { color: var(--ink-dim); line-height: 1.5; }
+  @media (max-width: 680px) { .kv .row { grid-template-columns: 1fr; gap: 2px; } }
+
+  /* ───────── Side quests ───────── */
+  section.sidequests { padding: 72px 0 96px; border-bottom: 1px solid var(--rule); }
+  .sq-intro { max-width: 66ch; color: var(--ink-dim); }
+  .sq-intro h2 {
+    font-family: var(--font-display);
+    font-size: clamp(32px, 4vw, 52px); line-height: 1.05;
+    color: var(--cream); font-weight: 400; margin-bottom: 12px;
+  }
+  .sq-tabs {
+    display: flex; gap: 2px; margin: 28px 0 10px; border-bottom: 1px solid var(--rule);
+    overflow-x: auto; scrollbar-width: none;
+  }
+  .sq-tabs::-webkit-scrollbar { display: none; }
+  .sq-tab {
+    border: 0; background: transparent;
+    font-family: var(--font-mono);
+    font-size: 11px; letter-spacing: 0.22em; text-transform: uppercase;
+    color: var(--ink-faint); padding: 14px 18px;
+    cursor: pointer; white-space: nowrap;
+    border-bottom: 2px solid transparent;
+    transition: color .2s, border-color .2s;
+  }
+  .sq-tab:hover { color: var(--ink-dim); }
+  .sq-tab.on { color: var(--gold); border-bottom-color: var(--gold); }
+
+  .sq-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 14px; margin-top: 20px; }
+  @media (max-width: 960px) { .sq-grid { grid-template-columns: repeat(2, 1fr); } }
+  @media (max-width: 560px) { .sq-grid { grid-template-columns: 1fr; } }
+  details.sq {
+    border: 1px solid var(--rule);
+    background: rgba(243,233,207,0.02);
+    padding: 0;
+  }
+  details.sq[open] { border-color: var(--gold); }
+  details.sq summary { cursor: pointer; padding: 18px; list-style: none; }
+  details.sq summary::-webkit-details-marker { display: none; }
+  .sq-head { display: flex; justify-content: space-between; gap: 12px; align-items: baseline; }
+  .sq-title { font-family: var(--font-display); font-size: 20px; color: var(--cream); line-height: 1.15; }
+  .sq-tier {
+    font-family: var(--font-mono);
+    font-size: 9px; letter-spacing: 0.24em; text-transform: uppercase;
+    padding: 3px 7px; border: 1px solid var(--rule); border-radius: 2px;
+    white-space: nowrap;
+  }
+  .sq-tier.sprint  { color: #a4d4a4; border-color: rgba(164,212,164,0.5); }
+  .sq-tier.voyage  { color: #9abfe2; border-color: rgba(154,191,226,0.5); }
+  .sq-tier.quest   { color: var(--gold); border-color: var(--gold); }
+  .sq-tier.odyssey { color: #e5a7ab; border-color: rgba(229,167,171,0.7); background: rgba(122,30,35,0.18); }
+  .sq-type { font-family: var(--font-mono); font-size: 10px; letter-spacing: 0.2em; text-transform: uppercase; color: var(--ink-faint); margin-top: 8px; }
+  .sq-tagline { color: var(--ink-dim); font-size: 14px; margin-top: 10px; font-style: italic; }
+
+  .sq-body { padding: 0 18px 22px; border-top: 1px solid var(--rule); }
+  .sq-body p { color: var(--ink-dim); font-size: 14px; line-height: 1.58; margin-top: 12px; }
+
+  .quote {
+    margin: 14px 0 4px;
+    padding: 14px 16px;
+    border-left: 3px solid var(--gold);
+    background: rgba(201,163,74,0.06);
+    font-family: var(--font-body);
+    font-style: italic;
+    color: var(--ink);
+  }
+  .quote::before { content: "“"; font-family: var(--font-display); font-size: 32px; color: var(--gold); line-height: 0; vertical-align: -0.2em; margin-right: 4px; }
+  .quote::after  { content: "”"; font-family: var(--font-display); font-size: 32px; color: var(--gold); line-height: 0; vertical-align: -0.2em; margin-left: 2px; }
+
+  /* ───────── Footer ───────── */
+  footer.colophon {
+    padding: 56px 0; text-align: center;
+    color: var(--ink-faint); font-size: 13px;
+    font-family: var(--font-mono); letter-spacing: 0.2em; text-transform: uppercase;
+  }
+  footer.colophon .line { margin-bottom: 10px; font-family: var(--font-display); font-size: 22px; letter-spacing: 0; text-transform: none; color: var(--gold); font-style: italic; }
+
+  /* Animation: stagger week sections as they come into view */
+  @keyframes rise { from { opacity: 0; transform: translateY(18px); } to { opacity: 1; transform: none; } }
+  section.week { animation: rise .6s ease both; }
+
+  /* Print */
+  @media print {
+    body::before, body::after, nav.weeks { display: none; }
+    details.card, details.sq { break-inside: avoid; border: 1px solid #999; }
+    details { open: true; }
+    body { color: #000; background: #fff; }
+    .narrative, .kv .v, ul.clean li, ol.days .d-detail, .hook, .sq-body p { color: #222; }
+    .card-title, .sq-title, .week-title, .hero h1, .intro h2 { color: #000; }
+  }
+
+  /* Small helpers */
+  .fade-in { animation: rise .5s ease both; }
+
+  /* Filter bar */
+  .filter-row {
+    display: flex; gap: 10px; flex-wrap: wrap; align-items: center;
+    margin: 20px 0 4px;
+    font-family: var(--font-mono);
+    font-size: 10px; letter-spacing: 0.22em; text-transform: uppercase;
+    color: var(--ink-faint);
+  }
+  .filter-btn {
+    border: 1px solid var(--rule); background: transparent;
+    color: var(--ink-dim); padding: 6px 10px; cursor: pointer;
+    font-family: inherit; font-size: inherit; letter-spacing: inherit;
+    text-transform: inherit; border-radius: 2px;
+  }
+  .filter-btn:hover { color: var(--cream); border-color: var(--gold); }
+  .filter-btn.on { color: var(--navy); background: var(--gold); border-color: var(--gold); }
+</style>
+</head>
+<body>
+
+<header class="hero">
+  <div class="container">
+    <div class="eyebrow">Alpha School · East Hampton · Summer 2026</div>
+    <h1>Alpha <span class="amp">&amp;</span> Odyssey</h1>
+    <div class="sub">Nine weeks. Four age levels. Every day a challenge worth passing. Every Friday a test you can fail.</div>
+    <div class="tag-row">
+      <span class="tag strong">9 Weeks</span>
+      <span class="tag">WonderLab · L1 · L2 · MS</span>
+      <span class="tag">Weekly Workshops</span>
+      <span class="tag wine">Physical Challenges</span>
+      <span class="tag">Mastery Side Quests</span>
+    </div>
+  </div>
+</header>
+
+<section class="intro">
+  <div class="container intro-grid">
+    <div>
+      <div class="kicker">The Program</div>
+      <h2>Homer, rewritten for a Hamptons summer.</h2>
+    </div>
+    <div>
+      <p class="drop">Each week of Alpha Odyssey follows a chapter of Homer's <em>Odyssey</em>. Every morning, campers take on a weekly workshop — a craft, a skill, a finished object that goes home on Friday. Every afternoon, they face a physical challenge on the beach or at the Center, training five days toward a single pass/fail test. And threaded through the whole nine weeks are fifty-plus mastery side quests — voluntary, self-paced, and tested only when the camper asks.</p>
+      <p>The weekly workshops are taught by real specialists — calligraphers, chocolatiers, blacksmiths, surfboard shapers, ethnobotanists, sushi chefs, fishmongers, synchronized swimming coaches. The physical challenges are led by Alpha guides trained to officiate real tournaments. The side quests are recorded in each camper's Odyssey Logbook and earn a mark on the Mastery Board.</p>
+      <p>This page is the full operational map: every workshop, every challenge, every quest — with descriptions, materials, instructor assignments, day-by-day plans, and the exact test each camper must pass. Tap any card to open the details.</p>
+
+      <div class="meander"></div>
+      <div class="legend">
+        <div class="item"><span class="dot wk"></span><span><span class="l">Weekly</span><span class="d">Craft, build, perform — morning sessions, 2 hrs.</span></span></div>
+        <div class="item"><span class="dot phy"></span><span><span class="l">Physical</span><span class="d">Sport, water, adventure — afternoon sessions, 1.5 hrs.</span></span></div>
+        <div class="item"><span class="dot sp"></span><span><span class="l">Side Quest</span><span class="d">Voluntary mastery, self-paced, tested on request.</span></span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<nav class="weeks" id="week-nav">
+  <div class="container">
+    <div class="inner" id="week-nav-inner"><!-- filled by JS --></div>
+  </div>
+</nav>
+
+<main id="main">
+  <!-- Week sections rendered by JS -->
+</main>
+
+<section class="sidequests" id="sidequests">
+  <div class="container">
+    <div class="sq-intro">
+      <div class="kicker">Mastery Side Quests</div>
+      <h2>The quests no one assigned you.</h2>
+      <p>Fifty-plus voluntary challenges that campers chase in free time and test only when they're ready. Each quest has a build, a path, a set of words your counselor will say when you sign up, and a measurable pass test. Pick by level. Pick by tier. Pick what you want your summer to prove.</p>
+    </div>
+
+    <div class="sq-tabs" id="sq-tabs" role="tablist"><!-- filled by JS --></div>
+    <div class="filter-row" id="sq-filter"><!-- filled by JS --></div>
+    <div class="sq-grid" id="sq-grid"><!-- filled by JS --></div>
+  </div>
+</section>
+
+<footer class="colophon">
+  <div class="container">
+    <div class="line">Ithaca is not a place. It is a standard.</div>
+    <div>Alpha Odyssey · Summer 2026 · East Hampton · Generated April 2026</div>
+  </div>
+</footer>
+
+<!-- Data files (each appends to window.ODYSSEY) -->
+<script>window.ODYSSEY = { weeks: [], sideQuests: [] };</script>
+<script src="data/week1.js"></script>
+<script src="data/week2.js"></script>
+<script src="data/week3.js"></script>
+<script src="data/week4.js"></script>
+<script src="data/week5.js"></script>
+<script src="data/week6.js"></script>
+<script src="data/week7.js"></script>
+<script src="data/week8.js"></script>
+<script src="data/week9.js"></script>
+<script src="data/sidequests.js"></script>
+
+<script>
+/* ─────────────────────────────────────────────────────────────
+   RENDERER — normalizes the data drift between source files
+   and renders the full site.
+   ───────────────────────────────────────────────────────────── */
+
+/* ---- Normalization ------------------------------------------------ */
+function normalizeLevel(lv) {
+  if (!lv) return "";
+  const m = String(lv).trim();
+  if (m.startsWith("K")) return "K–1st";
+  if (m === "2nd-3rd" || m === "2nd–3rd") return "2nd–3rd";
+  if (m === "4th-5th" || m === "4th–5th") return "4th–5th";
+  if (m === "6th-8th" || m === "6th–8th") return "6th–8th";
+  return m;
+}
+function normalizeTrack(t) {
+  if (!t) return "weekly";
+  const s = String(t).toLowerCase();
+  if (s.indexOf("physical") > -1) return "physical";
+  return "weekly";
+}
+function normalizeDayPlan(dp) {
+  // May arrive as: [{day,title,detail}], or ["Day 1: ..."], or {monday: "..."}
+  if (!dp) return [];
+  if (Array.isArray(dp)) {
+    return dp.map((item, i) => {
+      if (typeof item === "string") {
+        const m = item.match(/^\s*(?:Day\s*\d+|Monday|Tuesday|Wednesday|Thursday|Friday)\s*[:.\-—]\s*(.*)$/i);
+        const rest = m ? m[1] : item;
+        const headMatch = rest.match(/^([^—\-.:]{3,40})\s*[—\-:]\s*(.+)$/);
+        if (headMatch) return { day: i+1, title: headMatch[1].trim(), detail: headMatch[2].trim() };
+        return { day: i+1, title: "", detail: rest };
+      }
+      if (item && typeof item === "object") {
+        return {
+          day: (typeof item.day === "number") ? item.day : (i+1),
+          title: item.title || "",
+          detail: item.detail || ""
+        };
+      }
+      return { day: i+1, title: "", detail: String(item) };
+    });
+  }
+  if (typeof dp === "object") {
+    const order = ["monday","tuesday","wednesday","thursday","friday"];
+    return order.filter(k => dp[k]).map((k, i) => {
+      const raw = dp[k];
+      const headMatch = String(raw).match(/^([^—\-.:]{3,40})\s*[—\-:]\s*(.+)$/);
+      if (headMatch) return { day: i+1, title: headMatch[1].trim(), detail: headMatch[2].trim() };
+      return { day: i+1, title: "", detail: String(raw) };
+    });
+  }
+  return [];
+}
+function normalizeInstructors(i) {
+  if (Array.isArray(i)) return i.join(" · ");
+  return String(i || "");
+}
+function normalizeMaterials(m) {
+  if (!m) return [];
+  if (Array.isArray(m)) return m;
+  return [String(m)];
+}
+
+/* ---- Rendering helpers ------------------------------------------- */
+function el(tag, attrs, ...children) {
+  const e = document.createElement(tag);
+  if (attrs) for (const k in attrs) {
+    if (k === "class") e.className = attrs[k];
+    else if (k === "html") e.innerHTML = attrs[k];
+    else if (k.startsWith("on")) e.addEventListener(k.slice(2), attrs[k]);
+    else e.setAttribute(k, attrs[k]);
+  }
+  for (const c of children) {
+    if (c == null) continue;
+    if (Array.isArray(c)) c.forEach(x => x != null && e.appendChild(typeof x === "string" ? document.createTextNode(x) : x));
+    else e.appendChild(typeof c === "string" ? document.createTextNode(c) : c);
+  }
+  return e;
+}
+function txt(s) { return document.createTextNode(s || ""); }
+
+/* ---- Card ------ */
+function renderEntryCard(entry) {
+  const track = normalizeTrack(entry.track);
+  const isPhysical = track === "physical";
+  const level = entry.level;
+  const levelGrade = normalizeLevel(entry.level_grade);
+  const choice = entry.choice ? ("Choice " + entry.choice) : null;
+  const joint = entry.joint_with ? ("Joint w/ " + entry.joint_with) : null;
+  const location = entry.location || "";
+  const specialist = entry.specialist_needed === true;
+
+  const days = normalizeDayPlan(entry.day_plan);
+  const materials = normalizeMaterials(entry.materials);
+  const skills = Array.isArray(entry.life_skills) ? entry.life_skills : [];
+
+  const card = el("details", { class: "card" + (isPhysical ? " physical" : "") });
+
+  // Summary
+  const summary = el("summary", {});
+  const meta = el("div", { class: "card-meta" });
+  meta.appendChild(el("span", { class: "pill level" }, level + " · " + levelGrade));
+  if (choice) meta.appendChild(el("span", { class: "pill choice" }, choice));
+  if (joint)  meta.appendChild(el("span", { class: "pill joint" }, joint));
+  if (location) meta.appendChild(el("span", { class: "pill where" }, location));
+  if (specialist) meta.appendChild(el("span", { class: "pill spec" }, "Specialist"));
+  summary.appendChild(meta);
+
+  summary.appendChild(el("div", { class: "card-title" }, entry.title || ""));
+  if (entry.activity) summary.appendChild(el("div", { class: "card-activity" }, entry.activity));
+  if (entry.tagline) summary.appendChild(el("div", { class: "card-tagline" }, entry.tagline));
+  summary.appendChild(el("div", { class: "card-more" },
+    el("span", { class: "when-closed" }, "Open full brief →"),
+    el("span", { class: "when-open" },   "Close ↑")
+  ));
+  card.appendChild(summary);
+
+  // Body
+  const body = el("div", { class: "card-body" });
+
+  if (entry.narrative) {
+    body.appendChild(el("div", {
+      class: "narrative" + (isPhysical ? " physical-n" : "")
+    }, entry.narrative));
+  }
+
+  // Two-column meta
+  const kv = el("div", { class: "kv" });
+  if (entry.specific_venue) kv.appendChild(kvRow("Venue", entry.specific_venue));
+  const staffBits = [];
+  if (entry.instructors) staffBits.push(normalizeInstructors(entry.instructors));
+  if (entry.specialist_needed && entry.specialist_role) staffBits.push("Specialist: " + entry.specialist_role);
+  if (entry.guide_note) staffBits.push(entry.guide_note);
+  if (staffBits.length) kv.appendChild(kvRow("Staffing", staffBits.join(" — ")));
+  if (entry.guide_can_lead !== undefined) {
+    kv.appendChild(kvRow("Alpha Guide Can Lead?", entry.guide_can_lead ? "Yes — with specialist support as noted." : "No — specialist leads all instruction."));
+  }
+  if (location) kv.appendChild(kvRow("Location", location + " — " + (isPhysical ? "afternoon session, 1.5 hrs" : "morning session, 2 hrs")));
+  body.appendChild(sectionH("At a Glance"));
+  body.appendChild(kv);
+
+  // Skills + materials side by side
+  if (skills.length || materials.length) {
+    body.appendChild(sectionH("Life Skills & Materials"));
+    const two = el("div", { class: "twocol" });
+    if (skills.length) {
+      two.appendChild(el("div", {},
+        el("div", { class: "section-h" }, "Life skills learned"),
+        bulletList(skills)
+      ));
+    }
+    if (materials.length) {
+      two.appendChild(el("div", {},
+        el("div", { class: "section-h" }, "Materials"),
+        bulletList(materials)
+      ));
+    }
+    body.appendChild(two);
+  }
+
+  // Day plan
+  if (days.length) {
+    body.appendChild(sectionH("Five-Day Plan"));
+    const ol = el("ol", { class: "days" });
+    days.forEach(d => {
+      const li = el("li", {},
+        el("div", {},
+          d.title ? el("div", { class: "d-title" }, d.title) : null,
+          el("div", { class: "d-detail" }, d.detail || "")
+        )
+      );
+      ol.appendChild(li);
+    });
+    body.appendChild(ol);
+  }
+
+  // Pass test
+  if (entry.pass_test) {
+    const pb = el("div", { class: "pass-box" });
+    pb.appendChild(el("div", { class: "pass-l" }, "The Friday Test — Pass / Fail"));
+    pb.appendChild(el("p", {}, entry.pass_test));
+    body.appendChild(pb);
+  }
+
+  // Hooks
+  if (entry.kid_hook || entry.parent_hook) {
+    const hooks = el("div", { class: "hooks" });
+    if (entry.kid_hook)    hooks.appendChild(hookCard("Why kids beg to do it", entry.kid_hook));
+    if (entry.parent_hook) hooks.appendChild(hookCard("Why parents talk about it", entry.parent_hook));
+    body.appendChild(hooks);
+  }
+
+  card.appendChild(body);
+  return card;
+}
+
+function kvRow(k, v) {
+  const row = el("div", { class: "row" });
+  row.appendChild(el("div", { class: "k" }, k));
+  row.appendChild(el("div", { class: "v" }, v));
+  return row;
+}
+function hookCard(k, v) {
+  const h = el("div", { class: "hook" });
+  h.appendChild(el("span", { class: "k" }, k));
+  h.appendChild(txt(v));
+  return h;
+}
+function sectionH(label) {
+  return el("div", { class: "section-h" }, label);
+}
+function bulletList(items) {
+  const ul = el("ul", { class: "clean" });
+  items.forEach(i => ul.appendChild(el("li", {}, i)));
+  return ul;
+}
+
+/* ---- Week section ---- */
+function renderWeek(w) {
+  const sec = el("section", { class: "week", id: "week-" + w.week });
+  const head = el("div", { class: "week-head" });
+  head.appendChild(el("div", { class: "week-number" },
+    el("small", {}, "Week " + String(w.week).padStart(2, "0")),
+    String(w.week).padStart(2, "0")
+  ));
+  const t = el("div", {});
+  t.appendChild(el("div", { class: "week-title" }, w.theme_title || ""));
+  if (w.theme_subtitle) t.appendChild(el("div", { class: "week-sub" }, w.theme_subtitle));
+  if (w.notes) t.appendChild(el("div", { class: "week-notes" }, "⌘ " + w.notes));
+  head.appendChild(t);
+  sec.appendChild(el("div", { class: "container" }, head));
+
+  // Split entries by track
+  const entries = w.entries || [];
+  const weekly   = entries.filter(e => normalizeTrack(e.track) === "weekly");
+  const physical = entries.filter(e => normalizeTrack(e.track) === "physical");
+
+  // Weekly row
+  if (weekly.length) {
+    const wrap = el("div", { class: "container" });
+    wrap.appendChild(el("div", { class: "track" },
+      el("div", { class: "track-label" },
+        el("span", { class: "roman" }, "I"),
+        el("span", { class: "name" }, "Weekly Workshops — morning craft"),
+        el("span", { class: "rule" })
+      ),
+      renderGrid(weekly)
+    ));
+    sec.appendChild(wrap);
+  }
+
+  // Physical row
+  if (physical.length) {
+    const wrap = el("div", { class: "container" });
+    wrap.appendChild(el("div", { class: "track" },
+      el("div", { class: "track-label" },
+        el("span", { class: "roman" }, "II"),
+        el("span", { class: "name" }, "Physical Challenges — afternoon sport"),
+        el("span", { class: "rule" })
+      ),
+      renderGrid(physical)
+    ));
+    sec.appendChild(wrap);
+  }
+
+  return sec;
+}
+function renderGrid(entries) {
+  // Sort canonical order: WonderLab, L1, L2, MS — choice A then B
+  const order = { "WonderLab": 1, "L1": 2, "L2": 3, "MS": 4 };
+  entries.sort((a, b) => {
+    const la = order[a.level] || 9, lb = order[b.level] || 9;
+    if (la !== lb) return la - lb;
+    const ca = a.choice || "", cb = b.choice || "";
+    return ca.localeCompare(cb);
+  });
+  const grid = el("div", { class: "card-grid" });
+  entries.forEach(e => grid.appendChild(renderEntryCard(e)));
+  return grid;
+}
+
+/* ---- Week nav ---- */
+function renderWeekNav(weeks) {
+  const inner = document.getElementById("week-nav-inner");
+  weeks.forEach(w => {
+    const a = el("a", { href: "#week-" + w.week },
+      el("span", { class: "num" }, String(w.week).padStart(2, "0")),
+      w.theme_title
+    );
+    inner.appendChild(a);
+  });
+
+  // Intersection-observer–driven active state
+  const links = inner.querySelectorAll("a");
+  const map = {};
+  links.forEach(a => map[a.getAttribute("href").slice(1)] = a);
+  const io = new IntersectionObserver(entries => {
+    entries.forEach(en => {
+      if (en.isIntersecting) {
+        links.forEach(l => l.classList.remove("active"));
+        const id = en.target.id;
+        if (map[id]) map[id].classList.add("active");
+      }
+    });
+  }, { rootMargin: "-40% 0px -55% 0px" });
+  weeks.forEach(w => {
+    const s = document.getElementById("week-" + w.week);
+    if (s) io.observe(s);
+  });
+}
+
+/* ---- Side quests ---- */
+let SQ_STATE = { level: "WonderLab", tier: "All" };
+
+function renderSideQuests(all) {
+  const tabs = document.getElementById("sq-tabs");
+  ["WonderLab", "L1", "L2", "MS"].forEach(lv => {
+    const count = all.filter(q => q.level === lv).length;
+    const btn = el("button", {
+      class: "sq-tab" + (SQ_STATE.level === lv ? " on" : ""),
+      onclick: () => { SQ_STATE.level = lv; refreshSQ(all); }
+    }, lv + " · " + count);
+    tabs.appendChild(btn);
+  });
+
+  const filter = document.getElementById("sq-filter");
+  filter.appendChild(txt("Filter tier: "));
+  ["All","Sprint","Voyage","Quest","Odyssey"].forEach(tier => {
+    const b = el("button", {
+      class: "filter-btn" + (SQ_STATE.tier === tier ? " on" : ""),
+      onclick: () => { SQ_STATE.tier = tier; refreshSQ(all); }
+    }, tier);
+    filter.appendChild(b);
+  });
+
+  refreshSQ(all);
+}
+function refreshSQ(all) {
+  document.querySelectorAll(".sq-tab").forEach(t => {
+    t.classList.toggle("on", t.textContent.startsWith(SQ_STATE.level + " "));
+  });
+  document.querySelectorAll(".filter-btn").forEach(b => {
+    b.classList.toggle("on", b.textContent.trim() === SQ_STATE.tier);
+  });
+  const grid = document.getElementById("sq-grid");
+  grid.innerHTML = "";
+  const shown = all
+    .filter(q => q.level === SQ_STATE.level)
+    .filter(q => SQ_STATE.tier === "All" || String(q.tier).toLowerCase() === SQ_STATE.tier.toLowerCase());
+  if (!shown.length) {
+    grid.appendChild(el("div", { class: "sq-intro" }, "No quests match this filter."));
+    return;
+  }
+  shown.forEach(q => grid.appendChild(renderSideQuest(q)));
+}
+
+function renderSideQuest(q) {
+  const d = el("details", { class: "sq" });
+  const tier = String(q.tier || "sprint").toLowerCase();
+  const s = el("summary", {});
+  const head = el("div", { class: "sq-head" });
+  head.appendChild(el("div", { class: "sq-title" }, q.title));
+  head.appendChild(el("span", { class: "sq-tier " + tier },
+    q.tier + (q.time ? " · " + q.time : "")
+  ));
+  s.appendChild(head);
+  if (q.type) s.appendChild(el("div", { class: "sq-type" }, q.type + (q.level_grade ? " · " + normalizeLevel(q.level_grade) : "")));
+  if (q.tagline) s.appendChild(el("div", { class: "sq-tagline" }, q.tagline));
+  d.appendChild(s);
+
+  const body = el("div", { class: "sq-body" });
+  if (q.description) body.appendChild(el("p", {}, q.description));
+
+  if (q.kid_instructions) {
+    body.appendChild(el("div", { class: "section-h" }, "What the counselor says when you sign up"));
+    body.appendChild(el("div", { class: "quote" }, q.kid_instructions));
+  }
+
+  if (q.what_to_build) {
+    body.appendChild(el("div", { class: "section-h" }, "What to build"));
+    body.appendChild(el("p", {}, q.what_to_build));
+  }
+
+  const mats = normalizeMaterials(q.materials);
+  if (mats.length) {
+    body.appendChild(el("div", { class: "section-h" }, "Materials"));
+    body.appendChild(bulletList(mats));
+  }
+
+  const approach = Array.isArray(q.approach) ? q.approach : [];
+  if (approach.length) {
+    body.appendChild(el("div", { class: "section-h" }, "How to approach it"));
+    const ol = el("ol", { class: "days" });
+    approach.forEach(step => {
+      ol.appendChild(el("li", {}, el("div", {}, el("div", { class: "d-detail" }, step))));
+    });
+    body.appendChild(ol);
+  }
+
+  if (q.pass_criteria) {
+    const pb = el("div", { class: "pass-box" });
+    pb.appendChild(el("div", { class: "pass-l" }, "Pass Criteria"));
+    pb.appendChild(el("p", {}, q.pass_criteria));
+    body.appendChild(pb);
+  }
+
+  if (q.counselor_notes) {
+    body.appendChild(el("div", { class: "section-h" }, "Counselor note"));
+    body.appendChild(el("p", {}, q.counselor_notes));
+  }
+
+  d.appendChild(body);
+  return d;
+}
+
+/* ---- Boot ---- */
+window.addEventListener("DOMContentLoaded", () => {
+  const d = window.ODYSSEY;
+  if (!d || !d.weeks || !d.weeks.length) {
+    document.getElementById("main").innerHTML = "<div class='container'><p style='padding:60px 0;color:var(--ink-dim);'>Content is loading. If this persists, check that the data/ folder is present.</p></div>";
+    return;
+  }
+  d.weeks.sort((a, b) => a.week - b.week);
+  const main = document.getElementById("main");
+  d.weeks.forEach(w => main.appendChild(renderWeek(w)));
+  renderWeekNav(d.weeks);
+  renderSideQuests(d.sideQuests || []);
+});
+</script>
+
+</body>
+</html>
