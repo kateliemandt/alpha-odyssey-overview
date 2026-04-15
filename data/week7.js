@@ -135,6 +135,143 @@ window.ODYSSEY.weeks.push({
       "parent_hook": "An ikebana artist teaches your child that restraint is the highest form of beauty — then they set a formal table you'll wish you'd photographed. Expect them to rearrange your centerpiece when they get home."
     },
     {
+      "id": "w7-l2ms-weekly-a",
+      "track": "weekly",
+      "level": "L2+MS",
+      "level_grade": "4th–8th",
+      "choice": "A",
+      "title": "The Siren's Mark",
+      "activity": "Embroidery",
+      "tagline": "Thread through cloth, stitch by stitch — the slow, dangerous patience of making something that lasts.",
+      "narrative": "The Sirens' power was total attention. They sang, and the whole world narrowed to that single sound. Embroidery demands the same terrifying focus — but you control it instead of being controlled by it. This week, you learn foundational embroidery from a specialist who treats the needle like a pen and the cloth like a page. Children master running stitch, backstitch, satin stitch, and French knots. They learn to thread a needle without help, to knot their thread, to follow a traced pattern and then — by midweek — to abandon the pattern and create their own. The final piece is a completed embroidered work on a hoop: their own design, their own color choices, their own hours of attention made visible in thread.",
+      "location": "Center",
+      "specific_venue": "Jewish Center of the Hamptons — classroom",
+      "specialist_needed": false,
+      "specialist_role": null,
+      "guide_can_lead": true,
+      "guide_note": "Alpha guide leads all instruction.",
+      "materials": [
+        "embroidery hoops (6-inch)",
+        "cotton fabric squares",
+        "embroidery floss in multiple colors",
+        "embroidery needles (tapestry/blunt-tip for safety)",
+        "needle threaders",
+        "fabric marking pencils",
+        "transfer patterns",
+        "small scissors",
+        "thimbles"
+      ],
+      "instructors": "Alpha guide leads all sessions.",
+      "life_skills": [
+        "Sustained focus",
+        "Fine motor skill",
+        "Patience",
+        "Creative self-expression",
+        "Craftsmanship"
+      ],
+      "day_plan": [
+        {
+          "day": 1,
+          "title": "Needle and Knot",
+          "detail": "The Sirens' focus — how beauty demands total attention. Thread a needle and tie a knot. Master running stitch on a practice piece."
+        },
+        {
+          "day": 2,
+          "title": "New Stitches",
+          "detail": "Learn backstitch and satin stitch. Practice filling shapes with color. Begin traced pattern sampler."
+        },
+        {
+          "day": 3,
+          "title": "French Knots",
+          "detail": "Learn French knots. Complete sampler. Begin designing original embroidery piece — sketch on paper, then transfer to fabric."
+        },
+        {
+          "day": 4,
+          "title": "Studio Day",
+          "detail": "Full studio day on original piece. Specialist circulates for individual instruction. Focus on craftsmanship and color choices."
+        },
+        {
+          "day": 5,
+          "title": "Display",
+          "detail": "Complete and mount final embroidered work in hoop. Display for families. Children explain design choices and demonstrate one stitch technique."
+        }
+      ],
+      "pass_test": "Complete an original embroidered design on a hoop demonstrating at least three stitch types — running stitch, backstitch, and one additional technique — with clean starts and finishes.",
+      "kid_hook": "You're going to make something entirely by hand, stitch by stitch, that looks like it came from a museum gift shop.",
+      "parent_hook": "A textile artist teaches your child the ancient discipline of embroidery — the meditative patience of making one stitch at a time until something beautiful exists that didn't before. The finished hoop comes home framed and ready to hang.",
+      "choice_note": "L2 and MS students are combined. Each student picks either Choice A (Embroidery) or Choice B (Cigar Box Guitar). Both run simultaneously."
+    },
+    {
+      "id": "w7-l2ms-weekly-b",
+      "track": "weekly",
+      "level": "L2+MS",
+      "level_grade": "4th–8th",
+      "choice": "B",
+      "title": "The Siren's Instrument",
+      "activity": "Cigar box guitar — build and play",
+      "tagline": "Build a real instrument from a box, a stick, and strings — then learn to play it before Friday.",
+      "narrative": "Orpheus played a lyre so beautifully that the Sirens fell silent. He didn't resist the song — he replaced it with a better one. This week, you build the instrument that lets them do the same. Under the guidance of a professional luthier, each child constructs a playable cigar box guitar from scratch — a real wooden box, a real neck, real strings that produce real notes. They learn to measure, drill, attach, and tune. Then — and this is the part that separates building from making — they learn to play it. Three chords. One song. By Friday, they perform. Every child leaves with an instrument they built with their own hands and the knowledge that they can make it sing.",
+      "location": "Center",
+      "specific_venue": "Jewish Center of the Hamptons — workshop area",
+      "specialist_needed": true,
+      "specialist_role": "Fluo — Alpha's maker partner",
+      "guide_can_lead": false,
+      "guide_note": "Fluo leads all maker/craft instruction. Alpha guide supports group management.",
+      "materials": [
+        "cigar boxes (wooden)",
+        "hardwood neck blanks (pre-cut poplar or oak)",
+        "guitar strings or piano wire",
+        "tuning pegs or eye bolts",
+        "small bolts and nuts",
+        "wood screws",
+        "hand drills",
+        "rulers and pencils",
+        "sandpaper",
+        "wood glue",
+        "bridge and nut pieces (pre-cut dowel)",
+        "guitar picks"
+      ],
+      "instructors": "Contracted luthier or maker guide + Alpha guide.",
+      "life_skills": [
+        "Engineering thinking",
+        "Tool proficiency",
+        "Musical literacy",
+        "Perseverance",
+        "Creative problem-solving"
+      ],
+      "day_plan": [
+        {
+          "day": 1,
+          "title": "Study and Prep",
+          "detail": "Orpheus and the Sirens — fight beauty with better beauty. Examine a completed cigar box guitar. Learn stringed-instrument anatomy. Begin measuring and preparing the box and neck."
+        },
+        {
+          "day": 2,
+          "title": "Build",
+          "detail": "Attach neck to box. Drill holes for tuning pegs. Sand and fit all components. Install bridge and nut."
+        },
+        {
+          "day": 3,
+          "title": "String and Tune",
+          "detail": "String the instrument. Learn to tune. First sounds — the box you built makes music. Begin three basic chords."
+        },
+        {
+          "day": 4,
+          "title": "Rehearse",
+          "detail": "Practice chord transitions. Learn a simple song structure. Full rehearsal of Friday performance piece."
+        },
+        {
+          "day": 5,
+          "title": "Perform",
+          "detail": "Performance for families. Each child plays their cigar box guitar — three chords, one song. Instruments go home."
+        }
+      ],
+      "pass_test": "Complete a playable cigar box guitar and perform a simple three-chord song on it in the Friday showcase.",
+      "kid_hook": "You're going to build a real guitar out of a wooden box and then actually play a song on it by Friday.",
+      "parent_hook": "A professional luthier guides your child through building a functioning stringed instrument from raw materials — then teaches them to play it. They come home with a guitar they made and a song they can perform.",
+      "choice_note": "L2 and MS students are combined. Each student picks either Choice A (Embroidery) or Choice B (Cigar Box Guitar). Both run simultaneously."
+    },
+    {
       "id": "w7-wl-physical",
       "track": "physical",
       "level": "WonderLab",
@@ -389,164 +526,6 @@ window.ODYSSEY.weeks.push({
       "pass_test": "Participate in at least one tactical CTF game in a leadership or specialist role, complete a high ropes traversal at 25+ feet, and contribute to the combined ground-aerial team challenge on Thursday or Friday.",
       "kid_hook": "You're going to play the most intense capture-the-flag of your life on the ground — and then do strategy missions twenty-five feet in the air.",
       "parent_hook": "Your teenager spends a week learning that real strategy must survive real pressure. Tactical capture-the-flag builds the plan. The high ropes course at twenty-five feet tests whether the plan holds when fear shows up."
-    },
-    {
-      "id": "w7-l2-weekly",
-      "track": "weekly",
-      "level": "L2",
-      "level_grade": "4th–5th",
-      "title": "The Siren's Mark + The Siren's Instrument",
-      "activity": "Embroidery AND Cigar box guitar — build and play",
-      "tagline": "Two crafts, one week — the whole level rotates through both.",
-      "narrative": "The Sirens' power was total attention. They sang, and the whole world narrowed to that single sound. Embroidery demands the same terrifying focus — but you control it instead of being controlled by it. This week, L2 learns foundational embroidery from a specialist who treats the needle like a pen and the cloth like a page. Children master running stitch, backstitch, satin stitch, and French knots. That covers the first half of your week. Then you switch: orpheus played a lyre so beautifully that the Sirens fell silent. He didn't resist the song — he replaced it with a better one. This week, L2 builds the instrument that lets them do the same. Under the guidance of a professional luthier, each child constructs a playable cigar box guitar from scratch",
-      "location": "Center",
-      "specific_venue": "Jewish Center of the Hamptons — classroom",
-      "specialist_needed": true,
-      "specialist_role": "Fluo — Alpha's maker partner",
-      "guide_can_lead": false,
-      "guide_note": "Fluo leads all maker/craft instruction. Alpha guide supports group management.",
-      "materials": [
-        "embroidery hoops (6-inch)",
-        "cotton fabric squares",
-        "embroidery floss in multiple colors",
-        "embroidery needles (tapestry/blunt-tip for safety)",
-        "needle threaders",
-        "fabric marking pencils",
-        "transfer patterns",
-        "small scissors",
-        "thimbles",
-        "cigar boxes (wooden)",
-        "hardwood neck blanks (pre-cut poplar or oak)",
-        "guitar strings or piano wire",
-        "tuning pegs or eye bolts",
-        "small bolts and nuts",
-        "wood screws",
-        "hand drills",
-        "rulers and pencils",
-        "sandpaper",
-        "wood glue",
-        "bridge and nut pieces (pre-cut dowel)",
-        "guitar picks"
-      ],
-      "instructors": "Contracted embroidery teacher + Alpha guide.",
-      "life_skills": [
-        "Sustained focus",
-        "Fine motor skill",
-        "Patience",
-        "Creative self-expression",
-        "Craftsmanship",
-        "Engineering thinking"
-      ],
-      "day_plan": [
-        {
-          "day": 1,
-          "title": "The Siren's Mark: Needle and Knot",
-          "detail": "The Sirens' focus — how beauty demands total attention. Thread a needle and tie a knot. Master running stitch on a practice piece."
-        },
-        {
-          "day": 2,
-          "title": "The Siren's Mark: New Stitches",
-          "detail": "Learn backstitch and satin stitch. Practice filling shapes with color. Begin traced pattern sampler."
-        },
-        {
-          "day": 3,
-          "title": "The Siren's Mark: French Knots",
-          "detail": "Learn French knots. Complete sampler. Begin designing original embroidery piece — sketch on paper, then transfer to fabric."
-        },
-        {
-          "day": 4,
-          "title": "The Siren's Instrument: Build",
-          "detail": "Attach neck to box. Drill holes for tuning pegs. Sand and fit all components. Install bridge and nut."
-        },
-        {
-          "day": 5,
-          "title": "The Siren's Instrument: String and Tune",
-          "detail": "String the instrument. Learn to tune. First sounds — the box you built makes music. Begin three basic chords."
-        }
-      ],
-      "pass_test": "Pass BOTH: Complete an original embroidered design on a hoop demonstrating at least three stitch types — running stitch, backstitch, and one additional technique — with clean starts and finishes. AND Complete a playable cigar box guitar and perform a simple three-chord song on it in the Friday showcase.",
-      "kid_hook": "Two totally different skills in one week — The Siren's Mark and The Siren's Instrument.",
-      "parent_hook": "A textile artist teaches your child the ancient discipline of embroidery — the meditative patience of making one stitch at a time until something beautiful exists that didn't before. The finished hoop comes home framed and ready to hang. A professional luthier guides your child through building a functioning stringed instrument from raw materials — then teaches them to play it. They come home with a guitar they made and a song they can perform."
-    },
-    {
-      "id": "w7-ms-weekly",
-      "track": "weekly",
-      "level": "MS",
-      "level_grade": "6th–8th",
-      "title": "The Siren's Mark + The Siren's Instrument",
-      "activity": "Embroidery AND Cigar box guitar — build and play",
-      "tagline": "Two crafts, one week — the whole level rotates through both.",
-      "narrative": "The Sirens offered total absorption — a beauty so consuming you forgot to eat, forgot to steer, forgot to live. Embroidery is the disciplined version of that same immersion. This week, middle schoolers learn the foundational stitches from a textile specialist and then push beyond them. They master running stitch, backstitch, satin stitch, chain stitch, and French knots — then design and execute an That covers the first half of your week. Then you switch: orpheus didn't plug his ears. He didn't tie himself to the mast. He picked up his lyre and played something better than the Sirens' song. That is the only real defense against dangerous beauty — to make something more beautiful yourself. This week, middle schoolers work with a professional luthier t",
-      "location": "Center",
-      "specific_venue": "Jewish Center of the Hamptons — classroom",
-      "specialist_needed": true,
-      "specialist_role": "Fluo — Alpha's maker partner",
-      "guide_can_lead": false,
-      "guide_note": "Fluo leads all maker/craft instruction. Alpha guide supports group management.",
-      "materials": [
-        "embroidery hoops (8-inch)",
-        "cotton or linen fabric",
-        "embroidery floss — extended color range",
-        "embroidery needles (assorted sizes)",
-        "needle threaders",
-        "fabric marking pencils",
-        "transfer paper",
-        "small sharp scissors",
-        "thimbles",
-        "sketchbooks for design planning",
-        "cigar boxes (wooden, various sizes)",
-        "hardwood neck blanks",
-        "guitar strings (steel and nylon options)",
-        "tuning machines or friction pegs",
-        "bolts, nuts, screws",
-        "hand drills and bits",
-        "coping saws",
-        "rulers, squares, pencils",
-        "sandpaper (multiple grits)",
-        "wood glue",
-        "bridge and nut materials",
-        "guitar picks",
-        "optional: piezo pickups for amplification"
-      ],
-      "instructors": "Contracted embroidery teacher + Alpha guide.",
-      "life_skills": [
-        "Sustained concentration",
-        "Creative self-direction",
-        "Craftsmanship",
-        "Historical awareness",
-        "Resilience through revision",
-        "Engineering and design thinking"
-      ],
-      "day_plan": [
-        {
-          "day": 1,
-          "title": "The Siren's Mark: History and Basics",
-          "detail": "History of embroidery as radical art. Learn running stitch, backstitch, and satin stitch on samplers."
-        },
-        {
-          "day": 2,
-          "title": "The Siren's Mark: Advanced Stitches",
-          "detail": "Learn chain stitch and French knots. Practice filling, outlining, texture. Begin sketching original design concept."
-        },
-        {
-          "day": 3,
-          "title": "The Siren's Mark: Transfer and Start",
-          "detail": "Transfer design to fabric. Begin stitching original piece. Specialist provides individual critiques."
-        },
-        {
-          "day": 4,
-          "title": "The Siren's Instrument: Assemble",
-          "detail": "Assemble neck and box. Install tuning hardware. Drill, fit, sand, glue. Troubleshoot fit and alignment."
-        },
-        {
-          "day": 5,
-          "title": "The Siren's Instrument: String and Tune",
-          "detail": "Install bridge, nut, strings. Tune by ear. First sounds. Learn basic fretting and three open chords."
-        }
-      ],
-      "pass_test": "Pass BOTH: Complete a signed original embroidered work on a hoop demonstrating at least four stitch types with intentional design, clean technique, and a short artist's statement. AND Build a fully playable cigar box guitar with functioning tuning hardware, proper string action, and perform a twelve-bar blues progression or equivalent piece at the Friday showcase.",
-      "kid_hook": "Two totally different skills in one week — The Siren's Mark and The Siren's Instrument.",
-      "parent_hook": "A textile specialist teaches your teenager the rigorous art of hand embroidery — stitches that have decorated protest banners and museum walls alike. They leave with an original signed work and the rare experience of spending an entire week making one single beautiful thing. A professional luthier teaches your teenager acoustics, woodworking, and music in one integrated project. They build a real instrument from raw materials, learn the physics of why it works, and perform on it."
     }
   ]
 });

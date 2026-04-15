@@ -67,6 +67,203 @@ window.ODYSSEY.weeks.push({
       "parent_hook": "Your child's handwritten, wax-sealed letter will arrive in your mailbox next week, and you will not throw it away."
     },
     {
+      "id": "w1-l1-weekly-a",
+      "track": "weekly",
+      "level": "L1",
+      "level_grade": "2nd–3rd",
+      "choice": "A",
+      "title": "The Navigator's Chart",
+      "activity": "Cartography, Hand-Built Compass & Navigation Trial",
+      "tagline": "You build a compass from a needle and a leaf, then prove it works.",
+      "narrative": "Odysseus had no GPS. He had stars, currents, and whatever crude instruments his crew could fashion from bronze and gut. You start with less than that. Monday, you study how maps lie — how every flat map distorts the round earth, and why cartographers made those choices. Tuesday, you draw your own chart of the Jewish Center grounds and the path to Main Beach, using a pace count for scale. No one gives you the distances. You walk them yourself. Wednesday, you magnetize a sewing needle, float it on a leaf in still water, and watch it swing north. You build a compass housing from a jar lid and a cork. Thursday, you tea-stain your chart over a candle until it looks older than your grandparents. Friday, your guide drops you at an unmarked point. You have your compass, your chart, and ten minutes. Find the flag. Odysseus wandered for ten years — how long will it take you?",
+      "location": "Center",
+      "specific_venue": "The Ithaca Workshop — Jewish Center of the Hamptons + surrounding grounds",
+      "specialist_needed": false,
+      "specialist_role": null,
+      "guide_can_lead": true,
+      "guide_note": "Alpha guide leads all instruction.",
+      "materials": [
+        "Large-format drawing paper and rulers",
+        "Fine-tip archival pens (0.3mm)",
+        "Sewing needles and small magnets",
+        "Cork discs and jar lids for compass housing",
+        "Shallow water dishes and leaves",
+        "Black tea bags and candles for aging maps",
+        "Colored pencils for terrain features",
+        "Clipboards for outdoor pacing work"
+      ],
+      "instructors": "Alpha guide leads all sessions.",
+      "life_skills": [
+        "Spatial reasoning and scale",
+        "Manual instrument building",
+        "Orienteering without technology",
+        "Methodical problem solving"
+      ],
+      "day_plan": [
+        {
+          "day": 1,
+          "title": "How Maps Lie",
+          "detail": "Compare Mercator, Peters, and globe projections, identify three distortions on a printed map, sketch a rough overhead view of the grounds."
+        },
+        {
+          "day": 2,
+          "title": "The Pace Count",
+          "detail": "Walk three routes on the grounds, counting paces and converting to a consistent scale. Draft your chart with landmarks and a compass rose."
+        },
+        {
+          "day": 3,
+          "title": "Needle, Leaf, North",
+          "detail": "Magnetize a sewing needle, float on cork in water, confirm it points north. Build a portable compass housing from a cork and jar lid."
+        },
+        {
+          "day": 4,
+          "title": "The Aging",
+          "detail": "Charts are tea-stained and lightly singed over a candle. Add a legend, title cartouche, and final terrain details in ink."
+        },
+        {
+          "day": 5,
+          "title": "The Test",
+          "detail": "Each camper is dropped at a random point with only their hand-built compass and chart. Locate a hidden flag within ten minutes using only their own instruments."
+        }
+      ],
+      "pass_test": "Navigate from a random start point to a hidden flag on the Center grounds using only your hand-built compass and hand-drawn chart, within a ten-minute limit. No digital devices or verbal peer help.",
+      "kid_hook": "You magnetize an actual needle with a magnet, float it on water, and it points north — like sorcery, except it's physics.",
+      "parent_hook": "Your child built a working compass from a sewing needle and navigated without a screen — try getting them to explain magnetic declination at dinner.",
+      "choice_note": "L1 students pick either Choice A (Cartography) or Choice B (Calligraphy + Short Story). Both run simultaneously."
+    },
+    {
+      "id": "w1-l1-weekly-b",
+      "track": "weekly",
+      "level": "L1",
+      "level_grade": "2nd–3rd",
+      "choice": "B",
+      "title": "The Scribe's Farewell",
+      "activity": "Copperplate Calligraphy & Odyssey Short Story & Wax Seal",
+      "tagline": "You learn an alphabet that takes a lifetime to master, then seal your first real letter.",
+      "narrative": "Before print existed, every important document was written by hand, and the scribe's hand had to be perfect. A smudged treaty could start a war. A misspelled name could erase a family. This week, you pick up a dip pen for the first time. You learn copperplate — the looping, pressured script that English-speaking scribes used for three hundred years. Monday is just downstrokes. You fill an entire page with lines that go from thick to thin based on nothing but how hard you push. Tuesday, you attempt the letter A. It will take you forty minutes. By Thursday you have enough command to write your own short story — a tale from the Odyssey retold in your words on cotton rag paper — the kind of paper that lasts two centuries. Then you fold it, seal it with Amagansett beeswax and a brass stamp, and address the envelope yourself. Friday, you present. If the seal is cracked, you melt fresh wax and try again in front of everyone. The letter that passes gets mailed. What story will your scroll tell?",
+      "location": "Center",
+      "specific_venue": "The Ithaca Workshop — Jewish Center of the Hamptons",
+      "specialist_needed": false,
+      "specialist_role": null,
+      "guide_can_lead": true,
+      "guide_note": "Alpha guide leads all instruction.",
+      "materials": [
+        "Oblique dip pen holders and Nikko G nibs",
+        "Sumi ink (waterproof black)",
+        "Copperplate exemplar sheets",
+        "Practice paper (dot grid) + cotton rag paper for final letters",
+        "Quail Hill Farm beeswax sticks (Amagansett)",
+        "Low-temp glue guns for wax melting",
+        "Brass seal stamps",
+        "Pre-stamped mailing envelopes",
+        "Paper towels and small water cups for nib cleaning"
+      ],
+      "instructors": "Alpha guide leads all sessions.",
+      "life_skills": [
+        "Fine motor precision under pressure",
+        "Patience with incremental mastery",
+        "Formal written communication",
+        "Historical appreciation for craft"
+      ],
+      "day_plan": [
+        {
+          "day": 1,
+          "title": "The Downstroke",
+          "detail": "Learn to hold an oblique pen, load ink, and produce thick-to-thin downstrokes. Fill one full page before moving on."
+        },
+        {
+          "day": 2,
+          "title": "The Alphabet Begins",
+          "detail": "Work through lowercase a–m using exemplar sheets. Emphasis on entry strokes and consistent slant angle."
+        },
+        {
+          "day": 3,
+          "title": "The Alphabet Finishes",
+          "detail": "Complete n–z and attempt your own first name in copperplate. Draft your three-line short story on practice paper."
+        },
+        {
+          "day": 4,
+          "title": "Ink, Paper, Wax",
+          "detail": "Copy the message onto cotton rag paper, fold it, seal with melted beeswax, hand-address the envelope."
+        },
+        {
+          "day": 5,
+          "title": "The Test",
+          "detail": "Present your sealed letter to a judge. Cracked seals are re-melted and re-pressed on the spot."
+        }
+      ],
+      "pass_test": "Present a folded letter in legible copperplate on cotton rag paper with a short story (at least 3 sentences based on the Odyssey), sealed with an uncracked beeswax stamp, in a hand-addressed envelope ready to mail. Cracked seals re-done on the spot.",
+      "kid_hook": "The dip pen splatters ink everywhere until you figure out the pressure — and then your handwriting looks like it belongs in a museum.",
+      "parent_hook": "Your child wrote in copperplate calligraphy on archival cotton paper and sealed it with beeswax — the most beautiful piece of mail you'll receive this year.",
+      "choice_note": "L1 students pick either Choice A (Cartography) or Choice B (Calligraphy + Short Story). Both run simultaneously."
+    },
+    {
+      "id": "w1-l2-weekly",
+      "track": "weekly",
+      "level": "L2",
+      "level_grade": "4th–5th",
+      "title": "The Shipwright's Trial",
+      "activity": "Model Wooden Boat Build & Open-Water Sail Test",
+      "tagline": "You build a boat from raw lumber, and on Friday it has to float.",
+      "narrative": "This week you build a boat — not from a kit, but from raw cedar, hand tools, and your own design. You work alongside MS campers who lead the rigging and sail work while you handle hull shaping, sanding, and assembly. Every cut matters. On Friday, your boat goes in the water at Three Mile Harbor. If it tips, you know exactly which joint failed. If it sails, you built something real.",
+      "location": "Center",
+      "specific_venue": "The Ithaca Workshop (build); Three Mile Harbor (sail test)",
+      "specialist_needed": true,
+      "specialist_role": "Fluo — Alpha's maker partner",
+      "guide_can_lead": false,
+      "guide_note": "Fluo leads all maker/craft instruction. Alpha guide supports group management.",
+      "materials": [
+        "Eastern white cedar planks (North Fork lumber)",
+        "Marine-grade wood glue and clamps",
+        "Hand planes, rasps, and sandpaper (80–220 grit)",
+        "Small handsaws (Japanese pull saws)",
+        "Marine spar varnish and brushes",
+        "Cotton sailcloth, needles, and waxed thread",
+        "Brass tacks and copper wire for rigging",
+        "Wooden dowels for mast and boom",
+        "Lead ballast weights for keel",
+        "Safety goggles and work gloves"
+      ],
+      "instructors": "Contracted marine woodworker leads hull construction and rigging; one Alpha guide assists with hand-tool stations and the Friday harbor test.",
+      "life_skills": [
+        "Precision measurement and hand-tool competence",
+        "Iterative design and structural problem-solving",
+        "Accepting objective feedback from physical reality",
+        "Sustained craftsmanship over multiple days"
+      ],
+      "day_plan": [
+        {
+          "day": 1,
+          "title": "The Hull Lines",
+          "detail": "Study three historical hull designs, choose one, transfer lines to cedar. First cuts with pull saws, rough shaping with rasps."
+        },
+        {
+          "day": 2,
+          "title": "Planing and Assembly",
+          "detail": "Plane hull panels to uniform thickness, glue and clamp the keel joint, shape bow and stern. Symmetry checks with calipers."
+        },
+        {
+          "day": 3,
+          "title": "Seal and Rig",
+          "detail": "Sand to 220 grit, seal with two coats of marine varnish. Cut sailcloth, hem with waxed thread, mount and step a mast."
+        },
+        {
+          "day": 4,
+          "title": "Ballast and Balance",
+          "detail": "Add lead ballast to the keel, test balance in a water trough, adjust rigging and sail trim. Last coat of varnish dries overnight."
+        },
+        {
+          "day": 5,
+          "title": "The Test",
+          "detail": "Boats launch at Three Mile Harbor. Each must float upright for two minutes, hold a set sail without capsizing, and track a straight line for at least ten feet."
+        }
+      ],
+      "pass_test": "Model boat floats upright in Three Mile Harbor for 2 minutes without listing more than 15°, holds a set sail without capsizing, and tracks a roughly straight line for at least 10 feet under wind power. If it sinks or capsizes, the camper fails.",
+      "kid_hook": "You build a real wooden boat with hand tools and then launch it in the harbor — and everyone watches to see if it sinks.",
+      "parent_hook": "Your child shaped Eastern white cedar with hand planes and built a model sailing vessel that passed an open-water trial at Three Mile Harbor — that boat is coming home on a shelf.",
+      "joint_with": "MS"
+    },
+    {
       "id": "w1-ms-weekly",
       "track": "weekly",
       "level": "MS",
@@ -382,146 +579,6 @@ window.ODYSSEY.weeks.push({
       "pass_test": "Each camper serves at least twice per set with the ball clearing the net, makes at least one successful forearm pass to the setter zone during live play per match, and self-officiates all line calls without guide override.",
       "kid_hook": "You play real 4v4 beach volleyball with no refs — you call your own lines, and everyone is watching to see if you are honest.",
       "parent_hook": "Your child played self-officiated beach volleyball at Main Beach and learned that integrity under pressure is harder than any spike — ask them about the line call they made when no one would have questioned it."
-    },
-    {
-      "id": "w1-l1-weekly",
-      "track": "weekly",
-      "level": "L1",
-      "level_grade": "2nd–3rd",
-      "title": "The Navigator's Chart + The Scribe's Farewell",
-      "activity": "Cartography, Hand-Built Compass & Navigation Trial AND Copperplate Calligraphy & Odyssey Short Story & Wax Seal",
-      "tagline": "Two crafts, one week — the whole level rotates through both.",
-      "narrative": "Odysseus had no GPS. He had stars, currents, and whatever crude instruments his crew could fashion from bronze and gut. You start with less than that. Monday, you study how maps lie — how every flat map distorts the round earth, and why cartographers made those choices. Tuesday, you draw your own chart of the Jewish Center grounds and the path to Main Beach, using a pace count for scale. No one gi That covers the first half of your week. Then you switch: before print existed, every important document was written by hand, and the scribe's hand had to be perfect. A smudged treaty could start a war. A misspelled name could erase a family. This week, you pick up a dip pen for the first time. You learn copperplate — the looping, pressured script that Eng",
-      "location": "Center",
-      "specific_venue": "The Ithaca Workshop — Jewish Center of the Hamptons + surrounding grounds",
-      "specialist_needed": false,
-      "specialist_role": null,
-      "guide_can_lead": true,
-      "guide_note": "Alpha guide leads all instruction.",
-      "materials": [
-        "Large-format drawing paper and rulers",
-        "Fine-tip archival pens (0.3mm)",
-        "Sewing needles and small magnets",
-        "Cork discs and jar lids for compass housing",
-        "Shallow water dishes and leaves",
-        "Black tea bags and candles for aging maps",
-        "Colored pencils for terrain features",
-        "Clipboards for outdoor pacing work",
-        "Oblique dip pen holders and Nikko G nibs",
-        "Sumi ink (waterproof black)",
-        "Copperplate exemplar sheets",
-        "Practice paper (dot grid) + cotton rag paper for final letters",
-        "Quail Hill Farm beeswax sticks (Amagansett)",
-        "Low-temp glue guns for wax melting",
-        "Brass seal stamps",
-        "Pre-stamped mailing envelopes",
-        "Paper towels and small water cups for nib cleaning"
-      ],
-      "instructors": "Alpha guide leads all sessions.",
-      "life_skills": [
-        "Spatial reasoning and scale",
-        "Manual instrument building",
-        "Orienteering without technology",
-        "Methodical problem solving",
-        "Fine motor precision under pressure",
-        "Patience with incremental mastery"
-      ],
-      "day_plan": [
-        {
-          "day": 1,
-          "title": "The Navigator's Chart: How Maps Lie",
-          "detail": "Compare Mercator, Peters, and globe projections, identify three distortions on a printed map, sketch a rough overhead view of the grounds."
-        },
-        {
-          "day": 2,
-          "title": "The Navigator's Chart: The Pace Count",
-          "detail": "Walk three routes on the grounds, counting paces and converting to a consistent scale. Draft your chart with landmarks and a compass rose."
-        },
-        {
-          "day": 3,
-          "title": "The Navigator's Chart: Needle, Leaf, North",
-          "detail": "Magnetize a sewing needle, float on cork in water, confirm it points north. Build a portable compass housing from a cork and jar lid."
-        },
-        {
-          "day": 4,
-          "title": "The Scribe's Farewell: The Alphabet Begins",
-          "detail": "Work through lowercase a–m using exemplar sheets. Emphasis on entry strokes and consistent slant angle."
-        },
-        {
-          "day": 5,
-          "title": "The Scribe's Farewell: The Alphabet Finishes",
-          "detail": "Complete n–z and attempt your own first name in copperplate. Draft your three-line short story on practice paper."
-        }
-      ],
-      "pass_test": "Pass BOTH: Navigate from a random start point to a hidden flag on the Center grounds using only your hand-built compass and hand-drawn chart, within a ten-minute limit. No digital devices or verbal peer help. AND Present a folded letter in legible copperplate on cotton rag paper with a short story (at least 3 sentences based on the Odyssey), sealed with an uncracked beeswax stamp, in a hand-addressed envelope ready to mail. Cracked seals re-done on the spot.",
-      "kid_hook": "Two totally different skills in one week — The Navigator's Chart and The Scribe's Farewell.",
-      "parent_hook": "Your child built a working compass from a sewing needle and navigated without a screen — try getting them to explain magnetic declination at dinner. Your child wrote in copperplate calligraphy on archival cotton paper and sealed it with beeswax — the most beautiful piece of mail you'll receive this year."
-    },
-    {
-      "id": "w1-l2-weekly",
-      "track": "weekly",
-      "level": "L2",
-      "level_grade": "4th–5th",
-      "title": "The Shipwright's Trial",
-      "activity": "Model Wooden Boat Build & Open-Water Sail Test",
-      "tagline": "You build a boat from raw lumber, and on Friday it has to float.",
-      "narrative": "This week you build a boat — not from a kit, but from raw cedar, hand tools, and your own design. You work alongside MS campers who lead the rigging and sail work while you handle hull shaping, sanding, and assembly. Every cut matters. On Friday, your boat goes in the water at Three Mile Harbor. If it tips, you know exactly which joint failed. If it sails, you built something real.",
-      "location": "Center",
-      "specific_venue": "The Ithaca Workshop (build); Three Mile Harbor (sail test)",
-      "specialist_needed": true,
-      "specialist_role": "Fluo — Alpha's maker partner",
-      "guide_can_lead": false,
-      "guide_note": "Fluo leads all maker/craft instruction. Alpha guide supports group management.",
-      "materials": [
-        "Eastern white cedar planks (North Fork lumber)",
-        "Marine-grade wood glue and clamps",
-        "Hand planes, rasps, and sandpaper (80–220 grit)",
-        "Small handsaws (Japanese pull saws)",
-        "Marine spar varnish and brushes",
-        "Cotton sailcloth, needles, and waxed thread",
-        "Brass tacks and copper wire for rigging",
-        "Wooden dowels for mast and boom",
-        "Lead ballast weights for keel",
-        "Safety goggles and work gloves"
-      ],
-      "instructors": "Contracted marine woodworker leads hull construction and rigging; one Alpha guide assists with hand-tool stations and the Friday harbor test.",
-      "life_skills": [
-        "Precision measurement and hand-tool competence",
-        "Iterative design and structural problem-solving",
-        "Accepting objective feedback from physical reality",
-        "Sustained craftsmanship over multiple days"
-      ],
-      "day_plan": [
-        {
-          "day": 1,
-          "title": "The Hull Lines",
-          "detail": "Study three historical hull designs, choose one, transfer lines to cedar. First cuts with pull saws, rough shaping with rasps."
-        },
-        {
-          "day": 2,
-          "title": "Planing and Assembly",
-          "detail": "Plane hull panels to uniform thickness, glue and clamp the keel joint, shape bow and stern. Symmetry checks with calipers."
-        },
-        {
-          "day": 3,
-          "title": "Seal and Rig",
-          "detail": "Sand to 220 grit, seal with two coats of marine varnish. Cut sailcloth, hem with waxed thread, mount and step a mast."
-        },
-        {
-          "day": 4,
-          "title": "Ballast and Balance",
-          "detail": "Add lead ballast to the keel, test balance in a water trough, adjust rigging and sail trim. Last coat of varnish dries overnight."
-        },
-        {
-          "day": 5,
-          "title": "The Test",
-          "detail": "Boats launch at Three Mile Harbor. Each must float upright for two minutes, hold a set sail without capsizing, and track a straight line for at least ten feet."
-        }
-      ],
-      "pass_test": "Model boat floats upright in Three Mile Harbor for 2 minutes without listing more than 15°, holds a set sail without capsizing, and tracks a roughly straight line for at least 10 feet under wind power. If it sinks or capsizes, the camper fails.",
-      "kid_hook": "You build a real wooden boat with hand tools and then launch it in the harbor — and everyone watches to see if it sinks.",
-      "parent_hook": "Your child shaped Eastern white cedar with hand planes and built a model sailing vessel that passed an open-water trial at Three Mile Harbor — that boat is coming home on a shelf.",
-      "joint_with": "MS"
     }
   ]
 });
