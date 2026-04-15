@@ -512,14 +512,14 @@
       <h2>Homer, rewritten for a Hamptons summer.</h2>
     </div>
     <div>
-      <p class="drop">Each week of Alpha Odyssey follows a chapter of Homer's <em>Odyssey</em>. Mornings start with Alpha's 2-hour learning block and a Limitless Launch. Afternoons rotate between a weekly craft workshop (~2 hrs) and a physical challenge (45 min), with a Friday pass/fail test for both. Threaded through every transition, break, lunch, and dropoff window: fifty-plus voluntary mastery side quests, self-paced and tested only when the camper asks. The day ends at 4 PM with 15 minutes of Shoutouts.</p>
+      <p class="drop">Each week of Alpha Odyssey follows a chapter of Homer's <em>Odyssey</em>. Mornings start with a Limitless Launch, then straight into the weekly craft workshop (~2 hrs). After lunch, campers rotate through their physical challenge (45 min). Fridays end with a pass/fail test for both. Threaded through every transition, break, lunch, and dropoff window: fifty-plus voluntary mastery side quests, self-paced and tested only when the camper asks. The day ends at 4 PM with 15 minutes of Shoutouts.</p>
       <p>Most workshops are taught by trained Alpha guides. For the truly specialized stuff — omakase sushi, wheel-thrown pottery, blacksmithing, synchronized swimming — contracted specialists lead. Fluo, Alpha's maker partner, runs all woodworking, surfboard shaping, and darkroom photography. The side quests are recorded in each camper's Odyssey Logbook and earn a mark on the Mastery Board.</p>
       <p>This page is the full operational map: every workshop, every challenge, every quest — with descriptions, materials, instructor assignments, day-by-day plans, and the exact test each camper must pass. Tap any card to open the details.</p>
 
       <div class="meander"></div>
       <div class="legend">
-        <div class="item"><span class="dot wk"></span><span><span class="l">Weekly</span><span class="d">Craft, build, perform — afternoon, ~2 hrs/day (8 hrs/week).</span></span></div>
-        <div class="item"><span class="dot phy"></span><span><span class="l">Physical</span><span class="d">Sport, water, adventure — afternoon, 45 min/day (3.75 hrs/week).</span></span></div>
+        <div class="item"><span class="dot wk"></span><span><span class="l">Weekly</span><span class="d">Craft, build, perform — morning, ~2 hrs/day.</span></span></div>
+        <div class="item"><span class="dot phy"></span><span><span class="l">Physical</span><span class="d">Sport, water, adventure — afternoon, 45 min/day.</span></span></div>
         <div class="item"><span class="dot sp"></span><span><span class="l">Side Quest</span><span class="d">Voluntary mastery, self-paced, tested on request.</span></span></div>
       </div>
     </div>
@@ -742,7 +742,7 @@ function renderEntryCard(entry) {
   if (entry.guide_can_lead !== undefined) {
     kv.appendChild(kvRow("Alpha Guide Can Lead?", entry.guide_can_lead ? "Yes — with specialist support as noted." : "No — specialist leads all instruction."));
   }
-  if (location) kv.appendChild(kvRow("Location", location + " — " + (isPhysical ? "afternoon · 45 min/day" : "afternoon · ~2 hrs/day")));
+  if (location) kv.appendChild(kvRow("Location", location + " — " + (isPhysical ? "afternoon · 45 min/day" : "morning · ~2 hrs/day")));
   body.appendChild(sectionH("At a Glance"));
   body.appendChild(kv);
 
