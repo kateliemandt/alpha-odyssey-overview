@@ -12,9 +12,9 @@ window.ODYSSEY.weeks.push({
       "title": "The Enchanted Garden",
       "activity": "Sensory foraging + herb garden planting with blindfold smell identification",
       "tagline": "Odysseus found a garden that made sailors forget home. You'll grow one that sharpens every sense.",
-      "narrative": "When Odysseus landed on the island, his scouts ate the lotus flower and forgot their own names. This week, you do the opposite — you learn to name everything you smell, taste, and touch. A visiting ethnobotanist walks you through the herb rows at Quail Hill Farm in Amagansett, where you'll rub sage between your fingers, snap a sprig of rosemary, and press your nose into chocolate mint until you can tell them apart blindfolded. Back at the Center, you transplant cuttings into your own sensory garden bed, labeling each one by hand. On the final day, you wear a blindfold and face the smell test: five herbs, no peeking, no guessing. If you can't name what you foraged, you don't pass. Your parents will receive a living herb box you planted yourself — but can they pass the blindfold test you've already beaten?",
-      "location": "Wildlands",
-      "specific_venue": "Quail Hill Farm, Amagansett + The Ithaca Workshop — Jewish Center of the Hamptons",
+      "narrative": "When Odysseus landed on the island, his scouts ate the lotus flower and forgot their own names. This week, you do the opposite — you learn to name everything you smell, taste, and touch. A visiting ethnobotanist walks you through the herb rows at the grounds around the Jewish Center, where you'll rub sage between your fingers, snap a sprig of rosemary, and press your nose into chocolate mint until you can tell them apart blindfolded. Back at the Center, you transplant cuttings into your own sensory garden bed, labeling each one by hand. On the final day, you wear a blindfold and face the smell test: five herbs, no peeking, no guessing. If you can't name what you foraged, you don't pass. Your parents will receive a living herb box you planted yourself — but can they pass the blindfold test you've already beaten?",
+      "location": "Center",
+      "specific_venue": "Jewish Center of the Hamptons — grounds and garden areas",
       "specialist_needed": false,
       "specialist_role": null,
       "guide_can_lead": true,
@@ -43,7 +43,7 @@ window.ODYSSEY.weeks.push({
         {
           "day": 2,
           "title": "The Forager's Walk",
-          "detail": "Field trip to Quail Hill Farm with ethnobotanist; identify herbs growing in rows, collect cuttings."
+          "detail": "Guided foraging walk around the JCH grounds; identify herbs growing in rows, collect cuttings."
         },
         {
           "day": 3,
@@ -139,7 +139,7 @@ window.ODYSSEY.weeks.push({
       "title": "The Alchemist's Temptation",
       "activity": "Chocolate tempering, molded bonbons, and flavor profiling",
       "tagline": "The lotus made you forget. Tempered chocolate demands you remember every single degree.",
-      "narrative": "Odysseus watched his men lose themselves to sweetness and swore he wouldn't follow. This week, you hold a thermometer over melted chocolate and understand why. Tempering is alchemy with a margin of error measured in degrees — heat the couverture to 131°F, cool it to 82°, raise it back to 90°, and you get a shell that snaps clean when you bite it. Miss the window and you get dull, soft, streaky failure. A chocolatier walks you through the tabling method on marble slabs, spreading and folding molten chocolate with an offset spatula until it sets with a shine you can see your reflection in. You fill polycarbonate molds with ganache infused with North Fork lavender, Montauk sea salt, local honey. By Friday you turn out bonbons that crack like a promise kept.",
+      "narrative": "Odysseus watched his men lose themselves to sweetness and swore he wouldn't follow. This week, you hold a thermometer over melted chocolate and understand why. Tempering is alchemy with a margin of error measured in degrees — heat the couverture to 131°F, cool it to 82°, raise it back to 90°, and you get a shell that snaps clean when you bite it. Miss the window and you get dull, soft, streaky failure. A chocolatier walks you through the tabling method on marble slabs, spreading and folding molten chocolate with an offset spatula until it sets with a shine you can see your reflection in. You fill polycarbonate molds with ganache infused with local lavender, local sea salt, local honey. By Friday you turn out bonbons that crack like a promise kept.",
       "location": "Center",
       "specific_venue": "The Ithaca Workshop — Jewish Center of the Hamptons",
       "specialist_needed": true,
@@ -153,8 +153,8 @@ window.ODYSSEY.weeks.push({
         "instant-read thermometers",
         "polycarbonate bonbon molds",
         "ganache ingredients",
-        "North Fork lavender",
-        "Montauk sea salt",
+        "local lavender",
+        "local sea salt",
         "local honey",
         "transfer sheets",
         "bonbon gift boxes"
@@ -195,7 +195,7 @@ window.ODYSSEY.weeks.push({
       ],
       "pass_test": "Produce at least 6 finished bonbons demonstrating clean snap (audible break, not bend), glossy surface without bloom, and evenly piped filling visible in a cross-section cut.",
       "kid_hook": "You'll temper real chocolate on marble slabs and make bonbons that snap like they came from a chocolatier's shop.",
-      "parent_hook": "They'll explain cocoa butter crystal formation at the dinner table — and hand you a box of bonbons infused with North Fork lavender to prove they mean it."
+      "parent_hook": "They'll explain cocoa butter crystal formation at the dinner table — and hand you a box of bonbons infused with local lavender to prove they mean it."
     },
     {
       "id": "w2-ms-weekly",
@@ -205,7 +205,7 @@ window.ODYSSEY.weeks.push({
       "title": "The Feast of Forgetfulness",
       "activity": "Omakase sushi preparation + full dinner party service for parents",
       "tagline": "The lotus feast made men forget who they were. Your feast will make parents forget you're thirteen.",
-      "narrative": "Odysseus refused to eat. He stood at the edge of the lotus feast and saw what surrender looked like — pleasure so total it erased purpose. This week, you build a feast of your own, but you stay sharp through every course. A sushi chef teaches you to season rice with the exact ratio of vinegar to sugar, to slice fish on the bias with a yanagiba, to press nigiri with enough firmness to hold and enough give to melt. You source fish from the Montauk docks and learn what freshness actually means when you're staring at gills and eyes. But technique is only half the test. On Friday evening, you host a seated omakase dinner for your parents — you plate, you present, you explain each course. If the rice falls apart on the plate, everyone sees it.",
+      "narrative": "Odysseus refused to eat. He stood at the edge of the lotus feast and saw what surrender looked like — pleasure so total it erased purpose. This week, you build a feast of your own, but you stay sharp through every course. A sushi chef teaches you to season rice with the exact ratio of vinegar to sugar, to slice fish on the bias with a yanagiba, to press nigiri with enough firmness to hold and enough give to melt. You source fish from the a local fish market and learn what freshness actually means when you're staring at gills and eyes. But technique is only half the test. On Friday evening, you host a seated omakase dinner for your parents — you plate, you present, you explain each course. If the rice falls apart on the plate, everyone sees it.",
       "location": "Center",
       "specific_venue": "The Ithaca Workshop — Jewish Center of the Hamptons",
       "specialist_needed": true,
@@ -213,7 +213,7 @@ window.ODYSSEY.weeks.push({
       "guide_can_lead": false,
       "guide_note": "Guide coordinates logistics, parent invitations, table setup, and service flow; sushi chef leads all culinary instruction.",
       "materials": [
-        "sushi-grade fish (sourced from Montauk)",
+        "sushi-grade fish (sourced locally)",
         "sushi rice and seasoned vinegar",
         "nori sheets",
         "yanagiba knives (supervised use)",
@@ -245,7 +245,7 @@ window.ODYSSEY.weeks.push({
         {
           "day": 3,
           "title": "The Source",
-          "detail": "Visit Montauk docks to learn freshness markers — gill color, eye clarity, smell — and select fish for Friday."
+          "detail": "Visit a local fish market to learn freshness markers — gill color, eye clarity, smell — and select fish for Friday."
         },
         {
           "day": 4,
@@ -260,7 +260,7 @@ window.ODYSSEY.weeks.push({
       ],
       "pass_test": "Prepare and serve a minimum 4-course omakase sequence to a seated guest. Each course must be plated cleanly, presented with a spoken description of the fish and preparation; nigiri must hold shape when lifted with chopsticks.",
       "kid_hook": "You'll slice real fish with a real sushi knife and host a dinner party where your parents are the guests and you run the kitchen.",
-      "parent_hook": "On Friday evening, your child will seat you at a table, present an omakase menu they wrote, and serve you sushi they sourced from Montauk and prepared by hand."
+      "parent_hook": "On Friday evening, your child will seat you at a table, present an omakase menu they wrote, and serve you sushi they sourced locally and prepared by hand."
     },
     {
       "id": "w2-wl-physical",
@@ -270,9 +270,9 @@ window.ODYSSEY.weeks.push({
       "title": "Beasts of the Island",
       "activity": "Animal movement circuit — 5 animals × 3 rounds on the beach",
       "tagline": "The island was full of strange creatures. Now you move like every one of them.",
-      "narrative": "When the sailors stumbled onto the Lotus Eaters' shore, the island was alive with creatures they had never seen — crawling, leaping, slithering through the undergrowth. This week, you become those beasts. On the sand at Hither Hills, your guide sets five movement stations: bear crawl across a dune ridge, frog jump between driftwood markers, crab walk sideways against the tide line, lizard creep low under a rope net, and flamingo balance on one foot while the wind tries to tip you. Three rounds. Each round, the distance grows. By the third pass, the bear crawl is longer, the frog jumps are wider, and the flamingo hold lasts fifteen full seconds without a wobble. You earn your station stamp only when your form is clean — sloppy crawls don't count.",
-      "location": "Hither Hills",
-      "specific_venue": "Hither Hills State Park beach",
+      "narrative": "When the sailors stumbled onto the Lotus Eaters' shore, the island was alive with creatures they had never seen — crawling, leaping, slithering through the undergrowth. This week, you become those beasts. On the sand at Main Beach, your guide sets five movement stations: bear crawl across a dune ridge, frog jump between driftwood markers, crab walk sideways against the tide line, lizard creep low under a rope net, and flamingo balance on one foot while the wind tries to tip you. Three rounds. Each round, the distance grows. By the third pass, the bear crawl is longer, the frog jumps are wider, and the flamingo hold lasts fifteen full seconds without a wobble. You earn your station stamp only when your form is clean — sloppy crawls don't count.",
+      "location": "Beach",
+      "specific_venue": "Main Beach, East Hampton",
       "specialist_needed": false,
       "specialist_role": null,
       "guide_can_lead": true,
@@ -300,7 +300,7 @@ window.ODYSSEY.weeks.push({
         {
           "day": 2,
           "title": "Round One",
-          "detail": "First full circuit on Hither Hills beach — short distances, focus on clean form at each station."
+          "detail": "First full circuit on Main Beach — short distances, focus on clean form at each station."
         },
         {
           "day": 3,
@@ -320,7 +320,7 @@ window.ODYSSEY.weeks.push({
       ],
       "pass_test": "Complete all 5 animal movements across 3 full rounds with guide-verified form. Flamingo balance must be held for 15 seconds without foot touching down. All 5 station stamps earned on card.",
       "kid_hook": "You get to bear crawl over sand dunes, frog jump between logs, and balance like a flamingo while the ocean wind tries to knock you over.",
-      "parent_hook": "They'll sleep extraordinarily well after three rounds of animal movement circuits in the sand at Hither Hills — and they'll have the stamped card to prove they finished every one."
+      "parent_hook": "They'll sleep extraordinarily well after three rounds of animal movement circuits in the sand at Main Beach — and they'll have the stamped card to prove they finished every one."
     },
     {
       "id": "w2-l1-physical",
@@ -330,9 +330,9 @@ window.ODYSSEY.weeks.push({
       "title": "The Lotus Field",
       "activity": "Beach kickball tournament",
       "tagline": "The lotus made the sailors lazy. Kickball on sand makes sure you're anything but.",
-      "narrative": "Odysseus needed his crew sharp and ready to sail, but the lotus had turned them soft. This week, you prove you're the crew that doesn't quit. On the beach near Cedar Point, your guide chalks base paths into wet sand and drops a red rubber ball on the pitcher's mound. This is kickball, but the sand fights you on every play — running to first feels twice as hard, fielding a grounder means diving and getting back up, and kicking for distance demands every muscle in your leg. Teams draft on Monday. By Wednesday, you've played enough innings to know who covers the gap and who boots the ball. Thursday and Friday are single-elimination tournament rounds. Losing team watches from the dune.",
+      "narrative": "Odysseus needed his crew sharp and ready to sail, but the lotus had turned them soft. This week, you prove you're the crew that doesn't quit. On the beach at the beach, your guide chalks base paths into wet sand and drops a red rubber ball on the pitcher's mound. This is kickball, but the sand fights you on every play — running to first feels twice as hard, fielding a grounder means diving and getting back up, and kicking for distance demands every muscle in your leg. Teams draft on Monday. By Wednesday, you've played enough innings to know who covers the gap and who boots the ball. Thursday and Friday are single-elimination tournament rounds. Losing team watches from the dune.",
       "location": "Beach",
-      "specific_venue": "Cedar Point County Park beach",
+      "specific_venue": "Main Beach, East Hampton",
       "specialist_needed": false,
       "specialist_role": null,
       "guide_can_lead": true,
@@ -392,9 +392,9 @@ window.ODYSSEY.weeks.push({
       "title": "The Lotus Match",
       "activity": "Joint L2 + MS beach soccer World Cup tournament",
       "tagline": "The lotus dulled every sailor's edge. The World Cup on sand sharpens yours back.",
-      "narrative": "Odysseus dragged his men off the island because he knew comfort would kill them faster than any monster. This week, you play soccer against the tide. The Lotus Match is a joint tournament — L2 and MS together on the sand at Ditch Plains, organized as a World Cup with country draws, group stages, and knockout rounds. You'll be assigned to a mixed-age squad and given a nation's colors. MS players lead strategy and set pieces, but L2 runs just as hard and fills the back line. The sand swallows your footing, the wind bends your crosses, and the salt stings your eyes. A certified coach runs drills early in the week, then steps back and lets the squads manage their own formations by Thursday. Knockout matches are decided in regulation or penalties — no draws, no replays. The losing nation packs its flag.",
-      "location": "Ditch Plains",
-      "specific_venue": "Ditch Plains Beach, Montauk",
+      "narrative": "Odysseus dragged his men off the island because he knew comfort would kill them faster than any monster. This week, you play soccer against the tide. The Lotus Match is a joint tournament — L2 and MS together on the sand at Main Beach, organized as a World Cup with country draws, group stages, and knockout rounds. You'll be assigned to a mixed-age squad and given a nation's colors. MS players lead strategy and set pieces, but L2 runs just as hard and fills the back line. The sand swallows your footing, the wind bends your crosses, and the salt stings your eyes. A certified coach runs drills early in the week, then steps back and lets the squads manage their own formations by Thursday. Knockout matches are decided in regulation or penalties — no draws, no replays. The losing nation packs its flag.",
+      "location": "Beach",
+      "specific_venue": "Main Beach, East Hampton",
       "specialist_needed": false,
       "specialist_role": null,
       "guide_can_lead": true,
@@ -440,12 +440,12 @@ window.ODYSSEY.weeks.push({
         {
           "day": 5,
           "title": "The Final",
-          "detail": "World Cup final at Ditch Plains. Winning nation raises their flag. Penalties decide any draw."
+          "detail": "World Cup final at Main Beach. Winning nation raises their flag. Penalties decide any draw."
         }
       ],
       "pass_test": "Play the full tournament in your assigned position, complete all squad drill sessions, and participate in every match your nation qualifies for. Must demonstrate at least one successful pass to a teammate in each game.",
       "kid_hook": "You draw a country, wear their colors, and compete in a real World Cup bracket on the beach with kids two and three years older than you.",
-      "parent_hook": "They'll play on mixed-age squads at Ditch Plains where the MS players set the tactics and your child has to earn their minutes on sand that punishes every lazy touch."
+      "parent_hook": "They'll play on mixed-age squads at Main Beach where the MS players set the tactics and your child has to earn their minutes on sand that punishes every lazy touch."
     },
     {
       "id": "w2-ms-physical",
@@ -456,9 +456,9 @@ window.ODYSSEY.weeks.push({
       "title": "The Lotus Match",
       "activity": "Joint L2 + MS beach soccer World Cup tournament — MS leads strategy",
       "tagline": "The lotus rewarded passivity. The World Cup rewards the squad that refuses it.",
-      "narrative": "Odysseus was the only one who kept his head on the island. Everyone else surrendered to comfort and forgot the mission. This week, you lead. The Lotus Match throws you onto Ditch Plains sand with younger L2 players on your squad and a nation's flag on your back. You draw countries, set formations, call subs, and manage players who are faster than they are tactical. A certified coach runs skills early in the week, but by knockout day the clipboard is yours — you decide who takes the penalties and where the free kicks go. The sand steals your speed and punishes every lazy first touch. Group stage is forgiving; the bracket is not. One loss and your flag comes down.",
-      "location": "Ditch Plains",
-      "specific_venue": "Ditch Plains Beach, Montauk",
+      "narrative": "Odysseus was the only one who kept his head on the island. Everyone else surrendered to comfort and forgot the mission. This week, you lead. The Lotus Match throws you onto Main Beach sand with younger L2 players on your squad and a nation's flag on your back. You draw countries, set formations, call subs, and manage players who are faster than they are tactical. A certified coach runs skills early in the week, but by knockout day the clipboard is yours — you decide who takes the penalties and where the free kicks go. The sand steals your speed and punishes every lazy first touch. Group stage is forgiving; the bracket is not. One loss and your flag comes down.",
+      "location": "Beach",
+      "specific_venue": "Main Beach, East Hampton",
       "specialist_needed": false,
       "specialist_role": null,
       "guide_can_lead": true,
@@ -505,7 +505,7 @@ window.ODYSSEY.weeks.push({
         {
           "day": 5,
           "title": "The Final",
-          "detail": "Championship match at Ditch Plains. Winning captain raises the nation's flag. Post-tournament debrief with all squads."
+          "detail": "Championship match at Main Beach. Winning captain raises the nation's flag. Post-tournament debrief with all squads."
         }
       ],
       "pass_test": "Serve as squad captain for all matches your nation qualifies for. Must set a starting lineup for each game, make at least one tactical adjustment per match, and deliver a post-match debrief identifying one thing done well and one to improve.",

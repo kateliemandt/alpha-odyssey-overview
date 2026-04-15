@@ -467,7 +467,7 @@ window.ODYSSEY.weeks.push({
       "tagline": "Choreograph a synchronized swimming routine where the water becomes a mirror between worlds.",
       "narrative": "Persephone lives in two worlds — one of light, one of shadow — and the surface of the water is the boundary between them. Persephone's Mirror asks middle schoolers to learn the discipline of synchronized swimming, where every movement is doubled: once by the body, once by its reflection. Under a contracted sync swim coach, campers spend the week mastering foundational figures — sculling, eggbeater kick, layouts, and coordinated surfaces — then choreograph a group routine set to music. The work is humbling. Synchronized swimming demands breath control, spatial awareness, trust in your teammates' timing, and the willingness to rehearse a four-count transition until it is flawless. By Friday, campers perform their routine for the camp, and for a few minutes the pool becomes the mirror between Hades and the living world.",
       "location": "Pool",
-      "specific_venue": "East Hampton Pool",
+      "specific_venue": "JCH Pool — Jewish Center of the Hamptons",
       "specialist_needed": true,
       "specialist_role": "Contracted synchronized swimming coach + certified lifeguard (safety-critical)",
       "guide_can_lead": false,

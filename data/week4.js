@@ -11,9 +11,9 @@ window.ODYSSEY.weeks.push({
       "title": "Catching the West Wind",
       "activity": "Build and fly a rokkaku kite",
       "tagline": "You will build a real Japanese fighting kite and send it screaming over the Atlantic.",
-      "narrative": "Aeolus kept every wind locked inside a leather bag — all except Zephyrus, the warm west wind that was supposed to carry Odysseus home. You are going to catch that wind yourself. Over five days you will construct a rokkaku, the flat Japanese kite that has dueled in the sky for four hundred years. You will measure bamboo spars, lash crosspoints with twine, stretch ripstop sail tight as a drum, and paint your own wind-god face across the fabric. Every decision matters: too much tail and Zephyrus drags you nowhere; too little and your kite death-spirals into the dunes. By Friday you will stand on the beach at Atlantic Avenue and launch. If your rokkaku climbs past the flagpole line and holds for thirty seconds, you have done what Odysseus could not — you have commanded the west wind instead of losing it.",
+      "narrative": "Aeolus kept every wind locked inside a leather bag — all except Zephyrus, the warm west wind that was supposed to carry Odysseus home. You are going to catch that wind yourself. Over five days you will construct a rokkaku, the flat Japanese kite that has dueled in the sky for four hundred years. You will measure bamboo spars, lash crosspoints with twine, stretch ripstop sail tight as a drum, and paint your own wind-god face across the fabric. Every decision matters: too much tail and Zephyrus drags you nowhere; too little and your kite death-spirals into the dunes. By Friday you will stand on the beach at Main Beach and launch. If your rokkaku climbs past the flagpole line and holds for thirty seconds, you have done what Odysseus could not — you have commanded the west wind instead of losing it.",
       "location": "Beach",
-      "specific_venue": "Jewish Center of the Hamptons (build) + Atlantic Avenue Beach, Amagansett (test flights)",
+      "specific_venue": "Jewish Center of the Hamptons (build) + Main Beach, East Hampton (test flights)",
       "specialist_needed": false,
       "specialist_role": null,
       "guide_can_lead": true,
@@ -58,10 +58,10 @@ window.ODYSSEY.weeks.push({
         {
           "day": 5,
           "title": "The West Wind Test",
-          "detail": "Full beach launch at Atlantic Avenue. Rokkaku must climb above the flagpole line and hold stable flight for thirty seconds."
+          "detail": "Full beach launch at Main Beach. Rokkaku must climb above the flagpole line and hold stable flight for thirty seconds."
         }
       ],
-      "pass_test": "Rokkaku kite climbs above the flagpole reference line (~15 ft) and sustains stable flight for 30 continuous seconds on Atlantic Avenue Beach.",
+      "pass_test": "Rokkaku kite climbs above the flagpole reference line (~15 ft) and sustains stable flight for 30 continuous seconds on Main Beach Beach.",
       "kid_hook": "You get to build a real fighting kite and fly it on the beach — and if it crashes, you fix it and try again.",
       "parent_hook": "They will learn more about aerodynamics, tensile forces, and iterative design in one week than most kids encounter before middle school — and they will beg to fly it every weekend through September."
     },

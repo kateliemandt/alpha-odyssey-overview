@@ -344,7 +344,7 @@ window.ODYSSEY.weeks.push({
       "tagline": "Swim through hoops, dodge noodle gates, retrieve treasure from the deep — the Sirens' obstacle course awaits.",
       "narrative": "The Sirens lived where the water was most treacherous — beautiful on the surface, deadly underneath. This week, L1 faces their own version: a pool obstacle course that demands swimming skill, breath control, and the courage to put your face in the water and keep going. Under the watch of a certified lifeguard, children navigate a course that includes swimming through submerged hoops, weaving between noodle gates, crossing a section on kickboards, and — the grand finale — diving to retrieve a weighted object from the bottom. Every element tests a different skill: the hoops demand spatial awareness underwater, the noodles require agility, the kickboard demands endurance, and the dive demands nerve.",
       "location": "Pool",
-      "specific_venue": "East Hampton pool facility",
+      "specific_venue": "JCH Pool — Jewish Center of the Hamptons",
       "specialist_needed": false,
       "specialist_role": null,
       "guide_can_lead": true,
@@ -408,7 +408,7 @@ window.ODYSSEY.weeks.push({
       "tagline": "Treading water, passing under pressure, scoring while the Sirens try to pull you under.",
       "narrative": "The Sirens' waters were chaos — currents pulling in every direction, beauty and danger indistinguishable. Water polo drops you into exactly that kind of controlled chaos and asks you to think clearly anyway. This week, L2 learns the fundamentals of water polo: treading water for sustained periods, the eggbeater kick, passing and catching with one hand while staying afloat, and the physics of shooting at goal from the water. A certified lifeguard oversees safety while the Alpha guide teaches positioning, team strategy, and the art of playing a full-contact sport in a medium that is actively trying to exhaust you. By midweek, scrimmages begin. By Friday, a full tournament-style game.",
       "location": "Pool",
-      "specific_venue": "East Hampton pool facility",
+      "specific_venue": "JCH Pool — Jewish Center of the Hamptons",
       "specialist_needed": false,
       "specialist_role": null,
       "guide_can_lead": true,
@@ -467,13 +467,13 @@ window.ODYSSEY.weeks.push({
       "level": "MS",
       "level_grade": "6th–8th",
       "title": "Strategies Against the Song",
-      "activity": "Combined capture-the-flag and high ropes course — strategy games at 25+ feet",
-      "tagline": "Plan your strategy on the ground, then execute it twenty-five feet in the air where doubt gets loud.",
-      "narrative": "Odysseus didn't just survive the Sirens — he strategized his survival in advance. Wax for the crew. Ropes for himself. A plan made on land and executed at sea. This week, middle schoolers face a challenge that demands the same: strategic planning on the ground, physical execution in the air. The week opens with tactical capture-the-flag on the field — not the playground version, but a structured war game with roles, feints, communication protocols, and post-game analysis. Teams develop strategies, test them, revise them, and test again. Then the arena shifts upward. On the high ropes course at twenty-five feet, those same teams must execute coordinated challenges — traversing obstacles in sequence, communicating across platforms, making decisions with harnesses on and the ground far below. Anyone can plan when comfortable. The Sirens test whether your plan survives when the song starts.",
-      "location": "Ropes",
-      "specific_venue": "East Hampton ropes course facility and adjacent open field",
+      "activity": "Combined capture-the-flag and ninja warrior course — strategy games on the elevated obstacles",
+      "tagline": "Plan your strategy on the ground, then execute it on elevated obstacles where doubt gets loud.",
+      "narrative": "Odysseus didn't just survive the Sirens — he strategized his survival in advance. Wax for the crew. Ropes for himself. A plan made on land and executed at sea. This week, middle schoolers face a challenge that demands the same: strategic planning on the ground, physical execution in the air. The week opens with tactical capture-the-flag on the field — not the playground version, but a structured war game with roles, feints, communication protocols, and post-game analysis. Teams develop strategies, test them, revise them, and test again. Then the arena shifts upward. On the ninja warrior course on the elevated course, those same teams must execute coordinated challenges — traversing obstacles in sequence, communicating across platforms, making decisions with harnesses on and the ground far below. Anyone can plan when comfortable. The Sirens test whether your plan survives when the song starts.",
+      "location": "Center",
+      "specific_venue": "JCH grounds — ninja warrior course setup and adjacent field",
       "specialist_needed": true,
-      "specialist_role": "Certified ropes course belayers (safety-critical)",
+      "specialist_role": "Certified ninja warrior course belayers (safety-critical)",
       "guide_can_lead": false,
       "guide_note": "Alpha guide leads CTF strategy sessions. Certified belayers lead all safety briefings and manage harnesses, belay lines, and aerial elements.",
       "materials": [
@@ -481,14 +481,14 @@ window.ODYSSEY.weeks.push({
         "cones and boundary markers",
         "walkie-talkies or signal flags",
         "strategy planning whiteboards and markers",
-        "climbing harnesses (fitted to each student)",
-        "helmets",
-        "belay ropes and hardware",
-        "carabiners",
+        "safety mats and spotting equipment",
+        "safety gear",
+        "crash mats",
+        "safety padding",
         "first aid kit",
         "water station"
       ],
-      "instructors": "Alpha guide + certified ropes course belayers (minimum two).",
+      "instructors": "Alpha guide + certified ninja warrior course belayers (minimum two).",
       "life_skills": [
         "Strategic planning",
         "Leadership under pressure",
@@ -509,13 +509,13 @@ window.ODYSSEY.weeks.push({
         },
         {
           "day": 3,
-          "title": "Ropes Course",
-          "detail": "Transition to the ropes course. Safety briefing, harness fitting, belay training. Individual high-element traversals at 25+ ft."
+          "title": "ninja warrior course",
+          "detail": "Transition to the ninja warrior course. Safety briefing, safety briefing and obstacle walkthrough. Individual high-element traversals on the elevated obstacles."
         },
         {
           "day": 4,
           "title": "Combined Challenge",
-          "detail": "Teams plan a ground-level CTF strategy, then must execute coordinated tasks on the high ropes course to unlock advantages for the final ground game."
+          "detail": "Teams plan a ground-level CTF strategy, then must execute coordinated tasks on the ninja warrior course to unlock advantages for the final ground game."
         },
         {
           "day": 5,
@@ -523,9 +523,9 @@ window.ODYSSEY.weeks.push({
           "detail": "Final combined operation — full tactical CTF with high-ropes aerial elements. Post-operation debrief. Certificates of completion."
         }
       ],
-      "pass_test": "Participate in at least one tactical CTF game in a leadership or specialist role, complete a high ropes traversal at 25+ feet, and contribute to the combined ground-aerial team challenge on Thursday or Friday.",
-      "kid_hook": "You're going to play the most intense capture-the-flag of your life on the ground — and then do strategy missions twenty-five feet in the air.",
-      "parent_hook": "Your teenager spends a week learning that real strategy must survive real pressure. Tactical capture-the-flag builds the plan. The high ropes course at twenty-five feet tests whether the plan holds when fear shows up."
+      "pass_test": "Participate in at least one tactical CTF game in a leadership or specialist role, complete a high ropes traversal on the elevated obstacles, and contribute to the combined ground-aerial team challenge on Thursday or Friday.",
+      "kid_hook": "You're going to play the most intense capture-the-flag of your life on the ground — and then do strategy missions on elevated obstacles.",
+      "parent_hook": "Your teenager spends a week learning that real strategy must survive real pressure. Tactical capture-the-flag builds the plan. The ninja warrior course on the elevated course tests whether the plan holds when fear shows up."
     }
   ]
 });

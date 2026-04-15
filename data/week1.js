@@ -12,7 +12,7 @@ window.ODYSSEY.weeks.push({
       "title": "The Invitation Workshop",
       "activity": "Greetings, Thank-Yous & Wax Seals",
       "tagline": "You press a seal into hot wax and send your first letter home.",
-      "narrative": "Before Odysseus sailed anywhere, someone had to say goodbye properly. Not a wave from the dock — a real goodbye, with weight behind it. This week, you learn how people used to open doors with words alone. You practice a greeting that makes a stranger feel expected. You write a thank-you that means something because you built the card yourself — heavy stock, hand-torn edges, a message you dictated or printed in your best letters. Then you heat the wax. Beeswax from Quail Hill Farm in Amagansett, melted slow, pressed with a brass seal you chose yourself. That seal is yours for the summer. Your finished letter goes into a real envelope, stamped and mailed to someone in your family on Friday. When it arrives next week, your parents will hold something you made with fire and patience. What will they do when they open it?",
+      "narrative": "Before Odysseus sailed anywhere, someone had to say goodbye properly. Not a wave from the dock — a real goodbye, with weight behind it. This week, you learn how people used to open doors with words alone. You practice a greeting that makes a stranger feel expected. You write a thank-you that means something because you built the card yourself — heavy stock, hand-torn edges, a message you dictated or printed in your best letters. Then you heat the wax. Beeswax from the grounds around the Jewish Center, melted slow, pressed with a brass seal you chose yourself. That seal is yours for the summer. Your finished letter goes into a real envelope, stamped and mailed to someone in your family on Friday. When it arrives next week, your parents will hold something you made with fire and patience. What will they do when they open it?",
       "location": "Center",
       "specific_venue": "The Ithaca Workshop — Jewish Center of the Hamptons",
       "specialist_needed": false,
@@ -21,7 +21,7 @@ window.ODYSSEY.weeks.push({
       "guide_note": "Alpha guide leads all instruction.",
       "materials": [
         "Heavy cardstock and hand-torn paper",
-        "Quail Hill Farm beeswax sticks (Amagansett)",
+        "the JCH grounds beeswax sticks (Amagansett)",
         "Low-temp glue guns for wax melting",
         "Brass initial seal stamps (one per camper, kept all summer)",
         "Washable ink pads and alphabet stamps",
@@ -152,7 +152,7 @@ window.ODYSSEY.weeks.push({
         "Sumi ink (waterproof black)",
         "Copperplate exemplar sheets",
         "Practice paper (dot grid) + cotton rag paper for final letters",
-        "Quail Hill Farm beeswax sticks (Amagansett)",
+        "the JCH grounds beeswax sticks (Amagansett)",
         "Low-temp glue guns for wax melting",
         "Brass seal stamps",
         "Pre-stamped mailing envelopes",
@@ -205,9 +205,9 @@ window.ODYSSEY.weeks.push({
       "title": "The Shipwright's Trial",
       "activity": "Model Wooden Boat Build & Open-Water Sail Test",
       "tagline": "You build a boat from raw lumber, and on Friday it has to float.",
-      "narrative": "This week you build a boat — not from a kit, but from raw cedar, hand tools, and your own design. You work alongside MS campers who lead the rigging and sail work while you handle hull shaping, sanding, and assembly. Every cut matters. On Friday, your boat goes in the water at Three Mile Harbor. If it tips, you know exactly which joint failed. If it sails, you built something real.",
+      "narrative": "This week you build a boat — not from a kit, but from raw cedar, hand tools, and your own design. You work alongside MS campers who lead the rigging and sail work while you handle hull shaping, sanding, and assembly. Every cut matters. On Friday, your boat goes in the water at Main Beach. If it tips, you know exactly which joint failed. If it sails, you built something real.",
       "location": "Center",
-      "specific_venue": "The Ithaca Workshop (build); Three Mile Harbor (sail test)",
+      "specific_venue": "The Ithaca Workshop (build); Main Beach (sail test)",
       "specialist_needed": true,
       "specialist_role": "Fluo — Alpha's maker partner",
       "guide_can_lead": false,
@@ -255,12 +255,12 @@ window.ODYSSEY.weeks.push({
         {
           "day": 5,
           "title": "The Test",
-          "detail": "Boats launch at Three Mile Harbor. Each must float upright for two minutes, hold a set sail without capsizing, and track a straight line for at least ten feet."
+          "detail": "Boats launch at Main Beach. Each must float upright for two minutes, hold a set sail without capsizing, and track a straight line for at least ten feet."
         }
       ],
-      "pass_test": "Model boat floats upright in Three Mile Harbor for 2 minutes without listing more than 15°, holds a set sail without capsizing, and tracks a roughly straight line for at least 10 feet under wind power. If it sinks or capsizes, the camper fails.",
+      "pass_test": "Model boat floats upright in Main Beach for 2 minutes without listing more than 15°, holds a set sail without capsizing, and tracks a roughly straight line for at least 10 feet under wind power. If it sinks or capsizes, the camper fails.",
       "kid_hook": "You build a real wooden boat with hand tools and then launch it in the harbor — and everyone watches to see if it sinks.",
-      "parent_hook": "Your child shaped Eastern white cedar with hand planes and built a model sailing vessel that passed an open-water trial at Three Mile Harbor — that boat is coming home on a shelf.",
+      "parent_hook": "Your child shaped Eastern white cedar with hand planes and built a model sailing vessel that passed an open-water trial at Main Beach — that boat is coming home on a shelf.",
       "joint_with": "MS"
     },
     {
@@ -271,9 +271,9 @@ window.ODYSSEY.weeks.push({
       "title": "The Shipwright's Trial",
       "activity": "Model Wooden Boat Build & Open-Water Sail Test",
       "tagline": "You build a boat from raw lumber, and on Friday it has to float.",
-      "narrative": "Odysseus built his own ship to leave Calypso's island. No crew. No shipyard. Just bronze tools, timber, and the knowledge that if he built it wrong, the sea would kill him. Your stakes are lower. Your boat is a model — three feet of Eastern white cedar from North Fork lumber, shaped with hand tools, sealed with marine varnish, rigged with a cotton sail you cut and hem yourself. But the stakes are not zero. On Friday, you carry it to Three Mile Harbor, set it in the water, and watch. If it lists, you failed to balance the keel. If it swamps, your freeboard was too low. If the sail luffs and the boat drifts in circles, your rigging was lazy. You do not get to explain what you meant to build. The water is the only judge, and it does not grade on effort. Every shipwright who ever lived knew this feeling. The hull does not care how hard you worked. Does it float, or doesn't it?",
+      "narrative": "Odysseus built his own ship to leave Calypso's island. No crew. No shipyard. Just bronze tools, timber, and the knowledge that if he built it wrong, the sea would kill him. Your stakes are lower. Your boat is a model — three feet of Eastern white cedar from North Fork lumber, shaped with hand tools, sealed with marine varnish, rigged with a cotton sail you cut and hem yourself. But the stakes are not zero. On Friday, you carry it to Main Beach, set it in the water, and watch. If it lists, you failed to balance the keel. If it swamps, your freeboard was too low. If the sail luffs and the boat drifts in circles, your rigging was lazy. You do not get to explain what you meant to build. The water is the only judge, and it does not grade on effort. Every shipwright who ever lived knew this feeling. The hull does not care how hard you worked. Does it float, or doesn't it?",
       "location": "Center",
-      "specific_venue": "The Ithaca Workshop (build); Three Mile Harbor (sail test)",
+      "specific_venue": "The Ithaca Workshop (build); Main Beach (sail test)",
       "specialist_needed": true,
       "specialist_role": "Fluo — Alpha's maker partner",
       "guide_can_lead": false,
@@ -321,12 +321,12 @@ window.ODYSSEY.weeks.push({
         {
           "day": 5,
           "title": "The Test",
-          "detail": "Boats launch at Three Mile Harbor. Each must float upright for two minutes, hold a set sail without capsizing, and track a straight line for at least ten feet."
+          "detail": "Boats launch at Main Beach. Each must float upright for two minutes, hold a set sail without capsizing, and track a straight line for at least ten feet."
         }
       ],
-      "pass_test": "Model boat floats upright in Three Mile Harbor for 2 minutes without listing more than 15°, holds a set sail without capsizing, and tracks a roughly straight line for at least 10 feet under wind power. If it sinks or capsizes, the camper fails.",
+      "pass_test": "Model boat floats upright in Main Beach for 2 minutes without listing more than 15°, holds a set sail without capsizing, and tracks a roughly straight line for at least 10 feet under wind power. If it sinks or capsizes, the camper fails.",
       "kid_hook": "You build a real wooden boat with hand tools and then launch it in the harbor — and everyone watches to see if it sinks.",
-      "parent_hook": "Your child shaped Eastern white cedar with hand planes and built a model sailing vessel that passed an open-water trial at Three Mile Harbor — that boat is coming home on a shelf.",
+      "parent_hook": "Your child shaped Eastern white cedar with hand planes and built a model sailing vessel that passed an open-water trial at Main Beach — that boat is coming home on a shelf.",
       "joint_with": "L2"
     },
     {
@@ -465,7 +465,7 @@ window.ODYSSEY.weeks.push({
       "tagline": "Ten continuous hits with your partner on Friday, or you start over from one.",
       "narrative": "Pickleball looks easy until you try to keep a rally going. The court is small. The paddle is light. The ball moves slower than a tennis ball, so you think you have time — and then you mis-hit into the net because you were already planning your next shot instead of watching this one. This week is about one thing: consistency. Monday, you learn the continental grip and the soft dink shot that barely clears the net. Tuesday, you rally from the baseline and count every clean hit. Most of you will not break five. Wednesday, you work the non-volley zone — the kitchen — and learn why patience at the net wins more points than power. Thursday, you and your partner run timed rally sets. Friday, ten continuous rally hits, baseline to baseline, no out-of-bounds, no net balls. The counter resets to zero every time the ball dies. It sounds simple. So does running a marathon — you just keep putting one foot in front of the other.",
       "location": "Courts",
-      "specific_venue": "East Hampton Indoor Tennis / designated pickleball courts",
+      "specific_venue": "JCH Courts — Jewish Center of the Hamptons",
       "specialist_needed": false,
       "specialist_role": null,
       "guide_can_lead": true,
