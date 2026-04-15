@@ -1,196 +1,525 @@
 window.ODYSSEY.weeks.push({
-  week: 9,
-  theme_title: "The Return to Ithaca",
-  theme_subtitle: "Homecoming — mastery, hospitality, and proving you've earned the right to return.",
-  notes: "All-Camp Trojan Horse build — every level owns one part of the final artifact. MS hosts the Ithaca Table dinner and leads the bonfire ceremony.",
-  entries: [
+  "week": 9,
+  "theme_title": "The Return to Ithaca",
+  "theme_subtitle": "Homecoming — mastery, hospitality, and proving you've earned the right to return.",
+  "notes": "All-Camp Trojan Horse build — every level owns one part of the final artifact. MS hosts the Ithaca Table dinner and leads the bonfire ceremony.",
+  "entries": [
     {
-      id: "w9-wl-weekly", track: "weekly", level: "WonderLab", level_grade: "K–1st", joint_with: "All-Camp",
-      title: "All-Camp · Adorning the Horse",
-      activity: "Decorative finishing, garland weaving, gift-wrapping, panel painting, wheel decoration",
-      tagline: "Every hero's tale ends with beauty — and the youngest hands make it shine.",
-      narrative: "The Trojan Horse is built by the whole camp, but it is WonderLab that makes it irresistible. Inside the horse, campers wrap small gifts — tokens and treasures bundled in cloth and twine, the kind of offerings that would convince any Trojan to wheel the beast through the gates. Outside, they paint decorative panels in bold color, weave garlands of ribbon and dried flowers around the neck and mane, and adorn the great wooden wheels so they gleam in the summer light. This is the finishing work: delicate, precise, and essential. A bare skeleton is just lumber. A painted frame is just craft. But a horse draped in WonderLab's garlands and glittering with their detail — that is the artifact that stops a parent in their tracks. Without the youngest artists, the horse has no soul.",
-      location: "Center", specific_venue: "Jewish Center of the Hamptons; Main Beach for final unveiling",
-      specialist_needed: true, specialist_role: "Alpha art guides lead finishing and decorative work; staff woodworker on-site for mounting panels and securing garlands",
-      guide_can_lead: true,
-      guide_note: "Guides manage paint stations, wrapping stations, and garland assembly. Art guides direct aesthetic choices and ensure decorative elements attach securely to the frame built by L2.",
-      materials: ["Tempera and acrylic paints", "Wide and fine brushes", "Fabric scraps, ribbon, twine", "Dried flowers and greenery", "Wrapping cloth and small gift tokens", "Wood glue and low-temp glue guns", "Sandpaper (fine grit)", "Pre-cut decorative panel blanks (from L1/L2)", "Wheel decorations: wooden beads, painted dowels"],
-      instructors: "Two Alpha art guides + staff woodworker for structural mounting.",
-      life_skills: ["Collaboration across age groups", "Attention to detail", "Aesthetic decision-making", "Contributing to a shared goal larger than yourself"],
-      day_plan: [
-        { day: 1, title: "Choose Your Station", detail: "Story circle — why the horse had to be beautiful to fool Troy. Choose station: gifts, garlands, panels, or wheels. Begin wrapping gifts and weaving garland lengths." },
-        { day: 2, title: "Paint + Garland", detail: "Paint decorative panels with Odyssey-inspired motifs — waves, ships, olive branches. First garlands attached to the horse frame (delivered by L2)." },
-        { day: 3, title: "Wheels + Details", detail: "Wheel decoration and detail painting. Inspect the full horse (now with L1's painted skin) and fill in gaps — every seam gets attention." },
-        { day: 4, title: "Final Adornment", detail: "Gifts placed inside the horse. Garlands secured. Touch-up painting. Full-camp walkthrough to admire the completed artifact." },
-        { day: 5, title: "Procession", detail: "Horse transported to beach for unveiling. WonderLab leads the decoration procession — carrying the last garlands to drape at the ceremony." }
+      "id": "w9-wl-weekly",
+      "track": "weekly",
+      "level": "WonderLab",
+      "level_grade": "K–1st",
+      "joint_with": "All-Camp",
+      "title": "All-Camp · Adorning the Horse",
+      "activity": "Decorative finishing, garland weaving, gift-wrapping, panel painting, wheel decoration",
+      "tagline": "Every hero's tale ends with beauty — and the youngest hands make it shine.",
+      "narrative": "The Trojan Horse is built by the whole camp, but it is WonderLab that makes it irresistible. Inside the horse, campers wrap small gifts — tokens and treasures bundled in cloth and twine, the kind of offerings that would convince any Trojan to wheel the beast through the gates. Outside, they paint decorative panels in bold color, weave garlands of ribbon and dried flowers around the neck and mane, and adorn the great wooden wheels so they gleam in the summer light. This is the finishing work: delicate, precise, and essential. A bare skeleton is just lumber. A painted frame is just craft. But a horse draped in WonderLab's garlands and glittering with their detail — that is the artifact that stops a parent in their tracks. Without the youngest artists, the horse has no soul.",
+      "location": "Center",
+      "specific_venue": "Jewish Center of the Hamptons; Main Beach for final unveiling",
+      "specialist_needed": false,
+      "specialist_role": null,
+      "guide_can_lead": true,
+      "guide_note": "Alpha guide leads all instruction.",
+      "materials": [
+        "Tempera and acrylic paints",
+        "Wide and fine brushes",
+        "Fabric scraps, ribbon, twine",
+        "Dried flowers and greenery",
+        "Wrapping cloth and small gift tokens",
+        "Wood glue and low-temp glue guns",
+        "Sandpaper (fine grit)",
+        "Pre-cut decorative panel blanks (from L1/L2)",
+        "Wheel decorations: wooden beads, painted dowels"
       ],
-      pass_test: "Each camper completes at least two finished decorative contributions (gift, garland section, painted panel, or wheel detail) that are visibly mounted on or placed inside the final horse. No bare wood visible on decorated sections.",
-      kid_hook: "You get to make the giant horse beautiful — paint it, wrap secret gifts to hide inside, and weave flowers all over it.",
-      parent_hook: "Your child's handiwork is the reason the camp's twelve-foot Trojan Horse takes your breath away. They learn that finishing work is not an afterthought — it is the difference between a structure and a masterpiece."
+      "instructors": "Two Alpha art guides + staff woodworker for structural mounting.",
+      "life_skills": [
+        "Collaboration across age groups",
+        "Attention to detail",
+        "Aesthetic decision-making",
+        "Contributing to a shared goal larger than yourself"
+      ],
+      "day_plan": [
+        {
+          "day": 1,
+          "title": "Choose Your Station",
+          "detail": "Story circle — why the horse had to be beautiful to fool Troy. Choose station: gifts, garlands, panels, or wheels. Begin wrapping gifts and weaving garland lengths."
+        },
+        {
+          "day": 2,
+          "title": "Paint + Garland",
+          "detail": "Paint decorative panels with Odyssey-inspired motifs — waves, ships, olive branches. First garlands attached to the horse frame (delivered by L2)."
+        },
+        {
+          "day": 3,
+          "title": "Wheels + Details",
+          "detail": "Wheel decoration and detail painting. Inspect the full horse (now with L1's painted skin) and fill in gaps — every seam gets attention."
+        },
+        {
+          "day": 4,
+          "title": "Final Adornment",
+          "detail": "Gifts placed inside the horse. Garlands secured. Touch-up painting. Full-camp walkthrough to admire the completed artifact."
+        },
+        {
+          "day": 5,
+          "title": "Procession",
+          "detail": "Horse transported to beach for unveiling. WonderLab leads the decoration procession — carrying the last garlands to drape at the ceremony."
+        }
+      ],
+      "pass_test": "Each camper completes at least two finished decorative contributions (gift, garland section, painted panel, or wheel detail) that are visibly mounted on or placed inside the final horse. No bare wood visible on decorated sections.",
+      "kid_hook": "You get to make the giant horse beautiful — paint it, wrap secret gifts to hide inside, and weave flowers all over it.",
+      "parent_hook": "Your child's handiwork is the reason the camp's twelve-foot Trojan Horse takes your breath away. They learn that finishing work is not an afterthought — it is the difference between a structure and a masterpiece."
     },
     {
-      id: "w9-l1-weekly", track: "weekly", level: "L1", level_grade: "2nd–3rd", joint_with: "All-Camp",
-      title: "All-Camp · The Horse's Skin",
-      activity: "Large-panel painting, surface prep, detail work, color design, weatherproofing",
-      tagline: "Bone without skin is a skeleton. L1 gives the horse its face.",
-      narrative: "L2 builds the bones. WonderLab drapes the beauty. But between skeleton and ornament there is the skin — the broad, commanding surfaces that make a twelve-foot wooden horse look like it could breathe. L1 owns this layer. Campers sand and prime the large outer panels, then design and paint them in a unified palette: the deep reds and golds of a warrior's offering, the salt-bleached wood tones of a vessel that crossed the Aegean. They paint the horse's eyes, nostrils, and mane lines — the details that transform plywood into mythology. Surface prep is real craft: campers learn to sand with the grain, prime before painting, and seal their work so it survives transport to the beach.",
-      location: "Center", specific_venue: "Jewish Center of the Hamptons; Main Beach for final unveiling",
-      specialist_needed: true, specialist_role: "Alpha art guides direct painting technique and color palette; staff woodworker assists with panel fitting and mounting",
-      guide_can_lead: true,
-      guide_note: "Guides run sanding and priming stations early in the week, then shift to managing paint crews. Art guides ensure color consistency and oversee face/mane detail work.",
-      materials: ["Pre-cut plywood panels (sized to fit L2's frame)", "Sandpaper (medium and fine grit)", "Wood primer and sealant", "Exterior acrylic paint — red, gold, brown, black, white", "Large rollers and wide brushes", "Detail brushes (fine-tip for face and mane)", "Painter's tape", "Drop cloths", "Clear polyurethane spray (for weatherproofing, guide-applied)", "Pencils and chalk for design transfer"],
-      instructors: "Two Alpha art guides + staff woodworker for panel fitting.",
-      life_skills: ["Surface preparation and patience before the visible work", "Large-scale design thinking", "Collaborative color consistency", "Pride in craftsmanship others will see first"],
-      day_plan: [
-        { day: 1, title: "Palette + Prep", detail: "Study ancient horse sculptures. Vote on the horse's color palette and sketch the face design. Begin sanding and priming all panels." },
-        { day: 2, title: "Base Coat", detail: "Base coat painting — rollers and wide brushes for the large panels. While base coats dry, practice detail work on scrap." },
-        { day: 3, title: "Details + Mount", detail: "Detail painting day. The horse's face comes alive — eyes, nostrils, mane. Panels get second coats and shading. First panels mounted onto L2's frame." },
-        { day: 4, title: "Seal", detail: "All remaining panels mounted. Full walk-around, touching up seams and filling any gaps. Sealant applied to finished surfaces." },
-        { day: 5, title: "Reveal", detail: "Final inspection and transport to beach. L1 presents the skin to the all-camp assembly — explaining palette choices and the meaning behind the face." }
+      "id": "w9-l1-weekly",
+      "track": "weekly",
+      "level": "L1",
+      "level_grade": "2nd–3rd",
+      "joint_with": "All-Camp",
+      "title": "All-Camp · The Horse's Skin",
+      "activity": "Large-panel painting, surface prep, detail work, color design, weatherproofing",
+      "tagline": "Bone without skin is a skeleton. L1 gives the horse its face.",
+      "narrative": "L2 builds the bones. WonderLab drapes the beauty. But between skeleton and ornament there is the skin — the broad, commanding surfaces that make a twelve-foot wooden horse look like it could breathe. L1 owns this layer. Campers sand and prime the large outer panels, then design and paint them in a unified palette: the deep reds and golds of a warrior's offering, the salt-bleached wood tones of a vessel that crossed the Aegean. They paint the horse's eyes, nostrils, and mane lines — the details that transform plywood into mythology. Surface prep is real craft: campers learn to sand with the grain, prime before painting, and seal their work so it survives transport to the beach.",
+      "location": "Center",
+      "specific_venue": "Jewish Center of the Hamptons; Main Beach for final unveiling",
+      "specialist_needed": false,
+      "specialist_role": null,
+      "guide_can_lead": true,
+      "guide_note": "Alpha guide leads all instruction.",
+      "materials": [
+        "Pre-cut plywood panels (sized to fit L2's frame)",
+        "Sandpaper (medium and fine grit)",
+        "Wood primer and sealant",
+        "Exterior acrylic paint — red, gold, brown, black, white",
+        "Large rollers and wide brushes",
+        "Detail brushes (fine-tip for face and mane)",
+        "Painter's tape",
+        "Drop cloths",
+        "Clear polyurethane spray (for weatherproofing, guide-applied)",
+        "Pencils and chalk for design transfer"
       ],
-      pass_test: "Every exterior panel is sanded, primed, painted in the agreed palette, and sealed. The horse's face (eyes, mane, nostrils) is complete and legible from ten feet. All panels mounted flush with no visible primer-only sections. The horse looks like one unified animal.",
-      kid_hook: "You paint the giant horse's face and body — you decide what color its eyes are and whether it looks fierce or calm.",
-      parent_hook: "Your child is responsible for the most visible layer of the camp's culminating artifact. They learn that preparation (sanding, priming, planning) is what separates amateur craft from work that holds up under scrutiny — and under an East Hampton sun."
+      "instructors": "Two Alpha art guides + staff woodworker for panel fitting.",
+      "life_skills": [
+        "Surface preparation and patience before the visible work",
+        "Large-scale design thinking",
+        "Collaborative color consistency",
+        "Pride in craftsmanship others will see first"
+      ],
+      "day_plan": [
+        {
+          "day": 1,
+          "title": "Palette + Prep",
+          "detail": "Study ancient horse sculptures. Vote on the horse's color palette and sketch the face design. Begin sanding and priming all panels."
+        },
+        {
+          "day": 2,
+          "title": "Base Coat",
+          "detail": "Base coat painting — rollers and wide brushes for the large panels. While base coats dry, practice detail work on scrap."
+        },
+        {
+          "day": 3,
+          "title": "Details + Mount",
+          "detail": "Detail painting day. The horse's face comes alive — eyes, nostrils, mane. Panels get second coats and shading. First panels mounted onto L2's frame."
+        },
+        {
+          "day": 4,
+          "title": "Seal",
+          "detail": "All remaining panels mounted. Full walk-around, touching up seams and filling any gaps. Sealant applied to finished surfaces."
+        },
+        {
+          "day": 5,
+          "title": "Reveal",
+          "detail": "Final inspection and transport to beach. L1 presents the skin to the all-camp assembly — explaining palette choices and the meaning behind the face."
+        }
+      ],
+      "pass_test": "Every exterior panel is sanded, primed, painted in the agreed palette, and sealed. The horse's face (eyes, mane, nostrils) is complete and legible from ten feet. All panels mounted flush with no visible primer-only sections. The horse looks like one unified animal.",
+      "kid_hook": "You paint the giant horse's face and body — you decide what color its eyes are and whether it looks fierce or calm.",
+      "parent_hook": "Your child is responsible for the most visible layer of the camp's culminating artifact. They learn that preparation (sanding, priming, planning) is what separates amateur craft from work that holds up under scrutiny — and under an East Hampton sun."
     },
     {
-      id: "w9-l2-weekly", track: "weekly", level: "L2", level_grade: "4th–5th", joint_with: "All-Camp",
-      title: "All-Camp · The Horse's Bones",
-      activity: "Frame construction, carpentry, structural assembly, cutting, fastening, raising",
-      tagline: "If the bones don't hold, nothing else matters. L2 builds what everything else stands on.",
-      narrative: "Before there is paint or garland or any gift tucked inside, there must be something that stands. L2 builds the bones — the structural skeleton of a twelve-foot Trojan Horse that must bear weight, survive transport, and hold together on a beach in the wind. This is real carpentry. Campers measure and mark lumber, cut with handsaws under supervision, drill pilot holes, drive screws, and raise cross-braced sections into place. They learn why triangles are stronger than rectangles, why a joint that looks tight might still need a gusset, and why you measure twice because pine is expensive. By midweek, the skeleton stands in the Center courtyard and every other level can see what they are about to build upon.",
-      location: "Center", specific_venue: "Jewish Center of the Hamptons; Main Beach for final unveiling",
-      specialist_needed: true, specialist_role: "Staff woodworker leads cutting and power-tool operations; structural engineer/maker guide supports joinery design and load-bearing decisions",
-      guide_can_lead: false,
-      guide_note: "Guides manage hand-tool stations (saws, drills, measuring). The staff woodworker must lead all structural decisions, power-tool use, and frame-raising.",
-      materials: ["Dimensional lumber (2×4s, 2×6s, 4×4 posts)", "Plywood sheets (for panel backing and gussets)", "Wood screws, carriage bolts, washers, nuts", "Handsaws and miter box", "Power drill/drivers (guide- and specialist-operated)", "Speed squares, tape measures, pencils, levels", "Clamps (bar clamps and C-clamps)", "Wood glue (exterior grade)", "Safety glasses and work gloves for every camper", "Sawhorses and workbenches", "Wheels and axle hardware (pre-sourced)"],
-      instructors: "Three — staff woodworker, structural engineer/maker guide, Alpha guide.",
-      life_skills: ["Structural thinking and engineering logic", "Precision measurement under real consequences", "Tool safety and respect for materials", "Building something others depend on"],
-      day_plan: [
-        { day: 1, title: "Blueprint Review", detail: "Study the horse plan drawn by MS engineers. Assign crews: legs, torso, neck/head, wheel assembly. Begin measuring and cutting lumber." },
-        { day: 2, title: "Framing", detail: "Leg assemblies and torso sections built flat on the ground. Learn cross-bracing and gusset reinforcement. First joints tested for strength." },
-        { day: 3, title: "Raising Day", detail: "Torso mounted on legs. Neck and head frame attached. The skeleton stands upright for the first time — the whole camp comes to watch." },
-        { day: 4, title: "Stress Test", detail: "Push, pull, and roll the frame to find weak joints. Every problem gets a fix. Panel-mounting hardware installed so L1 can attach the skin." },
-        { day: 5, title: "Sign-Off + Transport", detail: "Final structural sign-off with the woodworker. Frame transported to beach. L2 leads the rolling of the horse to its unveiling position." }
+      "id": "w9-l2-weekly",
+      "track": "weekly",
+      "level": "L2",
+      "level_grade": "4th–5th",
+      "joint_with": "All-Camp",
+      "title": "All-Camp · The Horse's Bones",
+      "activity": "Frame construction, carpentry, structural assembly, cutting, fastening, raising",
+      "tagline": "If the bones don't hold, nothing else matters. L2 builds what everything else stands on.",
+      "narrative": "Before there is paint or garland or any gift tucked inside, there must be something that stands. L2 builds the bones — the structural skeleton of a twelve-foot Trojan Horse that must bear weight, survive transport, and hold together on a beach in the wind. This is real carpentry. Campers measure and mark lumber, cut with handsaws under supervision, drill pilot holes, drive screws, and raise cross-braced sections into place. They learn why triangles are stronger than rectangles, why a joint that looks tight might still need a gusset, and why you measure twice because pine is expensive. By midweek, the skeleton stands in the Center courtyard and every other level can see what they are about to build upon.",
+      "location": "Center",
+      "specific_venue": "Jewish Center of the Hamptons; Main Beach for final unveiling",
+      "specialist_needed": true,
+      "specialist_role": "Fluo — Alpha's maker partner",
+      "guide_can_lead": false,
+      "guide_note": "Fluo leads all maker/craft instruction. Alpha guide supports group management.",
+      "materials": [
+        "Dimensional lumber (2×4s, 2×6s, 4×4 posts)",
+        "Plywood sheets (for panel backing and gussets)",
+        "Wood screws, carriage bolts, washers, nuts",
+        "Handsaws and miter box",
+        "Power drill/drivers (guide- and specialist-operated)",
+        "Speed squares, tape measures, pencils, levels",
+        "Clamps (bar clamps and C-clamps)",
+        "Wood glue (exterior grade)",
+        "Safety glasses and work gloves for every camper",
+        "Sawhorses and workbenches",
+        "Wheels and axle hardware (pre-sourced)"
       ],
-      pass_test: "The completed skeleton stands freestanding and supports the weight of all mounted panels and decorations without visible flex or sway. The horse rolls on its wheels across flat ground. All joints tight, hardware countersunk or capped for safety.",
-      kid_hook: "You build a twelve-foot horse out of real lumber with real tools — and the whole camp builds on top of what you made.",
-      parent_hook: "Your child is the reason a twelve-foot wooden horse stands upright. They used handsaws, drills, and engineering logic to build a load-bearing structure — and learned that when others depend on your work, precision is not optional."
+      "instructors": "Three — staff woodworker, structural engineer/maker guide, Alpha guide.",
+      "life_skills": [
+        "Structural thinking and engineering logic",
+        "Precision measurement under real consequences",
+        "Tool safety and respect for materials",
+        "Building something others depend on"
+      ],
+      "day_plan": [
+        {
+          "day": 1,
+          "title": "Blueprint Review",
+          "detail": "Study the horse plan drawn by MS engineers. Assign crews: legs, torso, neck/head, wheel assembly. Begin measuring and cutting lumber."
+        },
+        {
+          "day": 2,
+          "title": "Framing",
+          "detail": "Leg assemblies and torso sections built flat on the ground. Learn cross-bracing and gusset reinforcement. First joints tested for strength."
+        },
+        {
+          "day": 3,
+          "title": "Raising Day",
+          "detail": "Torso mounted on legs. Neck and head frame attached. The skeleton stands upright for the first time — the whole camp comes to watch."
+        },
+        {
+          "day": 4,
+          "title": "Stress Test",
+          "detail": "Push, pull, and roll the frame to find weak joints. Every problem gets a fix. Panel-mounting hardware installed so L1 can attach the skin."
+        },
+        {
+          "day": 5,
+          "title": "Sign-Off + Transport",
+          "detail": "Final structural sign-off with the woodworker. Frame transported to beach. L2 leads the rolling of the horse to its unveiling position."
+        }
+      ],
+      "pass_test": "The completed skeleton stands freestanding and supports the weight of all mounted panels and decorations without visible flex or sway. The horse rolls on its wheels across flat ground. All joints tight, hardware countersunk or capped for safety.",
+      "kid_hook": "You build a twelve-foot horse out of real lumber with real tools — and the whole camp builds on top of what you made.",
+      "parent_hook": "Your child is the reason a twelve-foot wooden horse stands upright. They used handsaws, drills, and engineering logic to build a load-bearing structure — and learned that when others depend on your work, precision is not optional."
     },
     {
-      id: "w9-ms-weekly", track: "weekly", level: "MS", level_grade: "6th–8th", joint_with: "All-Camp",
-      title: "All-Camp · The Engineers of Troy + The Ithaca Table",
-      activity: "Joinery engineering, moving-part design, dinner hosting, menu planning, bonfire ceremony leadership",
-      tagline: "Odysseus didn't just come home — he proved he still belonged. MS proves it three times in one week.",
-      narrative: "Middle schoolers carry the heaviest load of the final week because that is what the oldest campers do. First, they are the engineers: they design the joinery and moving parts of the Trojan Horse — the jaw that opens, the hatch in the belly, the hinge system that lets the whole camp see inside. They draft plans that L2 executes, solve structural problems on the fly, and make the decisions that determine whether the horse is a static prop or a living artifact. Second, they host the Ithaca Table — a homecoming dinner for parents where MS campers plan the menu, set the table, welcome guests, and serve. Penelope waited twenty years; these parents waited nine weeks. Third, they lead the closing bonfire on Main Beach — the final ceremony of the summer, where each level is honored and the fire carries the story upward.",
-      location: "Center", specific_venue: "Jewish Center of the Hamptons (engineering + dinner); Main Beach, East Hampton (bonfire + unveiling)",
-      specialist_needed: true, specialist_role: "Staff woodworker and structural engineer for joinery; chef partner for Ithaca Table; trained fire-safety staff for bonfire; East Hampton beach fire permit required",
-      guide_can_lead: false,
-      guide_note: "Guides support logistics across all three tracks. Woodworker leads engineering sessions. Chef leads kitchen prep. Fire-safety staff manages the bonfire.",
-      materials: ["Hinge hardware, piano hinges, barrel bolts, latch mechanisms", "Plywood for hatch and jaw assemblies", "Rope and pulley systems for moving parts", "Drafting paper, rulers, protractors for engineering plans", "Dinner service: tables, chairs, linens, place settings, candles", "Menu ingredients (sourced with chef partner)", "Printed menus designed by campers", "Bonfire materials: seasoned firewood, fire ring, fire extinguishers", "Ceremony items: torches (LED or real per permit), speaking notes, level awards", "Sound system for bonfire ceremony"],
-      instructors: "Four — staff woodworker, structural engineer, chef partner, fire-safety staff, plus Alpha guide coordinator.",
-      life_skills: ["Engineering under real constraints", "Hospitality and service as leadership", "Public ceremony and speaking", "Carrying responsibility for a community's culminating moment"],
-      day_plan: [
-        { day: 1, title: "Engineering + Menu", detail: "MS drafts joinery plans for the jaw, belly hatch, and hinge systems. Prototypes tested on scrap wood. Dinner committee plans the Ithaca Table menu." },
-        { day: 2, title: "Fabrication + Menu Finalize", detail: "Moving parts built and tested. Jaw mechanism mounted. Belly hatch fitted and latched. Dinner committee finalizes menu with chef partner and designs printed menus." },
-        { day: 3, title: "Integration + Rehearsal", detail: "All moving parts installed on the horse and tested with the full structure. Bonfire ceremony rehearsal: speaking order, level tributes, fire-lighting sequence planned." },
-        { day: 4, title: "The Ithaca Table", detail: "MS campers set the venue, prepare with the chef, welcome parents, serve dinner, and host. After dinner, campers reset for the next morning's finale." },
-        { day: 5, title: "Beach + Bonfire", detail: "Horse unveiled. MS demonstrates the moving parts. At dusk, MS leads the closing bonfire — honoring each level, telling the summer's story, lighting the fire that ends the Odyssey." }
+      "id": "w9-ms-weekly",
+      "track": "weekly",
+      "level": "MS",
+      "level_grade": "6th–8th",
+      "joint_with": "All-Camp",
+      "title": "All-Camp · The Engineers of Troy + The Ithaca Table",
+      "activity": "Joinery engineering, moving-part design, dinner hosting, menu planning, bonfire ceremony leadership",
+      "tagline": "Odysseus didn't just come home — he proved he still belonged. MS proves it three times in one week.",
+      "narrative": "Middle schoolers carry the heaviest load of the final week because that is what the oldest campers do. First, they are the engineers: they design the joinery and moving parts of the Trojan Horse — the jaw that opens, the hatch in the belly, the hinge system that lets the whole camp see inside. They draft plans that L2 executes, solve structural problems on the fly, and make the decisions that determine whether the horse is a static prop or a living artifact. Second, they host the Ithaca Table — a homecoming dinner for parents where MS campers plan the menu, set the table, welcome guests, and serve. Penelope waited twenty years; these parents waited nine weeks. Third, they lead the closing bonfire on Main Beach — the final ceremony of the summer, where each level is honored and the fire carries the story upward.",
+      "location": "Center",
+      "specific_venue": "Jewish Center of the Hamptons (engineering + dinner); Main Beach, East Hampton (bonfire + unveiling)",
+      "specialist_needed": true,
+      "specialist_role": "Fluo — Alpha's maker partner",
+      "guide_can_lead": false,
+      "guide_note": "Fluo leads all maker/craft instruction. Alpha guide supports group management.",
+      "materials": [
+        "Hinge hardware, piano hinges, barrel bolts, latch mechanisms",
+        "Plywood for hatch and jaw assemblies",
+        "Rope and pulley systems for moving parts",
+        "Drafting paper, rulers, protractors for engineering plans",
+        "Dinner service: tables, chairs, linens, place settings, candles",
+        "Menu ingredients (sourced with chef partner)",
+        "Printed menus designed by campers",
+        "Bonfire materials: seasoned firewood, fire ring, fire extinguishers",
+        "Ceremony items: torches (LED or real per permit), speaking notes, level awards",
+        "Sound system for bonfire ceremony"
       ],
-      pass_test: "The horse's jaw opens and closes, and the belly hatch latches and unlatches, both operable by a single camper. The Ithaca Table dinner is hosted, served, and cleared by MS campers with no adult substitution. The bonfire ceremony runs to plan with every MS camper contributing a speaking or ceremonial role.",
-      kid_hook: "You engineer the horse's secret moving parts, host a real dinner party for your parents, and lead the final bonfire on the beach.",
-      parent_hook: "Your child designed working mechanical systems, hosted you at a formal dinner they planned and served, and led a ceremonial bonfire for the entire camp community. This is not a talent show — it is proof that nine weeks built something real in them."
+      "instructors": "Four — staff woodworker, structural engineer, chef partner, fire-safety staff, plus Alpha guide coordinator.",
+      "life_skills": [
+        "Engineering under real constraints",
+        "Hospitality and service as leadership",
+        "Public ceremony and speaking",
+        "Carrying responsibility for a community's culminating moment"
+      ],
+      "day_plan": [
+        {
+          "day": 1,
+          "title": "Engineering + Menu",
+          "detail": "MS drafts joinery plans for the jaw, belly hatch, and hinge systems. Prototypes tested on scrap wood. Dinner committee plans the Ithaca Table menu."
+        },
+        {
+          "day": 2,
+          "title": "Fabrication + Menu Finalize",
+          "detail": "Moving parts built and tested. Jaw mechanism mounted. Belly hatch fitted and latched. Dinner committee finalizes menu with chef partner and designs printed menus."
+        },
+        {
+          "day": 3,
+          "title": "Integration + Rehearsal",
+          "detail": "All moving parts installed on the horse and tested with the full structure. Bonfire ceremony rehearsal: speaking order, level tributes, fire-lighting sequence planned."
+        },
+        {
+          "day": 4,
+          "title": "The Ithaca Table",
+          "detail": "MS campers set the venue, prepare with the chef, welcome parents, serve dinner, and host. After dinner, campers reset for the next morning's finale."
+        },
+        {
+          "day": 5,
+          "title": "Beach + Bonfire",
+          "detail": "Horse unveiled. MS demonstrates the moving parts. At dusk, MS leads the closing bonfire — honoring each level, telling the summer's story, lighting the fire that ends the Odyssey."
+        }
+      ],
+      "pass_test": "The horse's jaw opens and closes, and the belly hatch latches and unlatches, both operable by a single camper. The Ithaca Table dinner is hosted, served, and cleared by MS campers with no adult substitution. The bonfire ceremony runs to plan with every MS camper contributing a speaking or ceremonial role.",
+      "kid_hook": "You engineer the horse's secret moving parts, host a real dinner party for your parents, and lead the final bonfire on the beach.",
+      "parent_hook": "Your child designed working mechanical systems, hosted you at a formal dinner they planned and served, and led a ceremonial bonfire for the entire camp community. This is not a talent show — it is proof that nine weeks built something real in them."
     },
     {
-      id: "w9-wl-physical", track: "physical", level: "WonderLab", level_grade: "K–1st",
-      title: "The Homecoming Games",
-      activity: "6-station Odyssey-themed obstacle course",
-      tagline: "Odysseus faced monsters, whirlpools, and enchantresses. You face six stations and a whole lot of sand.",
-      narrative: "The Homecoming Games compress the entire Odyssey into six beach stations, each named for a trial Odysseus survived. Campers crawl under the Cyclops' Cave, sprint through Scylla and Charybdis, balance across Circe's Bridge, hurl a javelin at the Suitors' Targets, carry Penelope's Loom Thread, and finish with Argos' Sprint — a flat-out dash to the finish where a stuffed dog waits to greet them, because even the dog knew Odysseus was home. Every station is scored on completion, not speed, so the youngest campers can celebrate finishing each trial rather than racing a clock. The full course is run twice: once for practice, once for glory.",
-      location: "Beach", specific_venue: "Main Beach, East Hampton",
-      specialist_needed: false, specialist_role: null, guide_can_lead: true,
-      guide_note: "Guides staff one station each plus a floater. Emphasis on encouragement and completion over competition — every camper finishes every station.",
-      materials: ["Cargo net (low crawl station)", "Cones (zigzag course)", "Low balance beam or plank on sand blocks", "Foam javelins and stacking cups", "Yarn baton (relay)", "Stuffed dog (Argos — finish line mascot)", "Finish-line ribbon roll", "Completion ribbons for every camper", "Station signs with Odyssey names and illustrations"],
-      instructors: "Two Alpha guides.",
-      life_skills: ["Perseverance through a multi-stage challenge", "Celebrating completion over speed", "Physical confidence on varied terrain", "Connecting narrative to physical effort"],
-      day_plan: [
-        { day: 1, title: "Story Walkthrough", detail: "Guides narrate each station's Odyssey connection on a beach walk. Campers try each station informally, learning the movements." },
-        { day: 2, title: "Practice Run", detail: "Full course, timed loosely, with coaching at each station. Campers identify their hardest station and get extra tries." },
-        { day: 3, title: "Games I", detail: "First scored run. Every completion earns a check. Campers cheer each other through." },
-        { day: 4, title: "Games II", detail: "Second scored run. Try to beat your Day 3 performance. Ribbons awarded to every finisher." },
-        { day: 5, title: "Victory Lap", detail: "Campers run the course one final time, then sit at the finish line and retell which station was their favorite." }
+      "id": "w9-wl-physical",
+      "track": "physical",
+      "level": "WonderLab",
+      "level_grade": "K–1st",
+      "title": "The Homecoming Games",
+      "activity": "6-station Odyssey-themed obstacle course",
+      "tagline": "Odysseus faced monsters, whirlpools, and enchantresses. You face six stations and a whole lot of sand.",
+      "narrative": "The Homecoming Games compress the entire Odyssey into six beach stations, each named for a trial Odysseus survived. Campers crawl under the Cyclops' Cave, sprint through Scylla and Charybdis, balance across Circe's Bridge, hurl a javelin at the Suitors' Targets, carry Penelope's Loom Thread, and finish with Argos' Sprint — a flat-out dash to the finish where a stuffed dog waits to greet them, because even the dog knew Odysseus was home. Every station is scored on completion, not speed, so the youngest campers can celebrate finishing each trial rather than racing a clock. The full course is run twice: once for practice, once for glory.",
+      "location": "Beach",
+      "specific_venue": "Main Beach, East Hampton",
+      "specialist_needed": false,
+      "specialist_role": null,
+      "guide_can_lead": true,
+      "guide_note": "Alpha guide leads all instruction.",
+      "materials": [
+        "Cargo net (low crawl station)",
+        "Cones (zigzag course)",
+        "Low balance beam or plank on sand blocks",
+        "Foam javelins and stacking cups",
+        "Yarn baton (relay)",
+        "Stuffed dog (Argos — finish line mascot)",
+        "Finish-line ribbon roll",
+        "Completion ribbons for every camper",
+        "Station signs with Odyssey names and illustrations"
       ],
-      pass_test: "Each camper completes all six stations in at least one scored run. Completion means finishing the station's task — not achieving a time or distance target.",
-      kid_hook: "You run an obstacle course where every station is a monster or adventure from the Odyssey — and a stuffed dog named Argos is waiting at the finish line.",
-      parent_hook: "A six-station obstacle course that turns the summer's mythology into physical challenges your child completes with grit and grinning. They finish the summer the way Odysseus finished his journey — by proving they can handle what is in front of them."
+      "instructors": "Two Alpha guides.",
+      "life_skills": [
+        "Perseverance through a multi-stage challenge",
+        "Celebrating completion over speed",
+        "Physical confidence on varied terrain",
+        "Connecting narrative to physical effort"
+      ],
+      "day_plan": [
+        {
+          "day": 1,
+          "title": "Story Walkthrough",
+          "detail": "Guides narrate each station's Odyssey connection on a beach walk. Campers try each station informally, learning the movements."
+        },
+        {
+          "day": 2,
+          "title": "Practice Run",
+          "detail": "Full course, timed loosely, with coaching at each station. Campers identify their hardest station and get extra tries."
+        },
+        {
+          "day": 3,
+          "title": "Games I",
+          "detail": "First scored run. Every completion earns a check. Campers cheer each other through."
+        },
+        {
+          "day": 4,
+          "title": "Games II",
+          "detail": "Second scored run. Try to beat your Day 3 performance. Ribbons awarded to every finisher."
+        },
+        {
+          "day": 5,
+          "title": "Victory Lap",
+          "detail": "Campers run the course one final time, then sit at the finish line and retell which station was their favorite."
+        }
+      ],
+      "pass_test": "Each camper completes all six stations in at least one scored run. Completion means finishing the station's task — not achieving a time or distance target.",
+      "kid_hook": "You run an obstacle course where every station is a monster or adventure from the Odyssey — and a stuffed dog named Argos is waiting at the finish line.",
+      "parent_hook": "A six-station obstacle course that turns the summer's mythology into physical challenges your child completes with grit and grinning. They finish the summer the way Odysseus finished his journey — by proving they can handle what is in front of them."
     },
     {
-      id: "w9-l1-physical", track: "physical", level: "L1", level_grade: "2nd–3rd",
-      title: "The Suitors' Gauntlet",
-      activity: "3-event team competition",
-      tagline: "The suitors thought they owned the house. Prove them wrong in three events.",
-      narrative: "When Odysseus returned to Ithaca, he found his hall full of suitors who had overstayed their welcome. He did not argue — he competed. The Suitors' Gauntlet is a three-event team competition that channels that energy: teams face off in a tug-of-war on the sand (Penelope's Pull), a relay sprint carrying a weighted bow across the beach (Stringing the Bow), and a target-throw with beanbags at a wooden frame (The Axe Heads). Teams are drafted on Day 1 and compete across all three events through the week, accumulating points. Every event demands teamwork — no individual can win a tug-of-war alone, no solo sprinter can beat a coordinated relay, and accuracy under fatigue only comes from teammates who keep you calm.",
-      location: "Beach", specific_venue: "Main Beach, East Hampton",
-      specialist_needed: false, specialist_role: null, guide_can_lead: true,
-      guide_note: "Guides referee events and manage team energy. Draft teams to balance athleticism and temperament. Keep score publicly.",
-      materials: ["Tug-of-war rope", "Weighted PVC pipe bows for relay", "Beanbags (6+ per team)", "Wooden target frame with cutout axe heads", "Cones for relay course", "Scoreboard", "Team bandanas or pinnies", "Whistles for referees"],
-      instructors: "Two Alpha guides.",
-      life_skills: ["Team strategy under competitive pressure", "Sportsmanship in real stakes", "Resilience after a lost event", "Finding your role on a team"],
-      day_plan: [
-        { day: 1, title: "Draft + Practice", detail: "Team draft and practice. Guides explain all three events. Teams strategize — who anchors the tug-of-war, who runs which relay leg, who throws." },
-        { day: 2, title: "Penelope's Pull", detail: "Event 1 — tug-of-war, best of three. Points awarded. Teams debrief what worked." },
-        { day: 3, title: "Stringing the Bow", detail: "Event 2 — relay race with weighted bow. Points awarded. Running standings updated." },
-        { day: 4, title: "The Axe Heads", detail: "Event 3 — beanbag target throw, cumulative team score. Final standings calculated." },
-        { day: 5, title: "Championship", detail: "Top two teams face off in a bonus tug-of-war. All teams receive recognition. MVP sportsmanship award voted by campers." }
+      "id": "w9-l1-physical",
+      "track": "physical",
+      "level": "L1",
+      "level_grade": "2nd–3rd",
+      "title": "The Suitors' Gauntlet",
+      "activity": "3-event team competition",
+      "tagline": "The suitors thought they owned the house. Prove them wrong in three events.",
+      "narrative": "When Odysseus returned to Ithaca, he found his hall full of suitors who had overstayed their welcome. He did not argue — he competed. The Suitors' Gauntlet is a three-event team competition that channels that energy: teams face off in a tug-of-war on the sand (Penelope's Pull), a relay sprint carrying a weighted bow across the beach (Stringing the Bow), and a target-throw with beanbags at a wooden frame (The Axe Heads). Teams are drafted on Day 1 and compete across all three events through the week, accumulating points. Every event demands teamwork — no individual can win a tug-of-war alone, no solo sprinter can beat a coordinated relay, and accuracy under fatigue only comes from teammates who keep you calm.",
+      "location": "Beach",
+      "specific_venue": "Main Beach, East Hampton",
+      "specialist_needed": false,
+      "specialist_role": null,
+      "guide_can_lead": true,
+      "guide_note": "Alpha guide leads all instruction.",
+      "materials": [
+        "Tug-of-war rope",
+        "Weighted PVC pipe bows for relay",
+        "Beanbags (6+ per team)",
+        "Wooden target frame with cutout axe heads",
+        "Cones for relay course",
+        "Scoreboard",
+        "Team bandanas or pinnies",
+        "Whistles for referees"
       ],
-      pass_test: "Each camper participates in all three events. Teams must demonstrate pre-event strategy (visible huddle and plan) before each competition. No camper sidelined; every team shakes hands after every event.",
-      kid_hook: "Tug-of-war, relay races, and target throwing — three events, one week, and your team needs you for all of them.",
-      parent_hook: "A structured team competition where your child learns that winning requires strategy, not just speed — and that how you lose matters as much as whether you win. The suitors never figured that out."
+      "instructors": "Two Alpha guides.",
+      "life_skills": [
+        "Team strategy under competitive pressure",
+        "Sportsmanship in real stakes",
+        "Resilience after a lost event",
+        "Finding your role on a team"
+      ],
+      "day_plan": [
+        {
+          "day": 1,
+          "title": "Draft + Practice",
+          "detail": "Team draft and practice. Guides explain all three events. Teams strategize — who anchors the tug-of-war, who runs which relay leg, who throws."
+        },
+        {
+          "day": 2,
+          "title": "Penelope's Pull",
+          "detail": "Event 1 — tug-of-war, best of three. Points awarded. Teams debrief what worked."
+        },
+        {
+          "day": 3,
+          "title": "Stringing the Bow",
+          "detail": "Event 2 — relay race with weighted bow. Points awarded. Running standings updated."
+        },
+        {
+          "day": 4,
+          "title": "The Axe Heads",
+          "detail": "Event 3 — beanbag target throw, cumulative team score. Final standings calculated."
+        },
+        {
+          "day": 5,
+          "title": "Championship",
+          "detail": "Top two teams face off in a bonus tug-of-war. All teams receive recognition. MVP sportsmanship award voted by campers."
+        }
+      ],
+      "pass_test": "Each camper participates in all three events. Teams must demonstrate pre-event strategy (visible huddle and plan) before each competition. No camper sidelined; every team shakes hands after every event.",
+      "kid_hook": "Tug-of-war, relay races, and target throwing — three events, one week, and your team needs you for all of them.",
+      "parent_hook": "A structured team competition where your child learns that winning requires strategy, not just speed — and that how you lose matters as much as whether you win. The suitors never figured that out."
     },
     {
-      id: "w9-l2-physical", track: "physical", level: "L2", level_grade: "4th–5th",
-      title: "The Final Stand",
-      activity: "Beach kickball championship",
-      tagline: "Odysseus took back his hall. You take back the diamond.",
-      narrative: "All summer, L2 has built skill, stamina, and sand-caked resilience. The Final Stand is the payoff: a week-long beach kickball championship played with the intensity of Odysseus reclaiming his own home. Teams are seeded based on a round-robin played Monday and Tuesday. Wednesday and Thursday are elimination rounds. Friday is the championship game, played on a full diamond marked in the sand with the whole camp invited to watch. Kickball on a beach is a different sport — the sand steals speed, the wind curves the ball, and nothing bounces the way you expect. Campers learn to adjust. Pitchers read the wind. Fielders plant their feet wider. Kickers learn that raw power matters less than placement when the infield is soft.",
-      location: "Beach", specific_venue: "Main Beach, East Hampton",
-      specialist_needed: false, specialist_role: null, guide_can_lead: true,
-      guide_note: "Guides umpire and manage brackets. Enforce real rules — foul lines, force outs, tag-ups. Championship game should feel like an event.",
-      materials: ["Kickballs (3-4, competition grade)", "Base markers (heavy rubber or sandbag bases for beach)", "Foul-line string or chalk", "Scoreboard (portable whiteboard)", "Team pinnies (2 colors minimum)", "Driftwood trophy", "Lineup cards and bracket poster", "Whistle and umpire gear"],
-      instructors: "Two Alpha guides.",
-      life_skills: ["Adapting technique to conditions", "Competitive resilience across a multi-day bracket", "Reading the field and adjusting strategy", "Performing under observation"],
-      day_plan: [
-        { day: 1, title: "Draft + Round 1", detail: "Teams drafted, rules reviewed, positions assigned. Round-robin Game 1 — every team plays. Guides track standings." },
-        { day: 2, title: "Round-Robin", detail: "Round-robin Games 2 and 3. Seedings finalized. Teams scout opponents and plan strategy for elimination play." },
-        { day: 3, title: "Semifinals", detail: "Semifinal games. Losing teams play a consolation match. Winners advance to Friday's championship." },
-        { day: 4, title: "Clinic + Prep", detail: "Skills clinic and championship prep. Practice situational plays. Championship lineups submitted." },
-        { day: 5, title: "Championship", detail: "The Final Stand — championship game on a full beach diamond. Lineup announcements, five-inning regulation game, driftwood trophy awarded." }
+      "id": "w9-l2-physical",
+      "track": "physical",
+      "level": "L2",
+      "level_grade": "4th–5th",
+      "title": "The Final Stand",
+      "activity": "Beach kickball championship",
+      "tagline": "Odysseus took back his hall. You take back the diamond.",
+      "narrative": "All summer, L2 has built skill, stamina, and sand-caked resilience. The Final Stand is the payoff: a week-long beach kickball championship played with the intensity of Odysseus reclaiming his own home. Teams are seeded based on a round-robin played Monday and Tuesday. Wednesday and Thursday are elimination rounds. Friday is the championship game, played on a full diamond marked in the sand with the whole camp invited to watch. Kickball on a beach is a different sport — the sand steals speed, the wind curves the ball, and nothing bounces the way you expect. Campers learn to adjust. Pitchers read the wind. Fielders plant their feet wider. Kickers learn that raw power matters less than placement when the infield is soft.",
+      "location": "Beach",
+      "specific_venue": "Main Beach, East Hampton",
+      "specialist_needed": false,
+      "specialist_role": null,
+      "guide_can_lead": true,
+      "guide_note": "Alpha guide leads all instruction.",
+      "materials": [
+        "Kickballs (3-4, competition grade)",
+        "Base markers (heavy rubber or sandbag bases for beach)",
+        "Foul-line string or chalk",
+        "Scoreboard (portable whiteboard)",
+        "Team pinnies (2 colors minimum)",
+        "Driftwood trophy",
+        "Lineup cards and bracket poster",
+        "Whistle and umpire gear"
       ],
-      pass_test: "Each camper plays at least three full games across the week, rotating through a minimum of two different field positions. Championship game played to five complete innings with enforced rules.",
-      kid_hook: "A real kickball championship on the beach — brackets, elimination rounds, and a driftwood trophy for the winners. The whole camp watches the final game.",
-      parent_hook: "A structured athletic tournament that teaches your child to compete across multiple days, adjust to changing conditions, and perform when the stakes are visible. The sand does not forgive lazy footwork, and neither does a five-inning championship."
+      "instructors": "Two Alpha guides.",
+      "life_skills": [
+        "Adapting technique to conditions",
+        "Competitive resilience across a multi-day bracket",
+        "Reading the field and adjusting strategy",
+        "Performing under observation"
+      ],
+      "day_plan": [
+        {
+          "day": 1,
+          "title": "Draft + Round 1",
+          "detail": "Teams drafted, rules reviewed, positions assigned. Round-robin Game 1 — every team plays. Guides track standings."
+        },
+        {
+          "day": 2,
+          "title": "Round-Robin",
+          "detail": "Round-robin Games 2 and 3. Seedings finalized. Teams scout opponents and plan strategy for elimination play."
+        },
+        {
+          "day": 3,
+          "title": "Semifinals",
+          "detail": "Semifinal games. Losing teams play a consolation match. Winners advance to Friday's championship."
+        },
+        {
+          "day": 4,
+          "title": "Clinic + Prep",
+          "detail": "Skills clinic and championship prep. Practice situational plays. Championship lineups submitted."
+        },
+        {
+          "day": 5,
+          "title": "Championship",
+          "detail": "The Final Stand — championship game on a full beach diamond. Lineup announcements, five-inning regulation game, driftwood trophy awarded."
+        }
+      ],
+      "pass_test": "Each camper plays at least three full games across the week, rotating through a minimum of two different field positions. Championship game played to five complete innings with enforced rules.",
+      "kid_hook": "A real kickball championship on the beach — brackets, elimination rounds, and a driftwood trophy for the winners. The whole camp watches the final game.",
+      "parent_hook": "A structured athletic tournament that teaches your child to compete across multiple days, adjust to changing conditions, and perform when the stakes are visible. The sand does not forgive lazy footwork, and neither does a five-inning championship."
     },
     {
-      id: "w9-ms-physical", track: "physical", level: "MS", level_grade: "6th–8th",
-      title: "The Final Odyssey",
-      activity: "7v7 beach ultimate frisbee tournament",
-      tagline: "The last game of the summer. Make it the one they remember.",
-      narrative: "The Final Odyssey is a 7v7 beach ultimate frisbee tournament — the last competitive event of the entire summer, played on Main Beach with the ocean as the out-of-bounds line on one side. Ultimate demands everything the Odyssey taught: vision, patience, cutting when the moment is right, and the discipline to stop your feet when you catch the disc. There are no referees in ultimate — the Spirit of the Game rule means players call their own fouls, resolve their own disputes, and hold themselves accountable. For a middle schooler in August, that is harder than any physical demand. Teams are drafted Monday, scrimmage Tuesday, and play a double-elimination bracket Wednesday through Friday. The championship game on Friday afternoon is the final athletic event of Alpha Odyssey.",
-      location: "Beach", specific_venue: "Main Beach, East Hampton",
-      specialist_needed: false, specialist_role: null, guide_can_lead: true,
-      guide_note: "Guides serve as observers, not referees — ultimate is self-officiated. Guides enforce Spirit of the Game and intervene only for safety or unresolvable disputes.",
-      materials: ["Ultimate discs (4-6, 175g competition weight)", "Cones for end zones and sidelines", "Pinnies (4 team colors)", "Portable scoreboard", "Bracket poster and markers", "Field-marking flags or rope for end zones", "Water station at midfield", "Spirit of the Game rule cards (printed for each team)"],
-      instructors: "Two Alpha guides.",
-      life_skills: ["Self-officiation and personal integrity", "Field vision and spatial decision-making", "Competing with grace under the Spirit of the Game", "Finishing the summer at full effort"],
-      day_plan: [
-        { day: 1, title: "Draft + Rules", detail: "Team draft, rules clinic, and Spirit of the Game discussion. Practice throwing, cutting, and the force." },
-        { day: 2, title: "Scrimmages", detail: "Every team plays two short matches. Guides coach positioning and flow. Teams begin to find their identity." },
-        { day: 3, title: "Bracket Day 1", detail: "Double-elimination bracket begins. First-round games. Losing teams drop to the losers' bracket — no one is out after one loss." },
-        { day: 4, title: "Bracket Day 2", detail: "Semifinal games in both winners' and losers' brackets. Championship matchup set by end of day." },
-        { day: 5, title: "The Final", detail: "Championship game on the beach, full field, full crowd, full effort. Game to 15 or time cap. Spirit of the Game award voted on by all players. The disc lands. The summer ends." }
+      "id": "w9-ms-physical",
+      "track": "physical",
+      "level": "MS",
+      "level_grade": "6th–8th",
+      "title": "The Final Odyssey",
+      "activity": "7v7 beach ultimate frisbee tournament",
+      "tagline": "The last game of the summer. Make it the one they remember.",
+      "narrative": "The Final Odyssey is a 7v7 beach ultimate frisbee tournament — the last competitive event of the entire summer, played on Main Beach with the ocean as the out-of-bounds line on one side. Ultimate demands everything the Odyssey taught: vision, patience, cutting when the moment is right, and the discipline to stop your feet when you catch the disc. There are no referees in ultimate — the Spirit of the Game rule means players call their own fouls, resolve their own disputes, and hold themselves accountable. For a middle schooler in August, that is harder than any physical demand. Teams are drafted Monday, scrimmage Tuesday, and play a double-elimination bracket Wednesday through Friday. The championship game on Friday afternoon is the final athletic event of Alpha Odyssey.",
+      "location": "Beach",
+      "specific_venue": "Main Beach, East Hampton",
+      "specialist_needed": false,
+      "specialist_role": null,
+      "guide_can_lead": true,
+      "guide_note": "Alpha guide leads all instruction.",
+      "materials": [
+        "Ultimate discs (4-6, 175g competition weight)",
+        "Cones for end zones and sidelines",
+        "Pinnies (4 team colors)",
+        "Portable scoreboard",
+        "Bracket poster and markers",
+        "Field-marking flags or rope for end zones",
+        "Water station at midfield",
+        "Spirit of the Game rule cards (printed for each team)"
       ],
-      pass_test: "Each camper plays in every bracket game their team enters. All foul calls resolved player-to-player using Spirit of the Game rules — no guide intervention required for disputes during the championship game.",
-      kid_hook: "A real ultimate frisbee tournament on the beach — no refs, you call your own fouls, and the championship game is the last thing that happens all summer.",
-      parent_hook: "The final athletic event of the summer is a sport where your child referees themselves. No adult blows a whistle — players resolve disputes with integrity and composure. If the Odyssey is about becoming someone worthy of home, this is the final exam."
+      "instructors": "Two Alpha guides.",
+      "life_skills": [
+        "Self-officiation and personal integrity",
+        "Field vision and spatial decision-making",
+        "Competing with grace under the Spirit of the Game",
+        "Finishing the summer at full effort"
+      ],
+      "day_plan": [
+        {
+          "day": 1,
+          "title": "Draft + Rules",
+          "detail": "Team draft, rules clinic, and Spirit of the Game discussion. Practice throwing, cutting, and the force."
+        },
+        {
+          "day": 2,
+          "title": "Scrimmages",
+          "detail": "Every team plays two short matches. Guides coach positioning and flow. Teams begin to find their identity."
+        },
+        {
+          "day": 3,
+          "title": "Bracket Day 1",
+          "detail": "Double-elimination bracket begins. First-round games. Losing teams drop to the losers' bracket — no one is out after one loss."
+        },
+        {
+          "day": 4,
+          "title": "Bracket Day 2",
+          "detail": "Semifinal games in both winners' and losers' brackets. Championship matchup set by end of day."
+        },
+        {
+          "day": 5,
+          "title": "The Final",
+          "detail": "Championship game on the beach, full field, full crowd, full effort. Game to 15 or time cap. Spirit of the Game award voted on by all players. The disc lands. The summer ends."
+        }
+      ],
+      "pass_test": "Each camper plays in every bracket game their team enters. All foul calls resolved player-to-player using Spirit of the Game rules — no guide intervention required for disputes during the championship game.",
+      "kid_hook": "A real ultimate frisbee tournament on the beach — no refs, you call your own fouls, and the championship game is the last thing that happens all summer.",
+      "parent_hook": "The final athletic event of the summer is a sport where your child referees themselves. No adult blows a whistle — players resolve disputes with integrity and composure. If the Odyssey is about becoming someone worthy of home, this is the final exam."
     }
   ]
 });

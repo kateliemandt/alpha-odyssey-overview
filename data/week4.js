@@ -1,239 +1,542 @@
 window.ODYSSEY.weeks.push({
-  week: 4,
-  theme_title: "The Bag of Winds",
-  theme_subtitle: "Invisible forces — mastering what you cannot see, only feel.",
-  entries: [
+  "week": 4,
+  "theme_title": "The Bag of Winds",
+  "theme_subtitle": "Invisible forces — mastering what you cannot see, only feel.",
+  "entries": [
     {
-      id: "w4-wl-weekly", track: "weekly", level: "WonderLab", level_grade: "K–1st",
-      title: "Catching the West Wind",
-      activity: "Build and fly a rokkaku kite",
-      tagline: "You will build a real Japanese fighting kite and send it screaming over the Atlantic.",
-      narrative: "Aeolus kept every wind locked inside a leather bag — all except Zephyrus, the warm west wind that was supposed to carry Odysseus home. You are going to catch that wind yourself. Over five days you will construct a rokkaku, the flat Japanese kite that has dueled in the sky for four hundred years. You will measure bamboo spars, lash crosspoints with twine, stretch ripstop sail tight as a drum, and paint your own wind-god face across the fabric. Every decision matters: too much tail and Zephyrus drags you nowhere; too little and your kite death-spirals into the dunes. By Friday you will stand on the beach at Atlantic Avenue and launch. If your rokkaku climbs past the flagpole line and holds for thirty seconds, you have done what Odysseus could not — you have commanded the west wind instead of losing it.",
-      location: "Beach", specific_venue: "Jewish Center of the Hamptons (build) + Atlantic Avenue Beach, Amagansett (test flights)",
-      specialist_needed: false, specialist_role: null, guide_can_lead: true,
-      guide_note: "Alpha guide leads all sessions. Pre-cut bamboo spars for K; 1st graders can measure and mark with supervision.",
-      materials: ["bamboo dowel spars (3/16\")", "ripstop nylon sail fabric", "cotton kite string (200 ft spools)", "fabric markers", "lashing twine", "craft glue", "rulers and pencils", "tail ribbon"],
-      instructors: "Alpha guide (lead) + Alpha guide (support).",
-      life_skills: ["Fine motor precision", "Patience through iteration", "Reading environmental conditions"],
-      day_plan: [
-        { day: 1, title: "The Bones of Zephyrus", detail: "Measure and cut bamboo spars to spec. Lash the cross-frame and test symmetry with a balance point check." },
-        { day: 2, title: "Stretching the Sail", detail: "Cut ripstop nylon to pattern, fold and glue hems over spar tips, and paint a wind-god face on the sail." },
-        { day: 3, title: "Bridle and Tail", detail: "Attach the two-point bridle line at correct angles. Experiment with tail lengths using ribbon strips on a test jig." },
-        { day: 4, title: "Field Trials", detail: "First launches on JCH lawn. Diagnose spin-outs, nose-dives, drag problems. Adjust tail and bridle for Friday wind." },
-        { day: 5, title: "The West Wind Test", detail: "Full beach launch at Atlantic Avenue. Rokkaku must climb above the flagpole line and hold stable flight for thirty seconds." }
+      "id": "w4-wl-weekly",
+      "track": "weekly",
+      "level": "WonderLab",
+      "level_grade": "K–1st",
+      "title": "Catching the West Wind",
+      "activity": "Build and fly a rokkaku kite",
+      "tagline": "You will build a real Japanese fighting kite and send it screaming over the Atlantic.",
+      "narrative": "Aeolus kept every wind locked inside a leather bag — all except Zephyrus, the warm west wind that was supposed to carry Odysseus home. You are going to catch that wind yourself. Over five days you will construct a rokkaku, the flat Japanese kite that has dueled in the sky for four hundred years. You will measure bamboo spars, lash crosspoints with twine, stretch ripstop sail tight as a drum, and paint your own wind-god face across the fabric. Every decision matters: too much tail and Zephyrus drags you nowhere; too little and your kite death-spirals into the dunes. By Friday you will stand on the beach at Atlantic Avenue and launch. If your rokkaku climbs past the flagpole line and holds for thirty seconds, you have done what Odysseus could not — you have commanded the west wind instead of losing it.",
+      "location": "Beach",
+      "specific_venue": "Jewish Center of the Hamptons (build) + Atlantic Avenue Beach, Amagansett (test flights)",
+      "specialist_needed": false,
+      "specialist_role": null,
+      "guide_can_lead": true,
+      "guide_note": "Alpha guide leads all instruction.",
+      "materials": [
+        "bamboo dowel spars (3/16\")",
+        "ripstop nylon sail fabric",
+        "cotton kite string (200 ft spools)",
+        "fabric markers",
+        "lashing twine",
+        "craft glue",
+        "rulers and pencils",
+        "tail ribbon"
       ],
-      pass_test: "Rokkaku kite climbs above the flagpole reference line (~15 ft) and sustains stable flight for 30 continuous seconds on Atlantic Avenue Beach.",
-      kid_hook: "You get to build a real fighting kite and fly it on the beach — and if it crashes, you fix it and try again.",
-      parent_hook: "They will learn more about aerodynamics, tensile forces, and iterative design in one week than most kids encounter before middle school — and they will beg to fly it every weekend through September."
+      "instructors": "Alpha guide (lead) + Alpha guide (support).",
+      "life_skills": [
+        "Fine motor precision",
+        "Patience through iteration",
+        "Reading environmental conditions"
+      ],
+      "day_plan": [
+        {
+          "day": 1,
+          "title": "The Bones of Zephyrus",
+          "detail": "Measure and cut bamboo spars to spec. Lash the cross-frame and test symmetry with a balance point check."
+        },
+        {
+          "day": 2,
+          "title": "Stretching the Sail",
+          "detail": "Cut ripstop nylon to pattern, fold and glue hems over spar tips, and paint a wind-god face on the sail."
+        },
+        {
+          "day": 3,
+          "title": "Bridle and Tail",
+          "detail": "Attach the two-point bridle line at correct angles. Experiment with tail lengths using ribbon strips on a test jig."
+        },
+        {
+          "day": 4,
+          "title": "Field Trials",
+          "detail": "First launches on JCH lawn. Diagnose spin-outs, nose-dives, drag problems. Adjust tail and bridle for Friday wind."
+        },
+        {
+          "day": 5,
+          "title": "The West Wind Test",
+          "detail": "Full beach launch at Atlantic Avenue. Rokkaku must climb above the flagpole line and hold stable flight for thirty seconds."
+        }
+      ],
+      "pass_test": "Rokkaku kite climbs above the flagpole reference line (~15 ft) and sustains stable flight for 30 continuous seconds on Atlantic Avenue Beach.",
+      "kid_hook": "You get to build a real fighting kite and fly it on the beach — and if it crashes, you fix it and try again.",
+      "parent_hook": "They will learn more about aerodynamics, tensile forces, and iterative design in one week than most kids encounter before middle school — and they will beg to fly it every weekend through September."
     },
     {
-      id: "w4-l1-weekly-a", track: "weekly", level: "L1", level_grade: "2nd–3rd", choice: "A",
-      title: "The Winds Made Visible",
-      activity: "Paper marbling (suminagashi and carrageenan methods)",
-      tagline: "You will turn invisible currents on the surface of water into art you can hold.",
-      narrative: "When Aeolus opened his bag, the winds were invisible — pure force without form. Paper marbling reverses that curse. You will float pigment on a tray of thickened water and watch hidden currents do exactly what wind does: swirl, collide, fold into themselves. On Monday you will learn suminagashi, the ancient Japanese method where a single drop of ink rides the surface tension outward in concentric rings. By midweek you will graduate to carrageenan marbling, laying down color with an eyedropper and raking it into feathered, non-repeating patterns that no algorithm on earth can duplicate. Every pull is a one-shot commitment — hesitate and the ink bleeds; rush and the pattern smears. On Friday you will present a portfolio of your five best pulls. If one of them shows controlled, intentional patterning with at least three colors, you have made the invisible visible.",
-      location: "Center", specific_venue: "Jewish Center of the Hamptons — art studio / covered patio for drying racks",
-      specialist_needed: false, specialist_role: null, guide_can_lead: true,
-      guide_note: "Staff art guide leads. Prepare carrageenan bath the night before each session — needs 12 hours to hydrate. Have drying lines rigged before Monday.",
-      materials: ["carrageenan powder", "alum (aluminum sulfate) for paper mordanting", "acrylic marbling paints", "suminagashi ink set", "shallow marbling trays (18×24)", "marbling combs and rakes", "eyedroppers", "heavyweight printmaking paper", "drying rack or clothesline", "newspaper for blotting"],
-      instructors: "Staff art guide (lead) + Alpha guide (support).",
-      life_skills: ["Reading subtle physical feedback", "Commitment under uncertainty", "Aesthetic judgment", "Fine motor control"],
-      day_plan: [
-        { day: 1, title: "Ink on Still Water", detail: "Learn suminagashi technique — drop ink, watch surface tension carry it outward. Pull three practice sheets." },
-        { day: 2, title: "The Thickened Sea", detail: "Introduce the carrageenan bath. Float two colors with eyedroppers and pull your first viscous-medium sheets." },
-        { day: 3, title: "Raking the Current", detail: "Use marbling combs and rakes to manipulate three-color floats into chevron and feather patterns. Learn the one-shot pull." },
-        { day: 4, title: "Controlled Chaos", detail: "Full creative session — four or more colors, intentional raking sequences, back-and-forth layering. Select strongest pulls." },
-        { day: 5, title: "Portfolio Presentation", detail: "Mount and present your five best pulls. One pull must show controlled, intentional patterning using at least three distinct colors." }
+      "id": "w4-l1-weekly",
+      "track": "weekly",
+      "level": "L1",
+      "level_grade": "2nd–3rd",
+      "title": "The Winds Made Visible + The Wind Reader's Arrow",
+      "activity": "Paper marbling (suminagashi and carrageenan methods) AND Olympic-style target archery",
+      "tagline": "Two crafts, one week — the whole level rotates through both.",
+      "narrative": "When Aeolus opened his bag, the winds were invisible — pure force without form. Paper marbling reverses that curse. You will float pigment on a tray of thickened water and watch hidden currents do exactly what wind does: swirl, collide, fold into themselves. On Monday you will learn suminagashi, the ancient Japanese method where a single drop of ink rides the surface tension outward in concentric That covers the first half of your week. Then you switch: odysseus strung a bow no other man could bend and shot an arrow through twelve axe heads. You will not do that — not this week. What you will do is harder in its own way: you will learn to read a crosswind that is entirely invisible and adjust your aim before you release. Olympic-style archery is on",
+      "location": "Center",
+      "specific_venue": "Jewish Center of the Hamptons — art studio / covered patio for drying racks",
+      "specialist_needed": false,
+      "specialist_role": null,
+      "guide_can_lead": true,
+      "guide_note": "Staff art guide leads. Prepare carrageenan bath the night before each session — needs 12 hours to hydrate. Have drying lines rigged before Monday.",
+      "materials": [
+        "carrageenan powder",
+        "alum (aluminum sulfate) for paper mordanting",
+        "acrylic marbling paints",
+        "suminagashi ink set",
+        "shallow marbling trays (18×24)",
+        "marbling combs and rakes",
+        "eyedroppers",
+        "heavyweight printmaking paper",
+        "drying rack or clothesline",
+        "newspaper for blotting",
+        "youth recurve bows (16–22 lb draw weight)",
+        "aluminum arrows (26\" spine-matched)",
+        "finger tabs and arm guards",
+        "portable target butts (straw or foam)",
+        "target faces (80 cm FITA)",
+        "backstop netting",
+        "bow stands and quivers",
+        "safety rope and cones"
       ],
-      pass_test: "Present a portfolio of five marbled sheets; at least one must demonstrate intentional, controlled patterning (not random diffusion) using three or more distinct colors.",
-      kid_hook: "Every single sheet you pull is totally unique — no one in history has ever made your exact pattern, and no one ever will.",
-      parent_hook: "Suminagashi dates to twelfth-century Kyoto and carrageenan marbling to Ottoman Istanbul — your child is learning two art forms that predate the printing press, while internalizing fluid dynamics they will not formally study until high school physics."
+      "instructors": "Staff art guide (lead) + Alpha guide (support).",
+      "life_skills": [
+        "Reading subtle physical feedback",
+        "Commitment under uncertainty",
+        "Aesthetic judgment",
+        "Fine motor control",
+        "Focus under pressure",
+        "Body awareness and proprioception"
+      ],
+      "day_plan": [
+        {
+          "day": 1,
+          "title": "The Winds Made Visible: Ink on Still Water",
+          "detail": "Learn suminagashi technique — drop ink, watch surface tension carry it outward. Pull three practice sheets."
+        },
+        {
+          "day": 2,
+          "title": "The Winds Made Visible: The Thickened Sea",
+          "detail": "Introduce the carrageenan bath. Float two colors with eyedroppers and pull your first viscous-medium sheets."
+        },
+        {
+          "day": 3,
+          "title": "The Winds Made Visible: Raking the Current",
+          "detail": "Use marbling combs and rakes to manipulate three-color floats into chevron and feather patterns. Learn the one-shot pull."
+        },
+        {
+          "day": 4,
+          "title": "The Wind Reader's Arrow: Anchor and Aim",
+          "detail": "First live shots at five meters — close range, big target. Consistent anchor point under the chin and clean release."
+        },
+        {
+          "day": 5,
+          "title": "The Wind Reader's Arrow: Reading the Wind",
+          "detail": "Move to ten meters. Watch ribbon telltales on the range; learn to adjust point of aim before release."
+        }
+      ],
+      "pass_test": "Pass BOTH: Present a portfolio of five marbled sheets; at least one must demonstrate intentional, controlled patterning (not random diffusion) using three or more distinct colors. AND Shoot a six-arrow scored round at 10 meters on a standard 80 cm target face; at least three arrows must land inside the blue ring (score zone 5 or higher).",
+      "kid_hook": "Two totally different skills in one week — The Winds Made Visible and The Wind Reader's Arrow.",
+      "parent_hook": "Suminagashi dates to twelfth-century Kyoto and carrageenan marbling to Ottoman Istanbul — your child is learning two art forms that predate the printing press, while internalizing fluid dynamics they will not formally study until high school physics. Archery under certified instruction teaches the kind of embodied focus and impulse regulation that no screen-based activity can replicate — and the wind-reading component introduces applied physics in the most visceral way imaginable."
     },
     {
-      id: "w4-l1-weekly-b", track: "weekly", level: "L1", level_grade: "2nd–3rd", choice: "B",
-      title: "The Wind Reader's Arrow",
-      activity: "Olympic-style target archery",
-      tagline: "You will learn to read a wind you cannot see and send an arrow through it anyway.",
-      narrative: "Odysseus strung a bow no other man could bend and shot an arrow through twelve axe heads. You will not do that — not this week. What you will do is harder in its own way: you will learn to read a crosswind that is entirely invisible and adjust your aim before you release. Olympic-style archery is one of the few sports where you must account for a force you can only feel on your cheek. Over five days a certified archery instructor will teach you stance, nock, draw, anchor, aim, and release on proper recurve bows scaled to your draw length. You will learn that flinching at the moment of release ruins everything — that the arrow goes where your body was, not where your eyes wanted. On Friday you will shoot a scored round at ten meters. If you group three arrows inside the blue ring, you pass.",
-      location: "Center", specific_venue: "JCH back field — roped safety lane with backstop netting; minimum 30-yard clear zone behind targets",
-      specialist_needed: true, specialist_role: "Contracted certified archery instructor (USA Archery Level 2 or equivalent) — safety-critical",
-      guide_can_lead: false,
-      guide_note: "Alpha guide assists with equipment handling, scoring, and line management. Archery instructor has sole authority over range commands and safety protocol.",
-      materials: ["youth recurve bows (16–22 lb draw weight)", "aluminum arrows (26\" spine-matched)", "finger tabs and arm guards", "portable target butts (straw or foam)", "target faces (80 cm FITA)", "backstop netting", "bow stands and quivers", "safety rope and cones"],
-      instructors: "Certified archery instructor (lead) + Alpha guide (range support).",
-      life_skills: ["Focus under pressure", "Body awareness and proprioception", "Wind reading and environmental adaptation", "Impulse control at the moment of release"],
-      day_plan: [
-        { day: 1, title: "The Archer's Stance", detail: "Range safety commands and the eleven-step shot sequence. Practice stance, nock, and draw with resistance bands." },
-        { day: 2, title: "Anchor and Aim", detail: "First live shots at five meters — close range, big target. Consistent anchor point under the chin and clean release." },
-        { day: 3, title: "Reading the Wind", detail: "Move to ten meters. Watch ribbon telltales on the range; learn to adjust point of aim before release." },
-        { day: 4, title: "Scoring Rounds", detail: "Shoot practice scoring rounds at ten meters. Track groups, identify pattern of misses, make one correction." },
-        { day: 5, title: "The Wind Reader's Test", detail: "Formal scored round — six arrows at ten meters on a standard FITA face. Group three inside the blue ring (score 5+)." }
+      "id": "w4-l2-weekly",
+      "track": "weekly",
+      "level": "L2",
+      "level_grade": "4th–5th",
+      "joint_with": "MS",
+      "title": "The Forge & The Wheel",
+      "activity": "Pottery wheel-throwing AND Trebuchet engineering (rotation)",
+      "tagline": "Shape clay on the wheel, then build a siege engine. Two ancient crafts, one explosive week.",
+      "narrative": "Aeolus controlled invisible forces. This week you master two: the spin of a pottery wheel and the arc of a trebuchet. For half the week, you sit at the wheel with a ceramicist, centering clay and pulling walls until a bowl rises from nothing. For the other half, you calculate counterweight ratios and build a machine that turns gravity into flight. On Friday, your bowl must hold water and your trebuchet must hit a target. Two tests. Two skills. One week.",
+      "location": "Center",
+      "specific_venue": "Jewish Center of the Hamptons — art studio (pottery) + rear lawn (trebuchet)",
+      "specialist_needed": true,
+      "specialist_role": "Contracted ceramicist (wheel-throwing); Alpha guide + Fluo (trebuchet)",
+      "guide_can_lead": false,
+      "guide_note": "Ceramicist leads pottery sessions. Alpha guide + Fluo lead trebuchet. Levels rotate.",
+      "materials": [
+        "stoneware clay (mid-fire)",
+        "portable pottery wheels (6+)",
+        "trimming tools, ribs, needles",
+        "kiln access",
+        "food-safe glazes",
+        "2x4 lumber",
+        "plywood",
+        "steel axle rod",
+        "counterweight materials",
+        "sling canvas",
+        "paracord",
+        "wood screws and bolts",
+        "tape measures, protractors",
+        "tennis balls",
+        "safety goggles"
       ],
-      pass_test: "Shoot a six-arrow scored round at 10 meters on a standard 80 cm target face; at least three arrows must land inside the blue ring (score zone 5 or higher).",
-      kid_hook: "You get to shoot a real bow and arrow — not a toy, a real recurve bow like Olympic archers use, just sized for you.",
-      parent_hook: "Archery under certified instruction teaches the kind of embodied focus and impulse regulation that no screen-based activity can replicate — and the wind-reading component introduces applied physics in the most visceral way imaginable."
+      "instructors": "Contracted ceramicist (pottery) + Alpha guide with Fluo support (trebuchet).",
+      "life_skills": [
+        "Precision under centrifugal force",
+        "Engineering and iteration",
+        "Switching fine-motor and gross-motor",
+        "Testing physical outcomes with real stakes"
+      ],
+      "day_plan": [
+        {
+          "day": 1,
+          "title": "Centering",
+          "detail": "Learn to wedge and center clay on the wheel. Pull your first cylinder. Meanwhile, trebuchet team reviews physics and begins design."
+        },
+        {
+          "day": 2,
+          "title": "Build Day",
+          "detail": "Pull walls into bowls on the wheel. Trebuchet team cuts lumber and builds the A-frame."
+        },
+        {
+          "day": 3,
+          "title": "Switch",
+          "detail": "Groups rotate. Those who threw pots now build the trebuchet. Those who built now sit at the wheel."
+        },
+        {
+          "day": 4,
+          "title": "Refine Both",
+          "detail": "Trim bowl feet, apply glaze, load kiln. Test-fire the trebuchet and calibrate."
+        },
+        {
+          "day": 5,
+          "title": "Double Test",
+          "detail": "Bowl must hold water. Trebuchet must land a ball in a 10-ft target at 30 ft. Pass both or pass neither."
+        }
+      ],
+      "pass_test": "Wheel-thrown bowl holds water without leaking AND trebuchet lands at least one ball in a 10-ft circle at 30 ft.",
+      "kid_hook": "You make a real bowl on a spinning wheel AND fire a real siege engine — in the same week.",
+      "parent_hook": "Pottery teaches patience; trebuchet teaches physics. Both tested on Friday."
     },
     {
-      id: "w4-l2-weekly-a", track: "weekly", level: "L2", level_grade: "4th–5th", choice: "A",
-      title: "The Winds Made Visible",
-      activity: "Paper marbling (suminagashi and carrageenan methods)",
-      tagline: "You will command currents on the surface of water and pull one-of-a-kind art from the chaos.",
-      narrative: "Aeolus gave Odysseus every wind in a bag, sealed tight — and the moment his crew cut the cord, chaos swallowed the ship. Paper marbling lives in that same tension between control and catastrophe. You will float pigment on carrageenan-thickened water and use combs, rakes, and breath to direct currents you can see but never fully predict. The medium gives you about ninety seconds before the colors begin to bleed. In that window you must commit — drop the paper, pull evenly, and accept whatever the surface captured. There are no undos. By midweek you will be layering four or five colors and executing complex raking sequences: nonpareil, Spanish wave, bouquet. On Friday you will curate a portfolio of six finished pulls and present your strongest to the group.",
-      location: "Center", specific_venue: "Jewish Center of the Hamptons — art studio / covered patio with drying racks and wash station",
-      specialist_needed: false, specialist_role: null, guide_can_lead: true,
-      guide_note: "Staff art guide leads. L2 students handle carrageenan mixing with supervision. Push toward named historical patterns and intentional sequencing.",
-      materials: ["carrageenan powder", "alum (aluminum sulfate)", "acrylic marbling paints (6+ colors)", "suminagashi ink set", "large marbling trays (18×24)", "marbling combs (various tooth widths)", "stylus rakes", "eyedroppers and pipettes", "heavyweight printmaking paper", "drying rack or clothesline", "portfolio sleeves"],
-      instructors: "Staff art guide (lead) + Alpha guide (support).",
-      life_skills: ["Decisive action under time pressure", "Pattern recognition", "Aesthetic curation", "Accepting imperfection"],
-      day_plan: [
-        { day: 1, title: "Surface Tension", detail: "Begin with suminagashi to see raw current behavior, then transition to carrageenan bath. Pull five exploratory sheets." },
-        { day: 2, title: "The Raking Sequences", detail: "Learn three named patterns — nonpareil, gel-git, and Spanish wave. Practice precise comb-and-rake sequences on four-color floats." },
-        { day: 3, title: "Layered Color Theory", detail: "Work with five or more colors. Explore how drop order, pigment density, and comb tooth width change outcomes." },
-        { day: 4, title: "The Ninety-Second Window", detail: "Speed and commitment drills — set a timer, execute your chosen pattern, pull without hesitation." },
-        { day: 5, title: "Portfolio Curation", detail: "Select and mount six pulls into a portfolio. Present strongest and name the pattern. Pass: one pull shows an intentionally executed named pattern." }
+      "id": "w4-ms-weekly",
+      "track": "weekly",
+      "level": "MS",
+      "level_grade": "6th–8th",
+      "joint_with": "L2",
+      "title": "The Forge & The Wheel",
+      "activity": "Pottery wheel-throwing AND Trebuchet engineering (rotation)",
+      "tagline": "Shape clay on the wheel, then build a siege engine. Two ancient crafts, one explosive week.",
+      "narrative": "This week you master two invisible forces: the spin of a potter's wheel and the gravitational arc of a counterweight trebuchet. On the wheel, you throw forms more refined than L2 — taller walls, thinner rims. On the trebuchet, you lead the engineering — calculating ratios, designing the release mechanism. Friday is binary: your bowl holds or leaks, your trebuchet hits or misses.",
+      "location": "Center",
+      "specific_venue": "Jewish Center of the Hamptons — art studio (pottery) + rear lawn (trebuchet)",
+      "specialist_needed": true,
+      "specialist_role": "Contracted ceramicist (wheel-throwing); Alpha guide + Fluo (trebuchet)",
+      "guide_can_lead": false,
+      "guide_note": "Ceramicist leads pottery sessions. Alpha guide + Fluo lead trebuchet. Levels rotate.",
+      "materials": [
+        "stoneware clay (mid-fire)",
+        "portable pottery wheels (6+)",
+        "trimming tools, ribs, needles",
+        "kiln access",
+        "food-safe glazes",
+        "2x4 lumber",
+        "plywood",
+        "steel axle rod",
+        "counterweight materials",
+        "sling canvas",
+        "paracord",
+        "wood screws and bolts",
+        "tape measures, protractors",
+        "tennis balls",
+        "safety goggles"
       ],
-      pass_test: "Curate a six-piece portfolio; at least one pull must demonstrate an intentionally executed named marbling pattern (nonpareil, gel-git, Spanish wave, or bouquet) using four or more colors.",
-      kid_hook: "You get ninety seconds to control actual chaos — every pull is totally unrepeatable and completely yours.",
-      parent_hook: "Your child will work in an art form that Ottoman bookbinders, Florentine papermakers, and Japanese monks each invented independently — and the time-pressure decision-making is better executive-function training than any worksheet."
+      "instructors": "Contracted ceramicist (pottery) + Alpha guide with Fluo support (trebuchet).",
+      "life_skills": [
+        "Precision under centrifugal force",
+        "Engineering and iteration",
+        "Switching fine-motor and gross-motor",
+        "Testing physical outcomes with real stakes"
+      ],
+      "day_plan": [
+        {
+          "day": 1,
+          "title": "Centering",
+          "detail": "Learn to wedge and center clay on the wheel. Pull your first cylinder. Meanwhile, trebuchet team reviews physics and begins design."
+        },
+        {
+          "day": 2,
+          "title": "Build Day",
+          "detail": "Pull walls into bowls on the wheel. Trebuchet team cuts lumber and builds the A-frame."
+        },
+        {
+          "day": 3,
+          "title": "Switch",
+          "detail": "Groups rotate. Those who threw pots now build the trebuchet. Those who built now sit at the wheel."
+        },
+        {
+          "day": 4,
+          "title": "Refine Both",
+          "detail": "Trim bowl feet, apply glaze, load kiln. Test-fire the trebuchet and calibrate."
+        },
+        {
+          "day": 5,
+          "title": "Double Test",
+          "detail": "Bowl must hold water. Trebuchet must land a ball in a 10-ft target at 30 ft. Pass both or pass neither."
+        }
+      ],
+      "pass_test": "Wheel-thrown bowl holds water without leaking AND trebuchet lands at least one ball in a 10-ft circle at 30 ft.",
+      "kid_hook": "You make a real bowl on a spinning wheel AND fire a real siege engine — in the same week.",
+      "parent_hook": "Pottery teaches patience; trebuchet teaches physics. Both tested on Friday."
     },
     {
-      id: "w4-l2-weekly-b", track: "weekly", level: "L2", level_grade: "4th–5th", choice: "B",
-      title: "The Wind Reader's Arrow",
-      activity: "Olympic-style target archery",
-      tagline: "You will learn to compensate for a force you cannot see and put an arrow exactly where you intend.",
-      narrative: "When Odysseus finally returned to Ithaca, he picked up a bow no other man could string and shot a single arrow through twelve axe-handle rings. That shot was not about strength — it was about stillness in the middle of chaos. Olympic-style archery demands the same discipline. Over five days a certified archery instructor will teach you the full shot cycle on recurve bows matched to your draw length. You will learn that the arrow does not care what you wanted — it goes where your body was at the instant of release. By Thursday you will be reading wind telltales on the range and making conscious holdoff adjustments before you shoot. On Friday you will fire a scored end at fifteen meters. If you group three arrows inside the red ring, you have proven you can solve an invisible equation in real time.",
-      location: "Center", specific_venue: "JCH back field — roped safety lane with backstop netting; minimum 30-yard clear zone behind targets",
-      specialist_needed: true, specialist_role: "Contracted certified archery instructor (USA Archery Level 2 or equivalent) — safety-critical",
-      guide_can_lead: false,
-      guide_note: "Alpha guide assists with scoring, equipment setup, and line rotation. All range commands are the instructor's sole authority.",
-      materials: ["youth/intermediate recurve bows (18–26 lb draw weight)", "aluminum arrows (28\" spine-matched)", "finger tabs and arm guards", "chest guards", "portable target butts", "target faces (80 cm FITA)", "backstop netting", "wind telltale ribbons on range stakes", "bow stands and quivers", "safety rope and cones"],
-      instructors: "Certified archery instructor (lead) + Alpha guide (range support).",
-      life_skills: ["Sustained concentration", "Environmental awareness", "Self-correction through data", "Composure under scoring pressure"],
-      day_plan: [
-        { day: 1, title: "The Eleven Steps", detail: "Full range safety briefing and the shot cycle. Draw on resistance bands; first arrows at seven meters to establish form." },
-        { day: 2, title: "Finding Your Anchor", detail: "Shoot at ten meters. Lock in a repeatable anchor point and consistent release. Identify miss pattern." },
-        { day: 3, title: "Wind Telltales", detail: "Move to fifteen meters. Study ribbon telltales to read crosswind direction and speed. Practice conscious holdoff adjustments." },
-        { day: 4, title: "Scored Practice Ends", detail: "Full scoring rounds at fifteen meters. Track arrow groups, analyze wind effects, refine your holdoff system." },
-        { day: 5, title: "The Wind Reader's Test", detail: "Formal scored end — six arrows at fifteen meters on a standard FITA face. Group three inside the red ring (score 7+)." }
+      "id": "w4-wl-physical",
+      "track": "physical",
+      "level": "WonderLab",
+      "level_grade": "K–1st",
+      "title": "Games of Aeolia",
+      "activity": "4-station Odyssey relay",
+      "tagline": "You will race through four challenges on Aeolus's island and prove you are fast, strong, and brave.",
+      "narrative": "Aeolus lived on a floating island surrounded by a wall of bronze, and inside that wall his family feasted and played every single day. This week you are going to play like they did — hard, loud, and with everything you have. The Games of Aeolia is a four-station relay built around the skills Odysseus needed to survive: sprinting across open ground, crawling under low obstacles, throwing at a target, and balancing across a narrow beam. Every day the course gets a little longer, a little trickier, a little faster. You will learn that your legs know things your brain does not — that balance is not something you think about but something you feel in your belly and your toes. By Friday you will run the full four-station relay without stopping.",
+      "location": "Beach",
+      "specific_venue": "Main Beach, East Hampton",
+      "specialist_needed": false,
+      "specialist_role": null,
+      "guide_can_lead": true,
+      "guide_note": "Alpha guide leads all instruction.",
+      "materials": [
+        "cones (sprint lane markers)",
+        "pool noodle hurdles or low crawl net",
+        "foam throwing balls",
+        "target hoops on stands",
+        "balance beam (low, 4\" wide, ground-level)",
+        "stopwatch",
+        "pennant flags for time markers",
+        "first aid kit"
       ],
-      pass_test: "Shoot a six-arrow scored end at 15 meters on a standard 80 cm target face; at least three arrows must land inside the red ring (score zone 7 or higher).",
-      kid_hook: "You will shoot real recurve bows at real targets at fifteen meters — and by Friday you will be adjusting your aim for wind like it is second nature.",
-      parent_hook: "Certified-instructor archery at this level builds the same closed-loop feedback discipline that elite performers rely on in every domain — and the wind-compensation component is applied trigonometry your child will not forget."
+      "instructors": "Alpha guide (lead) + Alpha guide (support).",
+      "life_skills": [
+        "Gross motor coordination",
+        "Resilience through fatigue",
+        "Following sequential instructions"
+      ],
+      "day_plan": [
+        {
+          "day": 1,
+          "title": "Meet the Stations",
+          "detail": "Walk and practice each station individually — sprint lane, crawl tunnel, target throw, balance beam. No time pressure, just form."
+        },
+        {
+          "day": 2,
+          "title": "Two at a Time",
+          "detail": "Link stations in pairs — sprint-to-crawl and throw-to-balance. Practice transitions without losing speed or focus."
+        },
+        {
+          "day": 3,
+          "title": "The Full Course",
+          "detail": "Run all four stations in sequence for the first time. Focus on completing every station fully rather than on speed."
+        },
+        {
+          "day": 4,
+          "title": "Beat the Flag",
+          "detail": "Timed practice runs against the pennant flag time marker. Drill the slowest station twice before running again."
+        },
+        {
+          "day": 5,
+          "title": "The Feast of Aeolus",
+          "detail": "Final relay — complete all four stations in sequence within the pennant flag time without skipping any station."
+        }
+      ],
+      "pass_test": "Complete all four relay stations (sprint, crawl, throw, balance) in sequence within the pennant flag time limit without skipping any station.",
+      "kid_hook": "You get to sprint, crawl, throw, and balance your way across an ancient island obstacle course — and it gets harder every single day.",
+      "parent_hook": "The four-station relay format builds gross motor sequencing and cardiovascular persistence in a narrative wrapper that keeps five- and six-year-olds fully engaged for the entire session — no small feat."
     },
     {
-      id: "w4-ms-weekly", track: "weekly", level: "MS", level_grade: "6th–8th",
-      title: "Commanding the Winds",
-      activity: "Trebuchet engineering — design, build, and fire",
-      tagline: "You will engineer a machine that converts gravity into flight and prove it works by hitting a target.",
-      narrative: "Aeolus was a king who believed he could control the winds. He was wrong — the bag tore open and every gale escaped. A trebuchet is the engineering answer to that failure: a machine that does not try to contain force but channels it. You will spend this week designing and building a counterweight trebuchet from lumber, hardware, and a sling you sew yourself. There is no kit. You will calculate the ratio between counterweight mass and projectile mass. You will argue with your team about sling length, release angle, and pivot height — and then you will test your argument with a tennis ball and a tape measure. The physics are merciless: a two-degree error in release angle sends your projectile sideways instead of forward. By Friday your trebuchet must launch a tennis ball and land it inside a marked ten-foot target circle at thirty feet.",
-      location: "Center", specific_venue: "JCH rear lawn and parking area (firing range); JCH workshop space (construction)",
-      specialist_needed: false, specialist_role: null, guide_can_lead: true,
-      guide_note: "Staff engineer/maker guide leads design and build. Woodworker support recommended for safe power-tool supervision during frame construction.",
-      materials: ["2×4 lumber (8 ft lengths)", "plywood (1/2\" for base and uprights)", "steel axle rod (1/2\" diameter)", "bearings or low-friction bushings", "counterweight container (bucket or PVC pipe cap)", "sand or gravel for counterweight", "heavy canvas or ripstop for sling", "paracord", "wood screws, bolts, nuts, washers", "wood glue", "tape measures and protractors", "tennis balls (projectiles)", "safety goggles", "target circle marking"],
-      instructors: "Staff engineer/maker guide (lead) + woodworker support (build days) + Alpha guide (support).",
-      life_skills: ["Systems thinking", "Collaborative engineering under constraints", "Empirical testing and iteration", "Translating math into physical outcomes"],
-      day_plan: [
-        { day: 1, title: "The Physics Brief", detail: "Study trebuchet mechanics — counterweight ratios, sling dynamics, release geometry. Sketch your design and defend it." },
-        { day: 2, title: "Frame Construction", detail: "Cut lumber, build the A-frame and base, install axle and throwing arm. A wobbling frame kills accuracy downstream." },
-        { day: 3, title: "Sling and Counterweight", detail: "Sew the sling pouch, attach release cord, load your counterweight. Dry-swing the arm to check balance and release timing." },
-        { day: 4, title: "Calibration Fires", detail: "First live launches. Measure distance and direction, adjust counterweight mass, sling length, release-pin angle between shots." },
-        { day: 5, title: "Target Fire", detail: "Three attempts to land a tennis ball inside a ten-foot target circle at thirty feet. At least one hit in three attempts." }
+      "id": "w4-l1-physical",
+      "track": "physical",
+      "level": "L1",
+      "level_grade": "2nd–3rd",
+      "title": "The Javelin of Aeolus",
+      "activity": "Foam javelin skill days mixed with swimming variety — Friday test is javelin only",
+      "tagline": "You will learn to throw a javelin like a Greek athlete and prove your arm on test day.",
+      "narrative": "The warriors on Aeolus's island did not sit around waiting for wind — they trained. The javelin was the weapon of the thinking fighter: lighter than a spear, farther than a stone, and absolutely useless unless you understood the angle of release. This week you will learn to throw a foam javelin using real track-and-field technique — the carry, the crossover step, the block, and the release above and ahead of your shoulder. You will discover that distance comes not from your arm but from your legs and core, and that accuracy requires you to pick a point in the sky and throw through it. Three days are devoted to javelin drills on the field. One day you will swim — because Odysseus spent half his journey in the water and so should you. On Friday the javelin alone decides your fate.",
+      "location": "Center",
+      "specific_venue": "JCH rear lawn for javelin; East Hampton YMCA pool or Main Beach for swim day",
+      "specialist_needed": false,
+      "specialist_role": null,
+      "guide_can_lead": true,
+      "guide_note": "Alpha guide leads all instruction.",
+      "materials": [
+        "foam javelins (turbojav or equivalent, age-appropriate weight)",
+        "cones for distance markers",
+        "accuracy target zone tape or chalk",
+        "tape measure (100 ft)",
+        "landing zone flags",
+        "stopwatch",
+        "swim gear (goggles, towels)",
+        "first aid kit"
       ],
-      pass_test: "Trebuchet must launch a tennis ball and land it within a marked 10-foot-diameter target circle at 30 feet distance — at least one successful hit in three attempts.",
-      kid_hook: "You are building an actual siege engine out of lumber and hardware and firing it on the lawn — this is not a model, it is a machine.",
-      parent_hook: "Counterweight trebuchet design integrates gravitational potential energy, rotational dynamics, and projectile physics into a single build — concepts most students do not encounter until AP Physics."
+      "instructors": "Alpha guide (lead) + Alpha guide (support) + certified lifeguard (swim day).",
+      "life_skills": [
+        "Kinetic chain awareness",
+        "Precision under effort",
+        "Self-assessment and correction",
+        "Endurance variety"
+      ],
+      "day_plan": [
+        {
+          "day": 1,
+          "title": "The Carry and the Step",
+          "detail": "Learn the javelin carry position and the crossover approach step. Practice the full run-up without releasing; first throws at half effort."
+        },
+        {
+          "day": 2,
+          "title": "Release Angle",
+          "detail": "Focus on release point — above and ahead of the shoulder, throwing through a target point in the sky. Measure every throw."
+        },
+        {
+          "day": 3,
+          "title": "Swim Day — The Odysseus Mile",
+          "detail": "Swimming variety session. Freestyle, backstroke, and treading drills to build water comfort. A rest day for throwing arms."
+        },
+        {
+          "day": 4,
+          "title": "Distance and Accuracy",
+          "detail": "Combine distance throwing with accuracy drills. Identify strongest technique and lock it in for test day."
+        },
+        {
+          "day": 5,
+          "title": "The Javelin Test",
+          "detail": "Three measured throws — javelin only. At least one throw must clear the distance line AND land in the accuracy target zone."
+        }
+      ],
+      "pass_test": "Three measured javelin throws; at least one must clear the minimum distance line (age-appropriate, ~40 ft for 2nd grade, ~55 ft for 3rd grade) AND land within the marked accuracy target zone (8-foot-wide lane).",
+      "kid_hook": "You throw real javelins — not pool noodles, real foam javelins — and you get to see how far your arm can send one by the end of the week.",
+      "parent_hook": "The javelin throw teaches kinetic chain mechanics — legs, hips, core, shoulder, arm firing in sequence — the foundational movement pattern behind every throwing sport, taught through a Greek athletic tradition three thousand years old."
     },
     {
-      id: "w4-wl-physical", track: "physical", level: "WonderLab", level_grade: "K–1st",
-      title: "Games of Aeolia",
-      activity: "4-station Odyssey relay",
-      tagline: "You will race through four challenges on Aeolus's island and prove you are fast, strong, and brave.",
-      narrative: "Aeolus lived on a floating island surrounded by a wall of bronze, and inside that wall his family feasted and played every single day. This week you are going to play like they did — hard, loud, and with everything you have. The Games of Aeolia is a four-station relay built around the skills Odysseus needed to survive: sprinting across open ground, crawling under low obstacles, throwing at a target, and balancing across a narrow beam. Every day the course gets a little longer, a little trickier, a little faster. You will learn that your legs know things your brain does not — that balance is not something you think about but something you feel in your belly and your toes. By Friday you will run the full four-station relay without stopping.",
-      location: "Beach", specific_venue: "Main Beach, East Hampton",
-      specialist_needed: false, specialist_role: null, guide_can_lead: true,
-      guide_note: "Alpha guide leads. Set up all four stations each morning. Keep transitions fast and energy high.",
-      materials: ["cones (sprint lane markers)", "pool noodle hurdles or low crawl net", "foam throwing balls", "target hoops on stands", "balance beam (low, 4\" wide, ground-level)", "stopwatch", "pennant flags for time markers", "first aid kit"],
-      instructors: "Alpha guide (lead) + Alpha guide (support).",
-      life_skills: ["Gross motor coordination", "Resilience through fatigue", "Following sequential instructions"],
-      day_plan: [
-        { day: 1, title: "Meet the Stations", detail: "Walk and practice each station individually — sprint lane, crawl tunnel, target throw, balance beam. No time pressure, just form." },
-        { day: 2, title: "Two at a Time", detail: "Link stations in pairs — sprint-to-crawl and throw-to-balance. Practice transitions without losing speed or focus." },
-        { day: 3, title: "The Full Course", detail: "Run all four stations in sequence for the first time. Focus on completing every station fully rather than on speed." },
-        { day: 4, title: "Beat the Flag", detail: "Timed practice runs against the pennant flag time marker. Drill the slowest station twice before running again." },
-        { day: 5, title: "The Feast of Aeolus", detail: "Final relay — complete all four stations in sequence within the pennant flag time without skipping any station." }
+      "id": "w4-l2-physical",
+      "track": "physical",
+      "level": "L2",
+      "level_grade": "4th–5th",
+      "title": "The Wind-Tossed Gauntlet",
+      "activity": "6-station ninja warrior course",
+      "tagline": "You will face six obstacles that demand grip, balance, and nerve — and the course does not care if you are tired.",
+      "narrative": "Odysseus spent ten years being thrown from one impossible challenge to the next with no rest in between. The Wind-Tossed Gauntlet does the same thing in six stations: a cargo net climb, a balance traverse, a rope swing over a gap, a set of monkey bars with missing rungs, a wall scramble, and a final sprint. Each obstacle isolates a different capacity — grip endurance, core stability, explosive upper-body power, spatial problem-solving, and raw cardiovascular refusal to quit. You will fail stations early in the week. That is the design. By Thursday you will know which obstacle is your nemesis, and you will drill it until your hands shake. On Friday you will run the full gauntlet timed.",
+      "location": "Center",
+      "specific_venue": "JCH rear lawn — portable ninja course setup",
+      "specialist_needed": false,
+      "specialist_role": null,
+      "guide_can_lead": true,
+      "guide_note": "Alpha guide leads all instruction.",
+      "materials": [
+        "cargo net (8 ft × 6 ft)",
+        "low balance beam or slackline (knee height)",
+        "climbing rope with knots",
+        "portable monkey bars or peg board",
+        "plywood wall (6 ft, with foot ledges)",
+        "crash mats / gym mats",
+        "cones and lane tape",
+        "stopwatch",
+        "first aid kit"
       ],
-      pass_test: "Complete all four relay stations (sprint, crawl, throw, balance) in sequence within the pennant flag time limit without skipping any station.",
-      kid_hook: "You get to sprint, crawl, throw, and balance your way across an ancient island obstacle course — and it gets harder every single day.",
-      parent_hook: "The four-station relay format builds gross motor sequencing and cardiovascular persistence in a narrative wrapper that keeps five- and six-year-olds fully engaged for the entire session — no small feat."
+      "instructors": "Alpha guide (lead) + Alpha guide (spotter/safety).",
+      "life_skills": [
+        "Grip endurance and upper-body persistence",
+        "Obstacle-specific problem solving",
+        "Performing under fatigue",
+        "Self-directed weakness training"
+      ],
+      "day_plan": [
+        {
+          "day": 1,
+          "title": "Walk the Gauntlet",
+          "detail": "Introduce all six stations individually. Practice technique with no time pressure. Identify strongest and weakest station."
+        },
+        {
+          "day": 2,
+          "title": "Three and Three",
+          "detail": "Run the course in halves — stations 1–3, then 4–6. Focus on clean transitions and zero resets."
+        },
+        {
+          "day": 3,
+          "title": "The Nemesis Drill",
+          "detail": "Drill your weakest station five times with coaching. Then run the full course once for baseline time."
+        },
+        {
+          "day": 4,
+          "title": "Timed Runs",
+          "detail": "Two full timed runs. Analyze where you lose the most time and make one adjustment between runs."
+        },
+        {
+          "day": 5,
+          "title": "The Wind-Tossed Test",
+          "detail": "One official timed run — complete all six obstacles without a reset."
+        }
+      ],
+      "pass_test": "Complete the full 6-station ninja warrior course in one continuous timed run with no resets (falling off an obstacle requires restarting that obstacle, but all six must be cleared in a single run).",
+      "kid_hook": "Six obstacles, no breaks, one shot — it is the hardest physical challenge of the summer and everyone will be watching your run on Friday.",
+      "parent_hook": "A properly designed ninja course builds grip strength, proprioceptive awareness, and cardiovascular endurance simultaneously — but the real value is the metacognitive skill of diagnosing and drilling your own weakest link."
     },
     {
-      id: "w4-l1-physical", track: "physical", level: "L1", level_grade: "2nd–3rd",
-      title: "The Javelin of Aeolus",
-      activity: "Foam javelin skill days mixed with swimming variety — Friday test is javelin only",
-      tagline: "You will learn to throw a javelin like a Greek athlete and prove your arm on test day.",
-      narrative: "The warriors on Aeolus's island did not sit around waiting for wind — they trained. The javelin was the weapon of the thinking fighter: lighter than a spear, farther than a stone, and absolutely useless unless you understood the angle of release. This week you will learn to throw a foam javelin using real track-and-field technique — the carry, the crossover step, the block, and the release above and ahead of your shoulder. You will discover that distance comes not from your arm but from your legs and core, and that accuracy requires you to pick a point in the sky and throw through it. Three days are devoted to javelin drills on the field. One day you will swim — because Odysseus spent half his journey in the water and so should you. On Friday the javelin alone decides your fate.",
-      location: "Center", specific_venue: "JCH rear lawn for javelin; East Hampton YMCA pool or Main Beach for swim day",
-      specialist_needed: false, specialist_role: null, guide_can_lead: true,
-      guide_note: "Alpha guide leads javelin sessions. Swim day (Wednesday) requires certified lifeguard on duty. Friday pass test is javelin-only.",
-      materials: ["foam javelins (turbojav or equivalent, age-appropriate weight)", "cones for distance markers", "accuracy target zone tape or chalk", "tape measure (100 ft)", "landing zone flags", "stopwatch", "swim gear (goggles, towels)", "first aid kit"],
-      instructors: "Alpha guide (lead) + Alpha guide (support) + certified lifeguard (swim day).",
-      life_skills: ["Kinetic chain awareness", "Precision under effort", "Self-assessment and correction", "Endurance variety"],
-      day_plan: [
-        { day: 1, title: "The Carry and the Step", detail: "Learn the javelin carry position and the crossover approach step. Practice the full run-up without releasing; first throws at half effort." },
-        { day: 2, title: "Release Angle", detail: "Focus on release point — above and ahead of the shoulder, throwing through a target point in the sky. Measure every throw." },
-        { day: 3, title: "Swim Day — The Odysseus Mile", detail: "Swimming variety session. Freestyle, backstroke, and treading drills to build water comfort. A rest day for throwing arms." },
-        { day: 4, title: "Distance and Accuracy", detail: "Combine distance throwing with accuracy drills. Identify strongest technique and lock it in for test day." },
-        { day: 5, title: "The Javelin Test", detail: "Three measured throws — javelin only. At least one throw must clear the distance line AND land in the accuracy target zone." }
+      "id": "w4-ms-physical",
+      "track": "physical",
+      "level": "MS",
+      "level_grade": "6th–8th",
+      "title": "The Warrior of the Wind",
+      "activity": "Middle-school ninja warrior course (extended, timed)",
+      "tagline": "You will run the longest, hardest obstacle course of the summer — and the clock does not pause when your grip fails.",
+      "narrative": "Odysseus did not get to choose his obstacles. Poseidon threw storms, Scylla reached down with six heads, and the whirlpool of Charybdis waited on the other side. The Warrior of the Wind course works the same way: eight stations, no preview of the order until Monday morning, and a clock that starts when you touch the first obstacle and does not stop until you cross the finish line. The course is longer and harder than anything the younger campers will face — a salmon ladder, a peg-board traverse, a warped wall, a rope climb, a balance chain, a cargo net, a gap jump, and a dead-hang carry. If you fall, you restart that obstacle from the beginning while the clock keeps running.",
+      "location": "Center",
+      "specific_venue": "JCH rear lawn — extended portable ninja course with additional rigging",
+      "specialist_needed": false,
+      "specialist_role": null,
+      "guide_can_lead": true,
+      "guide_note": "Alpha guide leads all instruction.",
+      "materials": [
+        "salmon ladder rungs and uprights",
+        "peg board (4×4 ft)",
+        "warped wall (portable, 8 ft)",
+        "climbing rope (knotted, 15 ft)",
+        "balance chain or suspended beam",
+        "cargo net (10×8 ft)",
+        "gap jump platforms",
+        "kettlebells or sandbags for dead-hang carry",
+        "crash mats (full course)",
+        "stopwatch and digital timer display",
+        "cones, lane tape, finish line banner",
+        "first aid kit"
       ],
-      pass_test: "Three measured javelin throws; at least one must clear the minimum distance line (age-appropriate, ~40 ft for 2nd grade, ~55 ft for 3rd grade) AND land within the marked accuracy target zone (8-foot-wide lane).",
-      kid_hook: "You throw real javelins — not pool noodles, real foam javelins — and you get to see how far your arm can send one by the end of the week.",
-      parent_hook: "The javelin throw teaches kinetic chain mechanics — legs, hips, core, shoulder, arm firing in sequence — the foundational movement pattern behind every throwing sport, taught through a Greek athletic tradition three thousand years old."
-    },
-    {
-      id: "w4-l2-physical", track: "physical", level: "L2", level_grade: "4th–5th",
-      title: "The Wind-Tossed Gauntlet",
-      activity: "6-station ninja warrior course",
-      tagline: "You will face six obstacles that demand grip, balance, and nerve — and the course does not care if you are tired.",
-      narrative: "Odysseus spent ten years being thrown from one impossible challenge to the next with no rest in between. The Wind-Tossed Gauntlet does the same thing in six stations: a cargo net climb, a balance traverse, a rope swing over a gap, a set of monkey bars with missing rungs, a wall scramble, and a final sprint. Each obstacle isolates a different capacity — grip endurance, core stability, explosive upper-body power, spatial problem-solving, and raw cardiovascular refusal to quit. You will fail stations early in the week. That is the design. By Thursday you will know which obstacle is your nemesis, and you will drill it until your hands shake. On Friday you will run the full gauntlet timed.",
-      location: "Center", specific_venue: "JCH rear lawn — portable ninja course setup",
-      specialist_needed: false, specialist_role: null, guide_can_lead: true,
-      guide_note: "Alpha guide leads. Build and safety-check all six stations before Monday. Crash mats under every elevated obstacle. Two guides minimum.",
-      materials: ["cargo net (8 ft × 6 ft)", "low balance beam or slackline (knee height)", "climbing rope with knots", "portable monkey bars or peg board", "plywood wall (6 ft, with foot ledges)", "crash mats / gym mats", "cones and lane tape", "stopwatch", "first aid kit"],
-      instructors: "Alpha guide (lead) + Alpha guide (spotter/safety).",
-      life_skills: ["Grip endurance and upper-body persistence", "Obstacle-specific problem solving", "Performing under fatigue", "Self-directed weakness training"],
-      day_plan: [
-        { day: 1, title: "Walk the Gauntlet", detail: "Introduce all six stations individually. Practice technique with no time pressure. Identify strongest and weakest station." },
-        { day: 2, title: "Three and Three", detail: "Run the course in halves — stations 1–3, then 4–6. Focus on clean transitions and zero resets." },
-        { day: 3, title: "The Nemesis Drill", detail: "Drill your weakest station five times with coaching. Then run the full course once for baseline time." },
-        { day: 4, title: "Timed Runs", detail: "Two full timed runs. Analyze where you lose the most time and make one adjustment between runs." },
-        { day: 5, title: "The Wind-Tossed Test", detail: "One official timed run — complete all six obstacles without a reset." }
+      "instructors": "Alpha guide (lead) + Alpha guide (spotter) + Alpha guide (timer/logistics).",
+      "life_skills": [
+        "Performing under public pressure",
+        "Energy management across extended effort",
+        "Obstacle-specific strategy",
+        "Competitive self-respect regardless of outcome"
       ],
-      pass_test: "Complete the full 6-station ninja warrior course in one continuous timed run with no resets (falling off an obstacle requires restarting that obstacle, but all six must be cleared in a single run).",
-      kid_hook: "Six obstacles, no breaks, one shot — it is the hardest physical challenge of the summer and everyone will be watching your run on Friday.",
-      parent_hook: "A properly designed ninja course builds grip strength, proprioceptive awareness, and cardiovascular endurance simultaneously — but the real value is the metacognitive skill of diagnosing and drilling your own weakest link."
-    },
-    {
-      id: "w4-ms-physical", track: "physical", level: "MS", level_grade: "6th–8th",
-      title: "The Warrior of the Wind",
-      activity: "Middle-school ninja warrior course (extended, timed)",
-      tagline: "You will run the longest, hardest obstacle course of the summer — and the clock does not pause when your grip fails.",
-      narrative: "Odysseus did not get to choose his obstacles. Poseidon threw storms, Scylla reached down with six heads, and the whirlpool of Charybdis waited on the other side. The Warrior of the Wind course works the same way: eight stations, no preview of the order until Monday morning, and a clock that starts when you touch the first obstacle and does not stop until you cross the finish line. The course is longer and harder than anything the younger campers will face — a salmon ladder, a peg-board traverse, a warped wall, a rope climb, a balance chain, a cargo net, a gap jump, and a dead-hang carry. If you fall, you restart that obstacle from the beginning while the clock keeps running.",
-      location: "Center", specific_venue: "JCH rear lawn — extended portable ninja course with additional rigging",
-      specialist_needed: false, specialist_role: null, guide_can_lead: true,
-      guide_note: "Alpha guide leads. Course build requires a full day of prep. Two spotters minimum during all runs. Crash mats under every elevated and transition obstacle.",
-      materials: ["salmon ladder rungs and uprights", "peg board (4×4 ft)", "warped wall (portable, 8 ft)", "climbing rope (knotted, 15 ft)", "balance chain or suspended beam", "cargo net (10×8 ft)", "gap jump platforms", "kettlebells or sandbags for dead-hang carry", "crash mats (full course)", "stopwatch and digital timer display", "cones, lane tape, finish line banner", "first aid kit"],
-      instructors: "Alpha guide (lead) + Alpha guide (spotter) + Alpha guide (timer/logistics).",
-      life_skills: ["Performing under public pressure", "Energy management across extended effort", "Obstacle-specific strategy", "Competitive self-respect regardless of outcome"],
-      day_plan: [
-        { day: 1, title: "Reveal and Recon", detail: "See the full eight-station course for the first time. Walk every obstacle with coaching; attempt each individually — no full runs yet." },
-        { day: 2, title: "Half-Course Runs", detail: "Run stations 1–4, then 5–8 as separate timed halves. Focus on grip conservation and breathing." },
-        { day: 3, title: "Weakness Lab", detail: "Identify your two weakest obstacles and drill them relentlessly. Run the full course once untimed to test pacing." },
-        { day: 4, title: "Baseline Time Trial", detail: "Full timed run through all eight stations. Sets your personal baseline. Time cap for Friday posted based on group performance." },
-        { day: 5, title: "Warrior of the Wind", detail: "Final run in front of the camp. Clear all eight obstacles in one continuous run under the posted time cap." }
+      "day_plan": [
+        {
+          "day": 1,
+          "title": "Reveal and Recon",
+          "detail": "See the full eight-station course for the first time. Walk every obstacle with coaching; attempt each individually — no full runs yet."
+        },
+        {
+          "day": 2,
+          "title": "Half-Course Runs",
+          "detail": "Run stations 1–4, then 5–8 as separate timed halves. Focus on grip conservation and breathing."
+        },
+        {
+          "day": 3,
+          "title": "Weakness Lab",
+          "detail": "Identify your two weakest obstacles and drill them relentlessly. Run the full course once untimed to test pacing."
+        },
+        {
+          "day": 4,
+          "title": "Baseline Time Trial",
+          "detail": "Full timed run through all eight stations. Sets your personal baseline. Time cap for Friday posted based on group performance."
+        },
+        {
+          "day": 5,
+          "title": "Warrior of the Wind",
+          "detail": "Final run in front of the camp. Clear all eight obstacles in one continuous run under the posted time cap."
+        }
       ],
-      pass_test: "Complete all eight ninja warrior stations in one continuous timed run (restarting any failed obstacle while the clock runs) and finish under the posted time cap set from Thursday baselines.",
-      kid_hook: "Eight obstacles, the whole camp watching, and a clock that does not care if your hands are shaking — this is the hardest thing you will do all summer.",
-      parent_hook: "The extended ninja course is a legitimate athletic event that tests grip endurance, explosive power, proprioception, and strategic energy management across sustained effort."
+      "pass_test": "Complete all eight ninja warrior stations in one continuous timed run (restarting any failed obstacle while the clock runs) and finish under the posted time cap set from Thursday baselines.",
+      "kid_hook": "Eight obstacles, the whole camp watching, and a clock that does not care if your hands are shaking — this is the hardest thing you will do all summer.",
+      "parent_hook": "The extended ninja course is a legitimate athletic event that tests grip endurance, explosive power, proprioception, and strategic energy management across sustained effort."
     }
   ]
 });

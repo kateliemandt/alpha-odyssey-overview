@@ -476,7 +476,20 @@
 </head>
 <body>
 
-<header class="hero">
+<!-- Top site-switcher bar -->
+<div style="position:sticky;top:0;z-index:60;background:rgba(11,29,44,0.95);backdrop-filter:blur(12px);-webkit-backdrop-filter:blur(12px);border-bottom:1px solid var(--rule);padding:10px 0;">
+  <div class="container" style="display:flex;align-items:center;justify-content:space-between;gap:12px;flex-wrap:wrap;">
+    <div style="display:flex;align-items:center;gap:14px;">
+      <span style="font-family:var(--font-display);font-size:20px;color:var(--gold);">Alpha Odyssey</span>
+      <span style="font-family:var(--font-mono);font-size:10px;letter-spacing:0.2em;text-transform:uppercase;color:var(--ink-faint);padding:4px 8px;border:1px solid var(--gold);border-radius:2px;background:rgba(201,163,74,0.1);color:var(--gold);">Overview</span>
+    </div>
+    <div style="display:flex;align-items:center;gap:8px;">
+      <a href="https://kateliemandt.github.io/alpha-odyssey-briefs/" style="font-family:var(--font-mono);font-size:10px;letter-spacing:0.18em;text-transform:uppercase;color:var(--ink-dim);padding:7px 12px;border:1px solid var(--rule);border-radius:2px;border-bottom:1px solid var(--rule);" onmouseover="this.style.borderColor='var(--gold)';this.style.color='var(--gold)'" onmouseout="this.style.borderColor='var(--rule)';this.style.color='var(--ink-dim)'">↗ Full Briefs</a>
+    </div>
+  </div>
+</div>
+
+<header class="hero" style="padding-top:36px;">
   <div class="container">
     <div class="eyebrow">Alpha School · East Hampton · Summer 2026</div>
     <h1>Alpha <span class="amp">&amp;</span> Odyssey</h1>
@@ -498,14 +511,14 @@
       <h2>Homer, rewritten for a Hamptons summer.</h2>
     </div>
     <div>
-      <p class="drop">Each week of Alpha Odyssey follows a chapter of Homer's <em>Odyssey</em>. Every morning, campers take on a weekly workshop — a craft, a skill, a finished object that goes home on Friday. Every afternoon, they face a physical challenge on the beach or at the Center, training five days toward a single pass/fail test. And threaded through the whole nine weeks are fifty-plus mastery side quests — voluntary, self-paced, and tested only when the camper asks.</p>
-      <p>The weekly workshops are taught by real specialists — calligraphers, chocolatiers, blacksmiths, surfboard shapers, ethnobotanists, sushi chefs, fishmongers, synchronized swimming coaches. The physical challenges are led by Alpha guides trained to officiate real tournaments. The side quests are recorded in each camper's Odyssey Logbook and earn a mark on the Mastery Board.</p>
+      <p class="drop">Each week of Alpha Odyssey follows a chapter of Homer's <em>Odyssey</em>. Mornings start with Alpha's 2-hour learning block and a Limitless Launch. Afternoons rotate between a weekly craft workshop (~2 hrs) and a physical challenge (45 min), with a Friday pass/fail test for both. Threaded through every transition, break, lunch, and dropoff window: fifty-plus voluntary mastery side quests, self-paced and tested only when the camper asks. The day ends at 4 PM with 15 minutes of Shoutouts.</p>
+      <p>Most workshops are taught by trained Alpha guides. For the truly specialized stuff — omakase sushi, wheel-thrown pottery, blacksmithing, synchronized swimming — contracted specialists lead. Fluo, Alpha's maker partner, runs all woodworking, surfboard shaping, and darkroom photography. The side quests are recorded in each camper's Odyssey Logbook and earn a mark on the Mastery Board.</p>
       <p>This page is the full operational map: every workshop, every challenge, every quest — with descriptions, materials, instructor assignments, day-by-day plans, and the exact test each camper must pass. Tap any card to open the details.</p>
 
       <div class="meander"></div>
       <div class="legend">
-        <div class="item"><span class="dot wk"></span><span><span class="l">Weekly</span><span class="d">Craft, build, perform — morning sessions, 2 hrs.</span></span></div>
-        <div class="item"><span class="dot phy"></span><span><span class="l">Physical</span><span class="d">Sport, water, adventure — afternoon sessions, 1.5 hrs.</span></span></div>
+        <div class="item"><span class="dot wk"></span><span><span class="l">Weekly</span><span class="d">Craft, build, perform — afternoon, ~2 hrs/day (8 hrs/week).</span></span></div>
+        <div class="item"><span class="dot phy"></span><span><span class="l">Physical</span><span class="d">Sport, water, adventure — afternoon, 45 min/day (3.75 hrs/week).</span></span></div>
         <div class="item"><span class="dot sp"></span><span><span class="l">Side Quest</span><span class="d">Voluntary mastery, self-paced, tested on request.</span></span></div>
       </div>
     </div>
@@ -517,6 +530,30 @@
     <div class="inner" id="week-nav-inner"><!-- filled by JS --></div>
   </div>
 </nav>
+
+<!-- Global filters -->
+<div style="background:rgba(11,29,44,0.6);border-bottom:1px solid var(--rule);padding:14px 0;">
+  <div class="container">
+    <div class="filter-row" id="global-filters" style="margin:0;">
+      <span style="color:var(--ink-faint);margin-right:6px;">Filter:</span>
+      <button class="filter-btn on" onclick="setFilter('level','all')">All Levels</button>
+      <button class="filter-btn" onclick="setFilter('level','WonderLab')">WonderLab</button>
+      <button class="filter-btn" onclick="setFilter('level','L1')">L1</button>
+      <button class="filter-btn" onclick="setFilter('level','L2')">L2</button>
+      <button class="filter-btn" onclick="setFilter('level','MS')">MS</button>
+      <span style="color:var(--rule);margin:0 6px;">|</span>
+      <button class="filter-btn on" onclick="setFilter('loc','all')">All Locations</button>
+      <button class="filter-btn" onclick="setFilter('loc','Center')">Center</button>
+      <button class="filter-btn" onclick="setFilter('loc','Beach')">Beach</button>
+      <button class="filter-btn" onclick="setFilter('loc','Pool')">Pool</button>
+      <span style="color:var(--rule);margin:0 6px;">|</span>
+      <button class="filter-btn on" onclick="setFilter('staff','all')">All Staff</button>
+      <button class="filter-btn" onclick="setFilter('staff','guide')">Guide-Led</button>
+      <button class="filter-btn" onclick="setFilter('staff','specialist')">Specialist</button>
+      <button class="filter-btn" onclick="setFilter('staff','fluo')">Fluo</button>
+    </div>
+  </div>
+</div>
 
 <main id="main">
   <!-- Week sections rendered by JS -->
@@ -657,7 +694,13 @@ function renderEntryCard(entry) {
   const materials = normalizeMaterials(entry.materials);
   const skills = Array.isArray(entry.life_skills) ? entry.life_skills : [];
 
-  const card = el("details", { class: "card" + (isPhysical ? " physical" : "") });
+  const staffType = (entry.specialist_role || '').includes('Fluo') ? 'fluo' : (specialist ? 'specialist' : 'guide');
+  const card = el("details", {
+    class: "card" + (isPhysical ? " physical" : ""),
+    "data-level": level,
+    "data-location": location,
+    "data-staff": staffType
+  });
 
   // Summary
   const summary = el("summary", {});
@@ -698,7 +741,7 @@ function renderEntryCard(entry) {
   if (entry.guide_can_lead !== undefined) {
     kv.appendChild(kvRow("Alpha Guide Can Lead?", entry.guide_can_lead ? "Yes — with specialist support as noted." : "No — specialist leads all instruction."));
   }
-  if (location) kv.appendChild(kvRow("Location", location + " — " + (isPhysical ? "afternoon session, 1.5 hrs" : "morning session, 2 hrs")));
+  if (location) kv.appendChild(kvRow("Location", location + " — " + (isPhysical ? "afternoon · 45 min/day" : "afternoon · ~2 hrs/day")));
   body.appendChild(sectionH("At a Glance"));
   body.appendChild(kv);
 
@@ -974,6 +1017,39 @@ function renderSideQuest(q) {
 
   d.appendChild(body);
   return d;
+}
+
+/* ---- Filters ---- */
+let FILTERS = { level: "all", loc: "all", staff: "all" };
+
+function setFilter(category, value) {
+  FILTERS[category] = value;
+  // Update button states
+  document.querySelectorAll('#global-filters .filter-btn').forEach(btn => {
+    const onclick = btn.getAttribute('onclick') || '';
+    const m = onclick.match(/setFilter\('(\w+)','(\w+)'\)/);
+    if (m && m[1] === category) {
+      btn.classList.toggle('on', m[2] === value);
+    }
+  });
+  applyFilters();
+}
+
+function applyFilters() {
+  document.querySelectorAll('details.card').forEach(card => {
+    const level = card.dataset.level || '';
+    const loc = card.dataset.location || '';
+    const staff = card.dataset.staff || '';
+    let show = true;
+    if (FILTERS.level !== 'all' && level !== FILTERS.level) show = false;
+    if (FILTERS.loc !== 'all' && !loc.toLowerCase().includes(FILTERS.loc.toLowerCase())) show = false;
+    if (FILTERS.staff !== 'all') {
+      if (FILTERS.staff === 'guide' && staff !== 'guide') show = false;
+      if (FILTERS.staff === 'specialist' && staff === 'guide') show = false;
+      if (FILTERS.staff === 'fluo' && staff !== 'fluo') show = false;
+    }
+    card.style.display = show ? '' : 'none';
+  });
 }
 
 /* ---- Boot ---- */
